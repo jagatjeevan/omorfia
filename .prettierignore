@@ -1,0 +1,5 @@
+package-lock.json
+node_modules/
+build/
+npm-audit.html
+.vscode

@@ -1,0 +1,20 @@
+%each-why-section {
+  width: calc(var(--wheel-size) / 2);
+  height: calc(var(--wheel-size) / 2);
+  transform-origin: 100% 100%;
+  bottom: 50%;
+  right: 50%;
+  position: absolute;
+
+  &:hover {
+    box-shadow: var(--box-shadow-app);
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  span {
+    position: absolute;
+    color: white;
+    text-align: center;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "omorfia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css:watch": "sass --watch src/styles/style.scss build/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagatjeevan/omorfia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagatjeevan/omorfia/issues"
+  },
+  "homepage": "https://github.com/jagatjeevan/omorfia#readme",
+  "dependencies": {
+    "sass": "^1.54.1"
+  }
+}
