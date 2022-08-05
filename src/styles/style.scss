@@ -34,10 +34,8 @@ body {
 }
 
 .wheel-container {
-  height: var(--wheel-size);
-  width: var(--wheel-size);
+  @include circle(var(--wheel-size));
   background: white;
-  border-radius: 50%;
   position: relative;
   overflow: hidden;
   box-shadow: var(--box-shadow-app);
@@ -45,52 +43,77 @@ body {
 
 .cone1 {
   @extend %each-why-section;
-  transform: skew(18deg);
+  transform: rotate(52deg) skew(18deg);
   background: #6b9e78;
 
   span {
     right: 51px;
     bottom: 86px;
     width: 130px;
-    transform: skew(-18deg);
+    transform: rotate(-42deg) skew(1deg, 0deg);
   }
 }
 
 .cone2 {
   @extend %each-why-section;
   background: #46a1ad;
-  transform: rotate(72deg) skew(18deg);
+  transform: rotate(124deg) skew(18deg);
   width: 325px;
 
   span {
-    right: 41px;
-    bottom: 67px;
-    transform: rotate(-57deg) skew(14deg);
-    width: 184px;
+    right: 9px;
+    bottom: 74px;
+    transform: rotate(-110deg) skew(9deg, 0deg);
+    width: 157px;
   }
 }
 
 .cone3 {
   @extend %each-why-section;
   background: #634f7d;
-  transform: rotate(144deg) skew(18deg);
+  transform: rotate(196deg) skew(18deg);
 
   span {
     bottom: 65px;
-    transform: rotate(225deg);
-    width: 160px;
-    right: 26px;
+    transform: rotate(165deg) skew(-16deg, 0deg);
+    width: 185px;
+    right: 5px;
   }
 }
 
 .cone4 {
   @extend %each-why-section;
   background: #f2607a;
-  transform: rotate(216deg) skew(18deg);
+  transform: rotate(268deg) skew(18deg);
+
+  span {
+    bottom: 65px;
+    transform: rotate(109deg) skew(18deg, 0deg);
+    width: 185px;
+    right: 5px;
+  }
 }
 
 .cone5 {
   @extend %each-why-section;
   background: #cc8508;
-  transform: rotate(-72deg) skew(18deg);
+  transform: rotate(340deg) skew(18deg);
+
+  span {
+    bottom: 47px;
+    transform: rotate(22deg) skew(-11deg, 0deg);
+    width: 159px;
+    right: 36px;
+  }
+}
+
+.why-core {
+  @include circle(calc(var(--wheel-size) / 4));
+  position: absolute;
+  left: calc(var(--wheel-size) / 2);
+  top: calc(var(--wheel-size) / 2);
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: var(--box-shadow-app);
+  z-index: 3;
 }
