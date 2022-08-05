@@ -117,3 +117,16 @@ body {
   box-shadow: var(--box-shadow-app);
   z-index: 3;
 }
+
+.start-text {
+  color: #f2617a;
+  font-size: 20px;
+  margin-top: 50vh;
+  padding-left: 79px;
+
+  span {
+    display: block;
+    color: white;
+    font-size: 55px;
+  }
+}
