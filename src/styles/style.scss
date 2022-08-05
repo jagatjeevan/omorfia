@@ -6,7 +6,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: var(--color-body-background);
+  // background-color: var(--color-body-background);
+  background-color: white;
   font-family: var(--font-family);
 }
 
@@ -21,12 +22,18 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: var(--spacer-app);
   height: 100%;
+  background-image: url('/src/images/background-main.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .why-container {
-  background-color: #003d50;
+  // background-color: #003d50;
+  // background-color: black;
   opacity: 0.8;
-  background-image: radial-gradient(#084c61 2px, #003d50 2px);
+  // background-image: radial-gradient(#084c61 2px, #003d50 2px);
+  // background-image: radial-gradient(#000000 2px, #000000 2px);
   background-size: 40px 40px;
   justify-content: center;
   display: grid;
