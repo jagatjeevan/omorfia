@@ -6,7 +6,7 @@ $('.cone').on('click', function () {
       const timeline = gsap.timeline({ defaults: { duration: 2, ease: Circ.easeOut } });
       timeline
         .set('#screen1', { display: 'none', opacity: 0 })
-        .set('#screen2', { display: 'block', opacity: 1 })
+        .set('#screen2', { display: 'flex', opacity: 1 })
         .from('.lens-details', { y: -1700 })
         .from('.lens-roadmap', { y: -1700 })
         .from('.main-stage', { y: -1700 });
