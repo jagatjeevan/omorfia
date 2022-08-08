@@ -46,6 +46,7 @@ body {
   position: relative;
   overflow: hidden;
   box-shadow: var(--box-shadow-app);
+  z-index: 3;
 }
 
 .cone1 {
@@ -136,4 +137,21 @@ body {
     color: white;
     font-size: 55px;
   }
+}
+
+.screen2 {
+  --spacer-app: 40px;
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacer-app);
+  height: 100%;
+}
+
+.lens-details {
+}
+
+.lens-roadmap {
+}
+
+.main-stage {
 }

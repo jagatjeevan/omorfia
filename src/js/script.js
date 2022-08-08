@@ -1,11 +1,9 @@
-// gsap.from('.start-text', { duration: 2, y: '-100%', ease: 'bounce' });
-const timeline = gsap.timeline({ defaults: { duration: 1, ease: Circ.easeOut } });
+const timeline = gsap.timeline({ defaults: { duration: 0.5, ease: Circ.easeOut } });
 timeline
   .from('.screen1', {
     delay: 1,
-    duration: 3,
     scale: 0,
-    transformOrigin: 'left top',
+    transformOrigin: '10% 50%',
     ease: 'sine.out',
   })
   .from('.start-text', { x: -600, ease: 'bounce' })
