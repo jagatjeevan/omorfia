@@ -13,4 +13,3 @@ $('.cone').on('click', function () {
     }
   });
 });
-``;

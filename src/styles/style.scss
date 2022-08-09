@@ -22,7 +22,8 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: var(--spacer-app);
   height: 100%;
-  background-image: url('/src/images/background-main.jpg');
+  // background-image: url('/src/images/background-main.jpg');
+  background-color: #003d4f;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -128,14 +129,14 @@ body {
 
 .start-text {
   color: #f2617a;
-  font-size: 20px;
+  font-size: 38px;
   margin-top: 50vh;
   padding-left: 79px;
 
   span {
     display: block;
     color: white;
-    font-size: 55px;
+    font-size: 58px;
   }
 }
 
