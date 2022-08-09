@@ -127,16 +127,39 @@ body {
   z-index: 3;
 }
 
+.video-area {
+  padding-left: 79px;
+}
+
+.play-video {
+  width: 183px;
+  height: 53px;
+  text-align: left;
+  font: normal normal bold 20px/28px Inter;
+  letter-spacing: 0px;
+  color: #ffffff;
+  background: #f2617a;
+  opacity: 1;
+  border: 0;
+  padding-left: 20px;
+}
+
 .start-text {
   color: #f2617a;
   font-size: 38px;
-  margin-top: 50vh;
+  margin-top: 50%;
   padding-left: 79px;
 
   span {
     display: block;
     color: white;
     font-size: 58px;
+  }
+  .description {
+    color: white;
+    font-size: 16px;
+    padding-bottom: 16px;
+    width: 526px;
   }
 }
 
