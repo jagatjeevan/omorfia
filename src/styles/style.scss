@@ -27,6 +27,7 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  align-items: center;
 }
 
 .why-container {
@@ -128,7 +129,7 @@ body {
 }
 
 .video-area {
-  padding-left: 79px;
+  padding-left: 141px;
 }
 
 .play-video {
@@ -147,8 +148,10 @@ body {
 .start-text {
   color: #f2617a;
   font-size: 38px;
-  margin-top: 50%;
-  padding-left: 79px;
+  // margin-top: 50%;
+  padding-left: 141px;
+  justify-content: center;
+  align-items: center;
 
   span {
     display: block;
