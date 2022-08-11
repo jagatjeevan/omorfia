@@ -42,4 +42,10 @@ gsap
 //Button click animation
 $('.play-video').on('click', function () {
   gsap.set('.video-area', { display: 'flex', duration: 1.3 }).delay(1.2);
+  gsap.to('.start-text', {
+    // opacity: 0,
+    y: -200,
+    duration: 1,
+  });
+  gsap.fromTo('.play-video', { opacity: 1 }, { opacity: 0, duration: 1.1 });
 });
