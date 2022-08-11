@@ -1,16 +1,14 @@
 #screen1 {
-  --spacer-app: 40px;
-
-  display: grid;
   height: 100%;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--spacer-app);
+
+  display: flex;
+  align-items: center;
 }
 
 .know-more {
   justify-self: center;
   align-self: center;
-  padding: 100px;
+  padding-left: 100px;
 }
 
 .start-text {
@@ -59,4 +57,20 @@
 .skeleton {
   max-width: 100%;
   max-height: 100%;
+}
+
+.wheel-container {
+}
+
+.background-svg {
+  width: 100%;
+
+  opacity: 0.1;
+}
+
+.skeleton-svg {
+  position: absolute;
+  z-index: 100;
+  width: 795px;
+  height: 799px;
 }
