@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omorfia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400&family=Inter:wght@300&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="build/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -24,15 +24,12 @@
       defer
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" defer></script>
-    <script src="src/js/background-anime.js" defer></script>
     <script src="src/js/script.js" defer></script>
-    <title>Omorfia</title>
-
-    <script src="src/js/index.js" defer></script>
+    <link rel="stylesheet" href="build/style.css" />
   </head>
   <body>
-    <section id="screen1" class="screen1">
-      <article>
+    <section id="screen1">
+      <article class="know-more">
         <div class="start-text">
           Know more about
           <span>Thoughtworks India</span>
@@ -41,35 +38,29 @@
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </div>
+          <button class="play-video"><i class="fa fa-play"></i> Play Video</button>
         </div>
         <div class="video-area">
-          <button class="play-video"><i class="fa fa-play"></i> Play Video</button>
-          <div class="play-area"></div>
+          <i class="fa fa-close" id="close-video"></i>
+          <div class="play-area">Imersive video will come here</div>
         </div>
       </article>
-      <article class="why-container">
-        <div class="wheel-container">
-          <div class="cone cone1"><span>Revolutionize the tech industry</span></div>
-          <div class="cone cone2">
-            <span>Amplify positive social change and advocate for an equitable tech future</span>
+      <article class="wheel-container">
+        <img class='background-image' src='src/images/dot-background-trimmed.png'>
+        <div class='skeleton-container'>
+          <div class='skeleton-inner-container'>
+          <img class='skeleton' src='src/images/skeleton.svg'>
+            <img class='lense-positiveSocialChange' src='src/images/positiveSocialChange.png'>
+            <img class='lense-revolutionizeTech' src='src/images/revolutionizeTech.svg'>
+            <img class='lense-awesomePartner' src='src/images/awesomePartner.svg'>
+            <img class='lense-vibrantCommunity' src='src/images/vibrantCommunity.svg'>
+            <img class='lense-commercialSuccess' src='src/images/commercialSuccess.svg'>
           </div>
-          <div class="cone cone3">
-            <span>Foster a vibrant community of diverse and passionate technologist</span>
-          </div>
-          <div class="cone cone4">
-            <span>Achieve enduring commercial success and sustained growth</span>
-          </div>
-          <div class="cone cone5">
-            <span>Become an awesome partner for clients and their ambitious missions</span>
-          </div>
-          <div class="why-core"></div>
+          <img class='lenses-core' src='src/images/core-1.svg'>
         </div>
       </article>
+      </article>
     </section>
-    <section id="screen2" class="screen2">
-      <article class="lens-details">Lens Details</article>
-      <article class="lens-roadmap">Road Map</article>
-      <article class="main-stage">Main Stage</article>
-    </section>
+    
   </body>
 </html>
