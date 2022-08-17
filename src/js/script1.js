@@ -77,3 +77,12 @@ $('.play-video').on('click', function () {
   gsap.fromTo('.play-video', { opacity: 1 }, { opacity: 0, duration: 1.1 });
   gsap.fromTo('.video-area', { opacity: 0 }, { display: 'flex', duration: 2, opacity: 1 });
 });
+
+$('#close-video').on('click', function () {
+  gsap.to('.start-text', {
+    y: 0,
+    duration: 1,
+  });
+  gsap.fromTo('.play-video', { opacity: 0, duration: 1.1 }, { opacity: 1 });
+  gsap.fromTo('.video-area', { display: 'flex', duration: 2, opacity: 1 }, { opacity: 0 });
+});
