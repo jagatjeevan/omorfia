@@ -36,20 +36,71 @@
   }
 
   .description {
-    width: 21%;
-  }
-  .description-image {
-    width: 60%;
+    width: 21.4%;
+    p {
+      font-family: var(--font-family-inter);
+      font-size: 16px;
+    }
+    p:first-of-type {
+      font-weight: 500;
+    }
+    p:last-of-type {
+      font-weight: 300;
+    }
+    .description-image {
+      width: 40%;
+    }
   }
 
   .timeline {
-    width: 25%;
+    width: 23%;
   }
 
   .main-content {
     flex: 1;
-  }
-  .content-heading {
-    margin-top: 0;
+    font-family: var(--font-family-inter);
+    position: relative;
+    max-height: 75vh;
+    overflow-y: auto;
+
+    .content-heading {
+      margin-top: 0;
+      font-size: 24px;
+      font-family: var(--font-family-bitter);
+    }
+    .journey-description {
+      width: 50%;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    table {
+      border-spacing: 0 10px;
+    }
+    .table-number {
+      color: var(--wave-blue);
+      font-weight: bold;
+      font-size: 18px;
+      border-right: 1px solid #bababa;
+      padding-right: 10px;
+    }
+    .table-text {
+      padding-left: 10px;
+      font-size: 14px;
+      font-weight: 300;
+    }
+    .tw-offices-map {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 53%;
+    }
+    .capabilities-heading {
+      font-weight: 600;
+      font-size: 18px;
+    }
+    .capabilities-text {
+      font-weight: 200;
+      font-size: 16px;
+    }
   }
 }

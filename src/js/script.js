@@ -288,6 +288,19 @@ const loadCommercialSuccess = () => {
       },
     )
     .delay(2.3);
+  gsap
+    .fromTo(
+      '.main-content',
+      {
+        duration: 2.3,
+        opacity: 0,
+      },
+      {
+        duration: 2.3,
+        opacity: 1,
+      },
+    )
+    .delay(2.3);
 };
 const exitCommercialSuccess = () => {
   gsap.fromTo(
