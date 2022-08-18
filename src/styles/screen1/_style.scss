@@ -170,3 +170,13 @@
   color: white;
   cursor: pointer;
 }
+
+.lense-commercialSuccess-back {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  width: 93%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

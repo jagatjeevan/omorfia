@@ -121,9 +121,9 @@ const pageTransition = () => {
   gsap
     .to('.lense-commercialSuccess-back', {
       duration: 0.8,
-      left: '-158.8%',
-      width: '10%',
-      top: '-4.5%',
+      left: '-103.5%',
+      width: '8%',
+      top: '6.25%',
     })
     .delay(1.3);
   gsap
@@ -138,7 +138,25 @@ const pageTransition = () => {
       display: 'none',
     })
     .delay(2.3);
-  // load new screen
+  loadScreen2();
 };
 
 $('.lense-commercialSuccess').on('click', pageTransition);
+
+// Load Screen 2
+const loadScreen2 = () => {
+  document.getElementById('screen2').style.display = 'block';
+  gsap
+    .from('.back-icon-button', {
+      duration: 0.8,
+      opacity: 0,
+    })
+    .delay(2.3);
+  gsap
+    .from('.description', {
+      duration: 1,
+      x: -100,
+      opacity: 0,
+    })
+    .delay(2.3);
+};

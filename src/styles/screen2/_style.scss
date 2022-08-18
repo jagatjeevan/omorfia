@@ -1,0 +1,55 @@
+@import '../common/css-variables';
+
+.tumeric-yellow {
+  color: var(--tumeric-yellow);
+}
+
+#screen2 {
+  display: none;
+  background-color: #ecf1f3;
+  padding-top: 100px;
+  height: 100vh;
+
+  .back-button {
+    background-color: #ffffff;
+    width: 6%;
+    text-align: right;
+    padding: 5px;
+    border-radius: 0 50px 50px 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .back-icon {
+    width: 65%;
+    margin-bottom: -3px;
+  }
+  .back-label {
+    color: var(--wave-blue);
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  .container {
+    display: flex;
+    padding: 0 5%;
+    padding-top: 20px;
+  }
+
+  .description {
+    width: 21%;
+  }
+  .description-image {
+    width: 60%;
+  }
+
+  .timeline {
+    width: 25%;
+  }
+
+  .main-content {
+    flex: 1;
+  }
+  .content-heading {
+    margin-top: 0;
+  }
+}
