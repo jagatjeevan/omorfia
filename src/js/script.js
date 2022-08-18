@@ -224,6 +224,18 @@ const exitScreen1 = () => {
     .delay(1.3);
   gsap
     .fromTo(
+      '.nav-0',
+      {},
+      {
+        duration: 1,
+        backgroundColor: 'white',
+        color: '#003d4f',
+      },
+    )
+    .delay(1.3);
+
+  gsap
+    .fromTo(
       '#screen1',
       {},
       {
@@ -273,6 +285,18 @@ const loadCommercialSuccess = () => {
       },
     )
     .delay(2.3);
+  gsap
+    .fromTo(
+      '.nav-2',
+      {},
+      {
+        duration: 1,
+        backgroundColor: '#cc850a',
+        color: 'white',
+        height: '56px',
+      },
+    )
+    .delay(1.3);
   gsap
     .fromTo(
       '.description',
