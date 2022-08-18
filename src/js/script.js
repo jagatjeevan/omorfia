@@ -218,7 +218,7 @@ const exitScreen1 = () => {
         duration: 0.8,
         left: '-103.5%',
         width: '8%',
-        top: '6.25%',
+        top: '-1.70%',
       },
     )
     .delay(1.3);
