@@ -71,7 +71,6 @@
 
 .background-image {
   width: 100%;
-
   opacity: 0.1;
 }
 
@@ -179,4 +178,26 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.top-navigation {
+  background-color: #ffffff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-0,
+.nav-1,
+.nav-2,
+.nav-3,
+.nav-4,
+.nav-5 {
+  display: flex;
+  justify-content: center;
+  width: 16.6%;
+  color: #003d4f;
+>>>>>>> fe14e93 (JD: Added initial top level bar)
 }
