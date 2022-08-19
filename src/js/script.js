@@ -352,6 +352,21 @@ $('#back-icon-button').on('click', () => {
 
 loadScreen1();
 
+// Timeline
+const timelineTitle = document.querySelectorAll('.title');
+
+const addClickOnTitle = (event) => {
+  console.log('target', event.target);
+  timelineTitle.forEach((item) => {
+    if (item !== event.target) item.parentElement.classList.remove('completed');
+  });
+  event.target.parentElement.classList.add('completed');
+};
+
+timelineTitle.forEach((item) => {
+  item.addEventListener('click', addClickOnTitle);
+});
+
 // Button click animation
 $('.play-video').on('click', function () {
   gsap.to('.start-text', {
