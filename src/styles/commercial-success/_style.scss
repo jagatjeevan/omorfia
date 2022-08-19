@@ -11,9 +11,11 @@
   height: calc(100vh - 120px);
   overflow: hidden;
 
+  .back-icon-button {
+    width: fit-content;
+  }
   .back-button {
     background-color: #ffffff;
-    width: 6%;
     text-align: right;
     padding: 5px;
     border-radius: 0 50px 50px 0;
@@ -195,7 +197,7 @@
     }
     .tw-offices-map {
       position: absolute;
-      right: 0;
+      right: 12px;
       top: 0;
       width: 53%;
     }

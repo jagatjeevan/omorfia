@@ -3,6 +3,7 @@ import {
   loadCommercialSuccess,
   exitCommercialSuccess,
 } from './AnimationJs/CommercialSuccessAnimation.js';
+import { changeJourneyPage, closePopup, openPopup } from './popup/journey.js';
 
 $('.lense-commercialSuccess').on('click', () => {
   exitScreen1();
@@ -12,6 +13,7 @@ $('#back-icon-button').on('click', () => {
   console.log('hi');
   exitCommercialSuccess();
   loadScreen1();
+  closePopup();
 });
 
 loadScreen1();
@@ -49,3 +51,9 @@ $('#close-video').on('click', function () {
   gsap.fromTo('.play-video', { opacity: 0, duration: 1.1 }, { opacity: 1 });
   gsap.fromTo('.video-area', { display: 'flex', duration: 2, opacity: 1 }, { opacity: 0 });
 });
+
+// Journey popup
+$('#explore-journey').on('click', openPopup);
+$('#close-journey').on('click', closePopup);
+$('#left-arrow').on('click', changeJourneyPage);
+$('#right-arrow').on('click', changeJourneyPage);

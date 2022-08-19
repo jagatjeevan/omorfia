@@ -1,0 +1,66 @@
+.journey-popup {
+  background-color: white;
+  position: absolute;
+  width: 95%;
+  height: 77vh;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+
+  .close-icon {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+  }
+  .journey-content {
+    overflow: hidden;
+    width: 100%;
+    height: 75vh;
+  }
+  .journey-images {
+    width: 190%;
+    height: 70vh;
+    display: flex;
+    padding: 0 7.2%;
+    transition: 0.5s;
+  }
+  .journey-img-1,
+  .journey-img-2 {
+    height: 65vh;
+  }
+  .journey-img-2 {
+    padding-bottom: 8px;
+  }
+
+  .popup-heading {
+    margin-top: 0;
+    font-size: 22px;
+    font-family: var(--font-family-bitter);
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 9%;
+  }
+
+  .arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--mist-gray);
+    padding: 7px 15px;
+    border-radius: 50%;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+  }
+  .left-arrow {
+    left: 30px;
+  }
+  .right-arrow {
+    right: 30px;
+  }
+  .enable {
+    background-color: var(--tumeric-yellow);
+    color: white;
+  }
+}
