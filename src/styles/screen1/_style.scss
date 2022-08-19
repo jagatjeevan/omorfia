@@ -1,6 +1,6 @@
 #screen1 {
-  height: 100%;
-
+  height: calc(100vh - 120px);
+  overflow: hidden;
   display: flex;
   align-items: center;
 }
@@ -67,7 +67,7 @@
 
 .wheel-container {
   position: relative;
-  bottom: 40px;
+  bottom: -10px;
 }
 
 .background-image {

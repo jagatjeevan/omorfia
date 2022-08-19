@@ -8,7 +8,7 @@
   display: none;
   background-color: #ecf1f3;
   padding-top: 10px;
-  height: 100vh;
+  height: calc(100vh - 120px);
 
   .back-button {
     background-color: #ffffff;
@@ -39,7 +39,7 @@
     width: 21.4%;
     p {
       font-family: var(--font-family-inter);
-      font-size: 16px;
+      font-size: 15px;
     }
     p:first-of-type {
       font-weight: 500;
@@ -94,13 +94,45 @@
       top: 0;
       width: 53%;
     }
-    .capabilities-heading {
+    .capabilities-heading,
+    .awards-heading {
       font-weight: 600;
       font-size: 18px;
+      padding-top: 15px;
+      margin-bottom: 10px;
     }
-    .capabilities-text {
-      font-weight: 200;
-      font-size: 16px;
+    .capabilities-text,
+    .history-text {
+      font-weight: 300;
+      font-size: 15px;
+    }
+    .awards-img {
+      width: 97%;
+    }
+    .history-heading {
+      font-weight: bold;
+      font-size: 22px;
+      padding-top: 15px;
+      font-family: var(--font-family-bitter);
+      margin-bottom: 10px;
+    }
+    .history-button {
+      background-color: var(--wave-blue);
+      color: white;
+      border: none;
+      font-size: 14px;
+      padding: 6px 12px;
+      font-weight: 300;
+      margin-top: 5px;
+      i {
+        font-size: 24px;
+        vertical-align: middle;
+        margin-bottom: 5px;
+      }
+    }
+    .section-separator {
+      border: 1px solid white;
+      margin: 50px 0;
     }
   }
 }
