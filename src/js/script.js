@@ -15,11 +15,29 @@ const loadScreen1 = () => {
     '#screen1',
     {},
     {
-      duration: 1.3,
+      duration: 0.5,
       backgroundColor: '#003d4f',
     },
   );
-
+  gsap.fromTo(
+    '.nav-0',
+    {},
+    {
+      duration: 1.3,
+      color: 'white',
+      backgroundColor: '#003d4f',
+      height: '56px',
+    },
+  );
+  gsap.fromTo(
+    '.nav-1, .nav-2, .nav-3, .nav-4, .nav-5',
+    {},
+    {
+      duration: 0.1,
+      backgroundColor: 'white',
+      color: '#003d4f',
+    },
+  );
   gsap
     .fromTo(
       '.background-image',
