@@ -266,11 +266,11 @@ const exitScreen1 = () => {
     .fromTo(
       '#screen1',
       {
-        duration: 0.1,
+        duration: 0.001,
         display: 'flex',
       },
       {
-        duration: 0.1,
+        duration: 0.001,
         display: 'none',
       },
     )
@@ -282,11 +282,11 @@ const loadCommercialSuccess = () => {
   gsap.fromTo(
     '#commercial-success',
     {
-      duration: 0.1,
+      duration: 0.001,
       display: 'none',
     },
     {
-      duration: 0.1,
+      duration: 0.001,
       display: 'block',
     },
   );
