@@ -155,8 +155,12 @@
     .twi-unique {
       padding-right: 1.5%;
     }
+    .twi-growth {
+      padding-right: 1.5%;
+    }
 
-    .content-heading {
+    .content-heading,
+    .growth-main-heading {
       margin-top: 0;
       font-size: 22px;
       font-family: var(--font-family-bitter);
@@ -266,6 +270,27 @@
           margin-bottom: 2px;
         }
       }
+    }
+    .twi-growth-img {
+      width: 150px;
+      margin-top: 30px;
+    }
+    .twi-growth-footer {
+      width: 200px;
+    }
+    .growth-main-heading {
+      margin-bottom: 0px;
+    }
+    .growth-heading1 {
+      color: var(--tumeric-yellow);
+      font-weight: 600;
+      font-size: 16px;
+      margin: 10px 0px;
+    }
+    .growth-heading2 {
+      font-weight: 600;
+      font-size: 16px;
+      margin: 10px 0px;
     }
   }
 }
