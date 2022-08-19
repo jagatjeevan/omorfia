@@ -32,12 +32,12 @@
 
   .container {
     display: flex;
-    padding: 0 5%;
+    padding: 0 3%;
     padding-top: 20px;
   }
 
   .description {
-    width: 21.4%;
+    width: 19%;
     p {
       font-family: var(--font-family-inter);
       font-size: 15px;
@@ -149,10 +149,16 @@
     position: relative;
     max-height: 75vh;
     overflow-y: auto;
+    .twi-journey {
+      padding-right: 1.5%;
+    }
+    .twi-unique {
+      padding-right: 1.5%;
+    }
 
     .content-heading {
       margin-top: 0;
-      font-size: 24px;
+      font-size: 22px;
       font-family: var(--font-family-bitter);
     }
     .journey-description {
@@ -193,9 +199,6 @@
       font-weight: 300;
       font-size: 15px;
     }
-    .awards-img {
-      width: 97%;
-    }
     .history-heading {
       font-weight: bold;
       font-size: 22px;
@@ -220,6 +223,49 @@
     .section-separator {
       border: 1px solid white;
       margin: 50px 0;
+    }
+    .unique-row {
+      display: flex;
+      gap: 20px;
+      padding-top: 20px;
+    }
+    .unique-box {
+      background-color: white;
+      padding: 12px;
+      width: 32%;
+      position: relative;
+      padding-bottom: 42px;
+      .unique-icon {
+        width: 20%;
+      }
+      p {
+        margin: 5px 0;
+      }
+      .unique-heading {
+        font-weight: bold;
+        padding: 5px 0;
+        font-size: 15px;
+      }
+      .unique-text {
+        font-weight: 500;
+        font-size: 13px;
+      }
+      .unique-btn {
+        position: absolute;
+        bottom: 12px;
+        left: 12px;
+        font-weight: bold;
+        color: var(--tumeric-yellow);
+        background-color: transparent;
+        border: none;
+        padding-left: 0;
+        i {
+          font-weight: bold;
+          font-size: 16px;
+          vertical-align: middle;
+          margin-bottom: 2px;
+        }
+      }
     }
   }
 }
