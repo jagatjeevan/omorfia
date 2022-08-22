@@ -65,16 +65,36 @@ $('#nav-5').on('click', () => {
 
 // Timeline
 const timelineTitle = document.querySelectorAll('.title');
+let commercialContent = document.getElementById('commercial-main-content');
+let sections = commercialContent.querySelectorAll('section');
 
 const addClickOnTitle = (event) => {
-  timelineTitle.forEach((item) => {
-    if (item !== event.target) item.parentElement.classList.remove('completed');
-  });
-  event.target.parentElement.classList.add('completed');
+  activeTarget(event.target);
 };
 
 timelineTitle.forEach((item) => {
   item.addEventListener('click', addClickOnTitle);
+});
+
+function activeTarget(target) {
+  timelineTitle.forEach((item) => {
+    if (item !== target) item.parentElement.classList.remove('completed');
+  });
+  target.parentElement.parentElement.classList.add('completed');
+}
+
+$('#commercial-main-content').scroll(function () {
+  var current = '';
+  sections.forEach((section) => {
+    let top = commercialContent.scrollTop;
+    let offset = section.offsetTop;
+    let height = section.offsetHeight;
+    if (top >= offset - 60 && top <= offset + height) {
+      current = section.getAttribute('id');
+      const target = document.querySelector(`[href='#${current}']`);
+      activeTarget(target);
+    }
+  });
 });
 
 // Button click animation

@@ -82,7 +82,13 @@
         font-weight: 600;
         margin: 1px 0 75px;
         width: 100px;
+      }
+
+      a {
         color: var(--grey);
+        background-color: transparent;
+        text-decoration: none;
+        transition: 0.5s;
       }
 
       .number {
@@ -99,6 +105,7 @@
         font-size: 14px;
         font-weight: 600;
         margin-right: 14px;
+        transition: 0.5s;
       }
 
       .timeline-img {
@@ -113,9 +120,10 @@
       }
 
       &.completed {
-        .title {
+        a {
           color: black;
         }
+
         .number {
           border: 1.5px solid var(--dark-blue);
           background-color: var(--tumeric-yellow);
@@ -141,7 +149,7 @@
 
       &:not(:last-child) {
         &:after {
-          height: 75%;
+          height: 80%;
         }
       }
     }
@@ -153,6 +161,8 @@
     position: relative;
     max-height: 75vh;
     overflow-y: auto;
+    scroll-behavior: smooth;
+
     .twi-journey {
       padding-right: 1.5%;
     }

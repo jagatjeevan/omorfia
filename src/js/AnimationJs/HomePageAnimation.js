@@ -244,9 +244,9 @@ export const exitScreen1 = (nextPage) => {
       },
       {
         duration: 0.8,
-        left: '-105%',
+        left: '-104.9%',
         width: '8%',
-        top: '-0.55%',
+        top: '-0.3%',
       },
     )
     .delay(1.3);
