@@ -3,7 +3,7 @@ import {
   loadCommercialSuccess,
   exitCommercialSuccess,
 } from './AnimationJs/CommercialSuccessAnimation.js';
-import { changeJourneyPage, closePopup, openPopup } from './popup/journey.js';
+import { changePopupPage, closePopup, openPopup } from './popup/actions.js';
 
 $('.lense-commercialSuccess').on('click', () => {
   exitScreen1();
@@ -53,7 +53,10 @@ $('#close-video').on('click', function () {
 });
 
 // Journey popup
-$('#explore-journey').on('click', openPopup);
-$('#close-journey').on('click', closePopup);
-$('#left-arrow').on('click', changeJourneyPage);
-$('#right-arrow').on('click', changeJourneyPage);
+$('#explore-journey').on('click', () => openPopup('journey'));
+$('#unique-e4r').on('click', () => openPopup('e4r'));
+$('.close-popup').on('click', closePopup);
+$('#journey-left-arrow').on('click', changePopupPage);
+$('#journey-right-arrow').on('click', changePopupPage);
+$('#e4r-left-arrow').on('click', changePopupPage);
+$('#e4r-right-arrow').on('click', changePopupPage);
