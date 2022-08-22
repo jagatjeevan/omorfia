@@ -61,7 +61,7 @@ $('#nav-5').on('click', () => {
   loadRevolutionizeTech();
 });
 
-// loadScreen1();
+loadScreen1();
 
 // Timeline
 const timelineTitle = document.querySelectorAll('.title');
