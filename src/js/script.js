@@ -5,14 +5,34 @@ import {
 } from './AnimationJs/CommercialSuccessAnimation.js';
 import { changePopupPage, closePopup, openPopup } from './popup/actions.js';
 
+var currentPage = 'screen1';
+
 $('.lense-commercialSuccess').on('click', () => {
+  currentPage = 'commercial-success';
   exitScreen1();
   loadCommercialSuccess();
 });
 $('#back-icon-button').on('click', () => {
+  currentPage = 'screen1';
   exitCommercialSuccess();
   loadScreen1();
   closePopup();
+});
+
+$('#nav-0').on('click', () => {
+  if (currentPage === 'screen1') return;
+
+  currentPage = 'screen1';
+  exitCommercialSuccess();
+  loadScreen1();
+  closePopup();
+});
+$('#nav-2').on('click', () => {
+  if (currentPage === 'commercial-success') return;
+
+  currentPage = 'commercial-success';
+  exitScreen1();
+  loadCommercialSuccess();
 });
 
 loadScreen1();
