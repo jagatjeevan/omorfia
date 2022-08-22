@@ -12,14 +12,14 @@ import {
 var currentPage = 'screen1';
 var previousPages = [];
 
-$('.lense-commercialSuccess').on('click', () => {
+$('.commercial-success-clickable').on('click', () => {
   previousPages.push(currentPage);
   currentPage = 'commercial-success';
 
   exitScreen1('commercialSuccess');
   loadCommercialSuccess();
 });
-$('.lense-revolutionizeTech').on('click', () => {
+$('.revolutionize-tech-clickable').on('click', () => {
   previousPages.push(currentPage);
   currentPage = 'revolutionize-tech';
 

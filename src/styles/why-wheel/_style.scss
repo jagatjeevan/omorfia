@@ -1,0 +1,113 @@
+.why-clickable {
+  position: absolute;
+  right: 11.5%;
+  top: 50%;
+  transform: translateY(-49%);
+  z-index: 10;
+}
+
+.why-core {
+  position: absolute;
+  z-index: 15;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.why-clickable-upper,
+.why-clickable-bottom {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.why-clickable-upper *,
+.why-clickable-upper::before,
+.why-clickable-bottom * {
+  box-sizing: border-box;
+}
+
+.why-clickable-upper,
+.why-clickable-bottom {
+  position: relative;
+  width: 480px;
+  height: 240px;
+  overflow: hidden;
+}
+
+.why-clickable-upper::before,
+.why-clickable-upper::after {
+  position: absolute;
+}
+
+.why-clickable-upper li {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border-top: none;
+  border-bottom-left-radius: 240px;
+  border-bottom-right-radius: 240px;
+  transform-origin: 50% 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.why-clickable-bottom::before,
+.why-clickable-bottom::after {
+  position: absolute;
+}
+
+.why-clickable-bottom li {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border-top: none;
+  border-bottom-left-radius: 240px;
+  border-bottom-right-radius: 240px;
+  transform-origin: 50% 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.why-clickable-upper li:nth-child(1) {
+  z-index: 14;
+  transform: rotate(18deg);
+}
+
+.why-clickable-upper li:nth-child(2) {
+  z-index: 13;
+  transform: rotate(90deg);
+}
+
+.why-clickable-upper li:nth-child(3) {
+  z-index: 12;
+  transform: rotate(162deg);
+}
+
+.why-clickable-upper li:nth-child(4) {
+  z-index: 11;
+  transform: rotate(180deg);
+}
+
+.why-clickable-bottom li:nth-child(1) {
+  z-index: 14;
+  transform: rotate(234deg);
+}
+
+.why-clickable-bottom li:nth-child(2) {
+  z-index: 3;
+  transform: rotate(306deg);
+}
+
+.why-clickable-bottom li:nth-child(3) {
+  z-index: 2;
+  transform: rotate(120deg);
+}
