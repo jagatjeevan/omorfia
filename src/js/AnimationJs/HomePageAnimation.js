@@ -174,6 +174,10 @@ export const loadScreen1 = () => {
     zIndex: -1,
     opacity: 0,
   });
+  $('.lense-vibrantCommunity-back').css({
+    zIndex: -1,
+    opacity: 0,
+  });
 };
 
 //***************************************************** */

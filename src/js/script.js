@@ -8,6 +8,10 @@ import {
   exitRevolutionizeTech,
   loadRevolutionizeTech,
 } from './AnimationJs/RevolutionizeTechAnimation copy.js';
+import {
+  exitVibrantCommunity,
+  loadVibrantCommunity,
+} from './AnimationJs/VibrantCommunityAnimation.js';
 
 var currentPage = 'screen1';
 var previousPages = [];
@@ -26,11 +30,19 @@ $('.revolutionize-tech-clickable').on('click', () => {
   exitScreen1('revolutionizeTech');
   loadRevolutionizeTech();
 });
+$('.vibrant-community-clickable').on('click', () => {
+  previousPages.push(currentPage);
+  currentPage = 'vibrant-community';
+
+  exitScreen1('vibrantCommunity');
+  loadVibrantCommunity();
+});
 
 $('.back-icon-button').on('click', () => {
   currentPage = 'screen1';
   exitCommercialSuccess();
   exitRevolutionizeTech();
+  exitVibrantCommunity();
   loadScreen1();
   closePopup();
 });
@@ -41,6 +53,7 @@ $('#nav-0').on('click', () => {
   currentPage = 'screen1';
   exitCommercialSuccess();
   exitRevolutionizeTech();
+  exitVibrantCommunity();
   loadScreen1();
   closePopup();
 });
@@ -50,7 +63,17 @@ $('#nav-2').on('click', () => {
   currentPage = 'commercial-success';
   exitScreen1('commercialSuccess');
   exitRevolutionizeTech();
+  exitVibrantCommunity();
   loadCommercialSuccess();
+});
+$('#nav-3').on('click', () => {
+  if (currentPage === 'vibrant-community') return;
+
+  currentPage = 'vibrant-community';
+  exitScreen1('vibrantCommunity');
+  exitCommercialSuccess();
+  exitRevolutionizeTech();
+  loadVibrantCommunity();
 });
 $('#nav-5').on('click', () => {
   if (currentPage === 'commercial-success') return;
@@ -58,6 +81,7 @@ $('#nav-5').on('click', () => {
   currentPage = 'revolutionize-tech';
   exitScreen1('revolutionizeTech');
   exitCommercialSuccess();
+  exitVibrantCommunity();
   loadRevolutionizeTech();
 });
 
