@@ -5,11 +5,9 @@
 }
 
 #commercial-success {
-  display: none;
-  background-color: #ecf1f3;
+  background-color: var(--mist-gray);
+  z-index: 1;
   padding-top: 10px;
-  height: calc(100vh - 120px);
-  overflow: hidden;
 
   .back-icon-button {
     width: fit-content;

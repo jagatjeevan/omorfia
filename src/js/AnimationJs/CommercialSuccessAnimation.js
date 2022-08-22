@@ -1,16 +1,11 @@
 // Commercial Success Transitions
 export const loadCommercialSuccess = () => {
-  gsap.fromTo(
-    '#commercial-success',
-    {
-      duration: 0.001,
-      display: 'none',
-    },
-    {
-      duration: 0.001,
-      display: 'block',
-    },
-  );
+  setTimeout(() => {
+    $('#commercial-success').css({
+      zIndex: 2,
+    });
+  }, 3000);
+
   gsap
     .fromTo(
       '.back-icon-button',
@@ -67,16 +62,24 @@ export const loadCommercialSuccess = () => {
 };
 
 //******************************* */
+
 export const exitCommercialSuccess = () => {
   gsap.fromTo(
     '#commercial-success',
     {
-      duration: 0.1,
-      display: 'block',
+      duration: 1,
+      opacity: 1,
     },
     {
-      duration: 0.1,
-      display: 'none',
+      duration: 1,
+      opacity: 0,
     },
   );
+
+  setTimeout(() => {
+    $('#commercial-success').css({
+      zIndex: 0,
+      opacity: 1,
+    });
+  }, 1100);
 };

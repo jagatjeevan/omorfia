@@ -1,42 +1,43 @@
 export const loadScreen1 = () => {
-  gsap.fromTo(
-    '#screen1',
-    {
-      duration: 0.1,
-      display: 'none',
-    },
-    {
-      duration: 0.1,
-      display: 'flex',
-    },
-  );
-  gsap.fromTo(
-    '#screen1',
-    {},
-    {
-      duration: 0.5,
-      backgroundColor: '#003d4f',
-    },
-  );
-  gsap.fromTo(
-    '.nav-0',
-    {},
-    {
-      duration: 1.3,
-      color: 'white',
-      backgroundColor: '#003d4f',
-      height: '56px',
-    },
-  );
-  gsap.fromTo(
-    '.nav-1, .nav-2, .nav-3, .nav-4, .nav-5',
-    {},
-    {
-      duration: 0.1,
-      backgroundColor: 'white',
-      color: '#003d4f',
-    },
-  );
+  setTimeout(() => {
+    $('#screen1').css({
+      zIndex: 2,
+    });
+  }, 1000);
+
+  gsap
+    .fromTo(
+      '#screen1',
+      {},
+      {
+        duration: 0.5,
+        backgroundColor: '#003d4f',
+      },
+    )
+    .delay(0.3);
+  gsap
+    .fromTo(
+      '.nav-0',
+      {},
+      {
+        duration: 1.3,
+        color: 'white',
+        backgroundColor: '#003d4f',
+        height: '56px',
+      },
+    )
+    .delay(0.3);
+  gsap
+    .fromTo(
+      '.nav-1, .nav-2, .nav-3, .nav-4, .nav-5',
+      {},
+      {
+        duration: 0.1,
+        backgroundColor: 'white',
+        color: '#003d4f',
+      },
+    )
+    .delay(0.3);
   gsap
     .fromTo(
       '.background-image',
@@ -164,6 +165,7 @@ export const loadScreen1 = () => {
       },
     )
     .delay(1.3);
+
   $('.lense-commercialSuccess-back').css({
     zIndex: -1,
     opacity: 0,
@@ -236,9 +238,9 @@ export const exitScreen1 = () => {
       },
       {
         duration: 0.8,
-        left: '-103.5%',
+        left: '-105%',
         width: '8%',
-        top: '0%',
+        top: '-0.55%',
       },
     )
     .delay(1.3);
@@ -268,13 +270,20 @@ export const exitScreen1 = () => {
     .fromTo(
       '#screen1',
       {
-        duration: 0.001,
-        display: 'flex',
+        duration: 1,
+        opacity: 1,
       },
       {
-        duration: 0.001,
-        display: 'none',
+        duration: 1,
+        opacity: 0,
       },
     )
-    .delay(2.3);
+    .delay(2.0);
+
+  setTimeout(() => {
+    $('#screen1').css({
+      zIndex: 0,
+      opacity: 1,
+    });
+  }, 3300);
 };

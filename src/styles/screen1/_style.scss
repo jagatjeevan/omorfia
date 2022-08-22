@@ -1,8 +1,8 @@
 #screen1 {
-  height: calc(100vh - 120px);
-  overflow: hidden;
   display: flex;
   align-items: center;
+  z-index: 2;
+  background-color: var(--wave-blue);
 }
 
 .know-more {

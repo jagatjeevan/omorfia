@@ -10,7 +10,6 @@ $('.lense-commercialSuccess').on('click', () => {
   loadCommercialSuccess();
 });
 $('#back-icon-button').on('click', () => {
-  console.log('hi');
   exitCommercialSuccess();
   loadScreen1();
   closePopup();
@@ -22,7 +21,6 @@ loadScreen1();
 const timelineTitle = document.querySelectorAll('.title');
 
 const addClickOnTitle = (event) => {
-  console.log('target', event.target);
   timelineTitle.forEach((item) => {
     if (item !== event.target) item.parentElement.classList.remove('completed');
   });
