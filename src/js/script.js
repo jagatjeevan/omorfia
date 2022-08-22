@@ -4,17 +4,33 @@ import {
   exitCommercialSuccess,
 } from './AnimationJs/CommercialSuccessAnimation.js';
 import { changePopupPage, closePopup, openPopup } from './popup/actions.js';
+import {
+  exitRevolutionizeTech,
+  loadRevolutionizeTech,
+} from './AnimationJs/RevolutionizeTechAnimation copy.js';
 
 var currentPage = 'screen1';
+var previousPages = [];
 
 $('.lense-commercialSuccess').on('click', () => {
+  previousPages.push(currentPage);
   currentPage = 'commercial-success';
-  exitScreen1();
+
+  exitScreen1('commercialSuccess');
   loadCommercialSuccess();
 });
-$('#back-icon-button').on('click', () => {
+$('.lense-revolutionizeTech').on('click', () => {
+  previousPages.push(currentPage);
+  currentPage = 'revolutionize-tech';
+
+  exitScreen1('revolutionizeTech');
+  loadRevolutionizeTech();
+});
+
+$('.back-icon-button').on('click', () => {
   currentPage = 'screen1';
   exitCommercialSuccess();
+  exitRevolutionizeTech();
   loadScreen1();
   closePopup();
 });
@@ -24,6 +40,7 @@ $('#nav-0').on('click', () => {
 
   currentPage = 'screen1';
   exitCommercialSuccess();
+  exitRevolutionizeTech();
   loadScreen1();
   closePopup();
 });
@@ -31,11 +48,20 @@ $('#nav-2').on('click', () => {
   if (currentPage === 'commercial-success') return;
 
   currentPage = 'commercial-success';
-  exitScreen1();
+  exitScreen1('commercialSuccess');
+  exitRevolutionizeTech();
   loadCommercialSuccess();
 });
+$('#nav-5').on('click', () => {
+  if (currentPage === 'commercial-success') return;
 
-loadScreen1();
+  currentPage = 'revolutionize-tech';
+  exitScreen1('revolutionizeTech');
+  exitCommercialSuccess();
+  loadRevolutionizeTech();
+});
+
+// loadScreen1();
 
 // Timeline
 const timelineTitle = document.querySelectorAll('.title');

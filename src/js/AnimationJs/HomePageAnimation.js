@@ -170,11 +170,17 @@ export const loadScreen1 = () => {
     zIndex: -1,
     opacity: 0,
   });
+  $('.lense-revolutionizeTech-back').css({
+    zIndex: -1,
+    opacity: 0,
+  });
 };
 
 //***************************************************** */
 
-export const exitScreen1 = () => {
+export const exitScreen1 = (nextPage) => {
+  const nextPageBackIcon = `.lense-${nextPage}-back`;
+
   gsap.fromTo(
     '.start-text',
     {
@@ -189,7 +195,7 @@ export const exitScreen1 = () => {
     },
   );
   gsap.fromTo(
-    '.lense-commercialSuccess-back',
+    nextPageBackIcon,
     {
       zIndex: -1,
       duration: 0,
@@ -200,7 +206,7 @@ export const exitScreen1 = () => {
     },
   );
   gsap.fromTo(
-    '.lense-commercialSuccess-back',
+    nextPageBackIcon,
     {
       opacity: 0,
       duration: 1.5,
@@ -229,7 +235,7 @@ export const exitScreen1 = () => {
     .delay(0.8);
   gsap
     .fromTo(
-      '.lense-commercialSuccess-back',
+      nextPageBackIcon,
       {
         duration: 0.8,
         width: '93%',
@@ -282,7 +288,7 @@ export const exitScreen1 = () => {
 
   setTimeout(() => {
     $('#screen1').css({
-      zIndex: 0,
+      zIndex: -1,
       opacity: 1,
     });
   }, 3300);

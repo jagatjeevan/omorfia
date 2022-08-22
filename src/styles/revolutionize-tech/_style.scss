@@ -1,10 +1,10 @@
 @import '../common/css-variables';
 
-.tumeric-yellow {
-  color: var(--tumeric-yellow);
+.sapphire-blue {
+  color: var(--sapphire-blue);
 }
 
-#commercial-success {
+#revolutionize-tech {
   background-color: var(--mist-gray);
   padding-top: 10px;
 
@@ -118,7 +118,7 @@
         }
         .number {
           border: 1.5px solid var(--dark-blue);
-          background-color: var(--tumeric-yellow);
+          background-color: var(--sapphire-blue);
         }
 
         &:after {
@@ -126,8 +126,8 @@
         }
 
         .timeline-img {
-          filter: invert(45%) sepia(99%) saturate(410%) hue-rotate(360deg) brightness(99%)
-            contrast(100%);
+          filter: invert(58%) sepia(52%) saturate(439%) hue-rotate(139deg) brightness(88%)
+            contrast(83%);
         }
 
         .timeline-arrow {
@@ -269,7 +269,7 @@
         bottom: 12px;
         left: 12px;
         font-weight: bold;
-        color: var(--tumeric-yellow);
+        color: var(--sapphire-blue);
         background-color: transparent;
         border: none;
         padding-left: 0;
@@ -292,7 +292,7 @@
       margin-bottom: 0px;
     }
     .growth-heading1 {
-      color: var(--tumeric-yellow);
+      color: var(--sapphire-blue);
       font-weight: 600;
       font-size: 16px;
       margin: 10px 0px;

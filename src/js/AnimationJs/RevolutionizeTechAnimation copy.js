@@ -1,10 +1,10 @@
 // Commercial Success Transitions
-export const loadCommercialSuccess = () => {
-  $('#commercial-success').css({
+export const loadRevolutionizeTech = () => {
+  $('#revolutionize-tech').css({
     zIndex: 1,
   });
   setTimeout(() => {
-    $('#commercial-success').css({
+    $('#revolutionize-tech').css({
       zIndex: 2,
     });
   }, 3000);
@@ -24,11 +24,11 @@ export const loadCommercialSuccess = () => {
     .delay(2.3);
   gsap
     .fromTo(
-      '.nav-2',
+      '.nav-5',
       {},
       {
         duration: 1,
-        backgroundColor: '#cc850a',
+        backgroundColor: '#47a1ad',
         color: 'white',
         height: '56px',
       },
@@ -66,9 +66,9 @@ export const loadCommercialSuccess = () => {
 
 //******************************* */
 
-export const exitCommercialSuccess = () => {
+export const exitRevolutionizeTech = () => {
   gsap.fromTo(
-    '#commercial-success',
+    '#revolutionize-tech',
     {
       duration: 1,
       opacity: 1,
@@ -80,7 +80,7 @@ export const exitCommercialSuccess = () => {
   );
 
   setTimeout(() => {
-    $('#commercial-success').css({
+    $('#revolutionize-tech').css({
       zIndex: -1,
       opacity: 1,
     });
