@@ -1,0 +1,310 @@
+@import '../common/css-variables';
+
+.flamingo-pink {
+  color: var(--flamingo-pink);
+}
+
+#positive-social-change {
+  background-color: var(--mist-gray);
+  padding-top: 10px;
+
+  .back-icon-button {
+    width: fit-content;
+  }
+  .back-button {
+    background-color: #ffffff;
+    text-align: right;
+    padding: 5px;
+    border-radius: 0 50px 50px 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .back-icon {
+    width: 65%;
+    margin-bottom: -3px;
+  }
+  .back-label {
+    color: var(--wave-blue);
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  .container {
+    display: flex;
+    padding: 0 3%;
+    padding-top: 20px;
+  }
+
+  .description {
+    width: 19%;
+    p {
+      font-family: var(--font-family-inter);
+      font-size: 15px;
+    }
+    p:first-of-type {
+      font-weight: 500;
+    }
+    p:last-of-type {
+      font-weight: 300;
+    }
+    .description-image {
+      width: 40%;
+    }
+  }
+
+  .timeline {
+    width: 20%;
+    min-height: 75vh;
+    margin-left: 8%;
+
+    .steps {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .step {
+      display: flex;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: 13px;
+        top: 27px;
+        height: 0;
+        width: 1.5px;
+        background-color: var(--grey);
+      }
+
+      .title {
+        font-family: var(--font-family-inter);
+        font-size: 14px;
+        font-weight: 600;
+        margin: 1px 0 75px;
+        width: 100px;
+        color: var(--grey);
+      }
+
+      .number {
+        width: 27px;
+        height: 27px;
+        background-color: var(--grey);
+        border-radius: 50%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: var(--font-family-inter);
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 14px;
+      }
+
+      .timeline-img {
+        position: absolute;
+        top: 0;
+        left: -50px;
+        width: 35px;
+      }
+
+      .timeline-arrow {
+        display: none;
+      }
+
+      &.completed {
+        .title {
+          color: black;
+        }
+        .number {
+          border: 1.5px solid var(--dark-blue);
+          background-color: var(--flamingo-pink);
+        }
+
+        &:after {
+          background-color: var(--dark-blue);
+        }
+
+        .timeline-img {
+          filter: invert(57%) sepia(15%) saturate(6534%) hue-rotate(313deg) brightness(97%)
+            contrast(95%);
+        }
+
+        .timeline-arrow {
+          display: inline;
+          width: 50px;
+          height: 14px;
+          margin-top: 4px;
+          margin-right: 1px;
+        }
+      }
+
+      &:not(:last-child) {
+        &:after {
+          height: 85%;
+        }
+      }
+    }
+  }
+
+  .main-content {
+    flex: 1;
+    font-family: var(--font-family-inter);
+    position: relative;
+    max-height: 75vh;
+    overflow-y: auto;
+    .twi-journey {
+      padding-right: 1.5%;
+    }
+    .twi-unique {
+      padding-right: 1.5%;
+    }
+    .twi-growth {
+      padding-right: 1.5%;
+    }
+    .twi-domains {
+      padding-right: 1.5%;
+    }
+
+    .content-heading,
+    .growth-main-heading {
+      margin-top: 0;
+      font-size: 22px;
+      font-family: var(--font-family-bitter);
+    }
+    .journey-description {
+      width: 50%;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    table {
+      border-spacing: 0 10px;
+    }
+    .table-number {
+      color: var(--wave-blue);
+      font-weight: bold;
+      font-size: 18px;
+      border-right: 1px solid #bababa;
+      padding-right: 10px;
+    }
+    .table-text {
+      padding-left: 10px;
+      font-size: 14px;
+      font-weight: 300;
+    }
+    .tw-offices-map {
+      position: absolute;
+      right: 12px;
+      top: 0;
+      width: 53%;
+    }
+    .awards-img {
+      width: 97%;
+    }
+    .capabilities-heading,
+    .awards-heading {
+      font-weight: 600;
+      font-size: 18px;
+      padding-top: 15px;
+      margin-bottom: 10px;
+    }
+    .capabilities-text,
+    .history-text {
+      font-weight: 300;
+      font-size: 15px;
+    }
+    .history-heading {
+      font-weight: bold;
+      font-size: 22px;
+      padding-top: 15px;
+      font-family: var(--font-family-bitter);
+      margin-bottom: 10px;
+    }
+    .history-button {
+      background-color: var(--wave-blue);
+      color: white;
+      border: none;
+      font-size: 14px;
+      padding: 6px 12px;
+      font-weight: 300;
+      margin-top: 5px;
+      i {
+        font-size: 24px;
+        vertical-align: middle;
+        margin-bottom: 5px;
+      }
+    }
+    .section-separator {
+      border: 1px solid white;
+      margin: 50px 0;
+    }
+    .unique-row {
+      display: flex;
+      gap: 20px;
+      padding-top: 20px;
+    }
+    .unique-box {
+      background-color: white;
+      padding: 12px;
+      width: 32%;
+      position: relative;
+      padding-bottom: 42px;
+      .unique-icon {
+        width: 18%;
+      }
+      p {
+        margin: 5px 0;
+      }
+      .unique-heading {
+        font-weight: bold;
+        padding: 5px 0;
+        font-size: 15px;
+      }
+      .unique-text {
+        font-weight: 500;
+        font-size: 13px;
+      }
+      .unique-btn {
+        position: absolute;
+        bottom: 12px;
+        left: 12px;
+        font-weight: bold;
+        color: var(--flamingo-pink);
+        background-color: transparent;
+        border: none;
+        padding-left: 0;
+        i {
+          font-weight: bold;
+          font-size: 16px;
+          vertical-align: middle;
+          margin-bottom: 2px;
+        }
+      }
+    }
+    .twi-growth-img {
+      width: 150px;
+      margin-top: 30px;
+    }
+    .twi-growth-footer {
+      width: 200px;
+    }
+    .growth-main-heading {
+      margin-bottom: 0px;
+    }
+    .growth-heading1 {
+      color: var(--flamingo-pink);
+      font-weight: 600;
+      font-size: 16px;
+      margin: 10px 0px;
+    }
+    .growth-heading2 {
+      font-weight: 600;
+      font-size: 16px;
+      margin: 10px 0px;
+    }
+    .domain-img {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}

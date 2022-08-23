@@ -12,6 +12,11 @@ import {
   exitVibrantCommunity,
   loadVibrantCommunity,
 } from './AnimationJs/VibrantCommunityAnimation.js';
+import {
+  exitPositiveSocialChange,
+  loadPositiveSocialChange,
+} from './AnimationJs/PositiveSocialChangeAnimation.js';
+import { exitAwesomePartner, loadAwesomePartner } from './AnimationJs/AwesomePartnerAnimation.js';
 
 var currentPage = 'screen1';
 var previousPages = [];
@@ -37,12 +42,28 @@ $('.vibrant-community-clickable').on('click', () => {
   exitScreen1('vibrantCommunity');
   loadVibrantCommunity();
 });
+$('.positive-social-change-clickable').on('click', () => {
+  previousPages.push(currentPage);
+  currentPage = 'positive-social-change';
+
+  exitScreen1('positiveSocialChange');
+  loadPositiveSocialChange();
+});
+$('.awesome-partner-clickable').on('click', () => {
+  previousPages.push(currentPage);
+  currentPage = 'awesome-partner';
+
+  exitScreen1('awesomePartner');
+  loadAwesomePartner();
+});
 
 $('.back-icon-button').on('click', () => {
   currentPage = 'screen1';
   exitCommercialSuccess();
   exitRevolutionizeTech();
   exitVibrantCommunity();
+  exitPositiveSocialChange();
+  exitAwesomePartner();
   loadScreen1();
   closePopup();
 });
@@ -54,14 +75,29 @@ $('#nav-0').on('click', () => {
   exitCommercialSuccess();
   exitRevolutionizeTech();
   exitVibrantCommunity();
+  exitPositiveSocialChange();
+  exitAwesomePartner();
   loadScreen1();
   closePopup();
+});
+$('#nav-1').on('click', () => {
+  if (currentPage === 'positive-social-change') return;
+
+  currentPage = 'positive-social-change';
+  exitScreen1('positiveSocialChange');
+  exitCommercialSuccess();
+  exitRevolutionizeTech();
+  exitAwesomePartner();
+  exitVibrantCommunity();
+  loadPositiveSocialChange();
 });
 $('#nav-2').on('click', () => {
   if (currentPage === 'commercial-success') return;
 
   currentPage = 'commercial-success';
   exitScreen1('commercialSuccess');
+  exitPositiveSocialChange();
+  exitAwesomePartner();
   exitRevolutionizeTech();
   exitVibrantCommunity();
   loadCommercialSuccess();
@@ -73,15 +109,30 @@ $('#nav-3').on('click', () => {
   exitScreen1('vibrantCommunity');
   exitCommercialSuccess();
   exitRevolutionizeTech();
+  exitPositiveSocialChange();
+  exitAwesomePartner();
   loadVibrantCommunity();
 });
+$('#nav-4').on('click', () => {
+  if (currentPage === 'awesome-partner') return;
+
+  currentPage = 'awesome-partner';
+  exitScreen1('awesomePartner');
+  exitCommercialSuccess();
+  exitVibrantCommunity();
+  exitPositiveSocialChange();
+  exitRevolutionizeTech();
+  loadAwesomePartner();
+});
 $('#nav-5').on('click', () => {
-  if (currentPage === 'commercial-success') return;
+  if (currentPage === 'revolutionize-tech') return;
 
   currentPage = 'revolutionize-tech';
   exitScreen1('revolutionizeTech');
   exitCommercialSuccess();
   exitVibrantCommunity();
+  exitAwesomePartner();
+  exitPositiveSocialChange();
   loadRevolutionizeTech();
 });
 

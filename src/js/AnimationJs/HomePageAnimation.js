@@ -178,6 +178,14 @@ export const loadScreen1 = () => {
     zIndex: -1,
     opacity: 0,
   });
+  $('.lense-positiveSocialChange-back').css({
+    zIndex: -1,
+    opacity: 0,
+  });
+  $('.lense-awesomePartner-back').css({
+    zIndex: -1,
+    opacity: 0,
+  });
 };
 
 //***************************************************** */
