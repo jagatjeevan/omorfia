@@ -8,6 +8,7 @@ Highcharts.chart('chart-container', {
   chart: {
     zoomType: 'xy',
     marginTop: 50,
+    backgroundColor: '#edf1f3',
   },
   title: {
     text: ''
@@ -44,6 +45,7 @@ Highcharts.chart('chart-container', {
   yAxis: [{ // Primary yAxis
     softMin: 0,
     softMax: 80,
+    gridLineColor: '#BABABA',
     startOnTick: false,
     endOnTick: false,
     labels: {
@@ -91,9 +93,7 @@ Highcharts.chart('chart-container', {
     },
     x: 0,
     y: 0,
-    backgroundColor:
-      Highcharts.defaultOptions.legend.backgroundColor || // theme
-      'rgba(255,255,255,0.25)'
+    backgroundColor: '#edf1f3',
   },
   series: [{
     name: 'Revenue',

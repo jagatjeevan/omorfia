@@ -1,4 +1,11 @@
 #chart-container {
-  height: 440px;
+  height: 400px;
   margin-top: 20px;
+}
+
+.chart-footer {
+  font-size: 9px;
+  color: var(--grey);
+  text-align: end;
+  margin: 0;
 }
