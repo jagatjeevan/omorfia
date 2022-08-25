@@ -210,6 +210,7 @@
     }
     .awards-img {
       width: 97%;
+      margin-top: 6px;
     }
     .capabilities-heading,
     .awards-heading {
@@ -218,13 +219,22 @@
       padding-top: 15px;
       margin-bottom: 10px;
     }
-    .capabilities-text,
+    .history-title{
+      display: flex;
+      align-items: flex-end;
+    }
     .history-text {
+      width: 70%;
+      margin-top: 4px;
+      font-size: 15px;
+      font-weight: 300;
+    }
+    .capabilities-text {
       font-weight: 300;
       font-size: 15px;
     }
     .history-heading {
-      font-weight: bold;
+      font-weight: 600;
       font-size: 22px;
       padding-top: 15px;
       font-family: var(--font-family-bitter);
@@ -234,10 +244,10 @@
       background-color: var(--wave-blue);
       color: white;
       border: none;
-      font-size: 14px;
-      padding: 6px 12px;
-      font-weight: 300;
-      margin-top: 5px;
+      font-size: 12px;
+      padding: 4px 10px;
+      font-weight: 600;
+      margin-left: 40px;
       i {
         font-size: 24px;
         vertical-align: middle;
