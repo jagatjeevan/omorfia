@@ -193,6 +193,9 @@ $('#close-video').on('click', function () {
 
 // Journey popup
 $('#explore-journey').on('click', () => openPopup('journey'));
+$('#axis-learn-more').on('click', () => openPopup('axis'));
+$('#falabella-learn-more').on('click', () => openPopup('falabella'));
+$('#idfc-learn-more').on('click', () => openPopup('idfc'));
 $('#unique-e4r').on('click', () => openPopup('e4r'));
 $('.close-popup').on('click', closePopup);
 $('#journey-left-arrow').on('click', changePopupPage);

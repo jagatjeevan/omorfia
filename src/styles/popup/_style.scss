@@ -1,4 +1,5 @@
 .journey-popup,
+.growth-popup,
 .e4r-popup {
   background-color: white;
   position: absolute;
@@ -48,6 +49,31 @@
     overflow: hidden;
     width: 100%;
     height: 75vh;
+  }
+  .popup-growth-content{
+    padding-top: 25px;
+    padding-left: 9%;
+  }
+  .growth-heading{
+    font-size: 22px;
+    font-family: var(--font-family-bitter);
+  }
+  .sub-heading {
+    font-family: var(--font-family-inter);
+    font-size: 15px;
+    font-weight: 600;
+    width: 90%;
+  }
+  .popup-text {
+    font-family: var(--font-family-inter);
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0  0 10px;
+    width: 90%;
+  }
+  .twi-growth-img {
+    max-width: 150px;
+    height: 35px;
   }
 }
 
