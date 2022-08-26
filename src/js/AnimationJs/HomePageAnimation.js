@@ -17,6 +17,18 @@ export const loadScreen1 = () => {
     .delay(0.3);
   gsap
     .fromTo(
+      '#screen1',
+      {
+        opacity: 0,
+      },
+      {
+        duration: 1,
+        opacity: 1,
+      },
+    )
+    .delay(1);
+  gsap
+    .fromTo(
       '.nav-0',
       {},
       {
@@ -301,7 +313,6 @@ export const exitScreen1 = (nextPage) => {
   setTimeout(() => {
     $('#screen1').css({
       zIndex: -1,
-      opacity: 1,
     });
   }, 3300);
 };

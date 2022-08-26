@@ -3,6 +3,10 @@
   align-items: center;
   z-index: 2;
   background-color: var(--wave-blue);
+  background-image: url('../src/images/screen1-bg.svg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .know-more {
