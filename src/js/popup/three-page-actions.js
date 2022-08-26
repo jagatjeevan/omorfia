@@ -66,6 +66,8 @@ export const open3Popup = (popupName) => {
 export const close3Popup = () => {
   if (!isPopupOpen) return;
 
+  isPopupOpen = false;
+
   setTimeout(() => {
     if (popupPage === 2) change3PopupPage('left');
     if (popupPage === 1) change3PopupPage('left');

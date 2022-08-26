@@ -57,6 +57,8 @@ export const open2Popup = (popupName) => {
 export const close2Popup = () => {
   if (!isPopupOpen) return;
 
+  isPopupOpen = false;
+
   setTimeout(() => {
     if (popupPage === 1) change2PopupPage();
   }, 1000);
