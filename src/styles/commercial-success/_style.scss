@@ -40,11 +40,6 @@
     p {
       font-family: var(--font-family-inter);
       font-size: 15px;
-    }
-    p:first-of-type {
-      font-weight: 500;
-    }
-    p:last-of-type {
       font-weight: 300;
     }
     .description-image {
@@ -191,7 +186,7 @@
     }
     .journey-description {
       width: 50%;
-      font-weight: 500;
+      font-weight: 300;
       font-size: 16px;
     }
     table {
