@@ -230,18 +230,15 @@
       display: flex;
       align-items: flex-end;
     }
+    .capabilities-text,
     .history-text {
-      width: 70%;
+      width: 100%;
       margin-top: 4px;
       font-size: 15px;
       font-weight: 300;
     }
-    .capabilities-text {
-      font-weight: 300;
-      font-size: 15px;
-    }
     .history-heading {
-      font-weight: 600;
+      font-weight: 700;
       font-size: 22px;
       padding-top: 15px;
       font-family: var(--font-family-bitter);
@@ -251,10 +248,10 @@
       background-color: var(--wave-blue);
       color: white;
       border: none;
-      font-size: 12px;
-      padding: 4px 10px;
-      font-weight: 600;
-      margin-left: 40px;
+      font-size: 14px;
+      padding: 6px 12px;
+      font-weight: 300;
+      margin-top: 5px;
       i {
         font-size: 24px;
         vertical-align: middle;
