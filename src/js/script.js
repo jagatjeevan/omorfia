@@ -3,7 +3,7 @@ import {
   loadCommercialSuccess,
   exitCommercialSuccess,
 } from './AnimationJs/CommercialSuccessAnimation.js';
-import { changePopupPage, closePopup, openPopup } from './popup/actions.js';
+import { change2PopupPage, close2Popup, open2Popup } from './popup/two-page-actions.js';
 import {
   exitRevolutionizeTech,
   loadRevolutionizeTech,
@@ -17,6 +17,7 @@ import {
   loadPositiveSocialChange,
 } from './AnimationJs/PositiveSocialChangeAnimation.js';
 import { exitAwesomePartner, loadAwesomePartner } from './AnimationJs/AwesomePartnerAnimation.js';
+import { change3PopupPage, close3Popup, open3Popup } from './popup/three-page-actions.js';
 
 var currentPage = 'screen1';
 var previousPages = [];
@@ -65,7 +66,7 @@ $('.back-icon-button').on('click', () => {
   exitPositiveSocialChange();
   exitAwesomePartner();
   loadScreen1();
-  closePopup();
+  close2Popup();
 });
 
 $('#nav-0').on('click', () => {
@@ -78,7 +79,7 @@ $('#nav-0').on('click', () => {
   exitPositiveSocialChange();
   exitAwesomePartner();
   loadScreen1();
-  closePopup();
+  close2Popup();
 });
 $('#nav-1').on('click', () => {
   if (currentPage === 'positive-social-change') return;
@@ -191,14 +192,20 @@ $('#close-video').on('click', function () {
   gsap.fromTo('.video-area', { display: 'flex', duration: 2, opacity: 1 }, { opacity: 0 });
 });
 
-// Journey popup
-$('#explore-journey').on('click', () => openPopup('journey'));
-$('#axis-learn-more').on('click', () => openPopup('axis'));
-$('#falabella-learn-more').on('click', () => openPopup('falabella'));
-$('#idfc-learn-more').on('click', () => openPopup('idfc'));
-$('#unique-e4r').on('click', () => openPopup('e4r'));
-$('.close-popup').on('click', closePopup);
-$('#journey-left-arrow').on('click', changePopupPage);
-$('#journey-right-arrow').on('click', changePopupPage);
-$('#e4r-left-arrow').on('click', changePopupPage);
-$('#e4r-right-arrow').on('click', changePopupPage);
+// 2 page popup
+$('#explore-journey').on('click', () => open2Popup('journey'));
+$('#axis-learn-more').on('click', () => open2Popup('axis'));
+$('#falabella-learn-more').on('click', () => open2Popup('falabella'));
+$('#idfc-learn-more').on('click', () => open2Popup('idfc'));
+$('#unique-e4r').on('click', () => open2Popup('e4r'));
+$('#journey-left-arrow').on('click', change2PopupPage);
+$('#journey-right-arrow').on('click', change2PopupPage);
+$('#e4r-left-arrow').on('click', change2PopupPage);
+$('#e4r-right-arrow').on('click', change2PopupPage);
+$('.close-popup').on('click', close2Popup);
+
+// 3 page popup
+$('#healthcare-domain').on('click', () => open3Popup('healthcare-domain'));
+$('#healthcare-domain-left-arrow').on('click', () => change3PopupPage('left'));
+$('#healthcare-domain-right-arrow').on('click', () => change3PopupPage('right'));
+$('.close-3-popup').on('click', close3Popup);
