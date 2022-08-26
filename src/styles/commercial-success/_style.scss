@@ -84,6 +84,10 @@
         width: 100px;
       }
 
+      .last-title {
+        margin-bottom: 0;
+      }
+
       a {
         color: var(--grey);
         background-color: transparent;
@@ -222,7 +226,7 @@
       padding-top: 15px;
       margin-bottom: 10px;
     }
-    .history-title{
+    .history-title {
       display: flex;
       align-items: flex-end;
     }
@@ -329,13 +333,13 @@
         padding: 10px;
       }
 
-      .learn-more{
+      .learn-more {
         font-weight: bold;
         color: var(--tumeric-yellow);
         background-color: transparent;
         border: none;
         padding-left: 0;
-        
+
         i {
           font-weight: bold;
           font-size: 16px;
@@ -362,23 +366,22 @@
       margin-top: 20px;
     }
 
-    .book-container{
+    .book-container {
       display: inline-flex;
       margin-bottom: 20px;
     }
-    .book-name{
+    .book-name {
       font-size: 13px;
       font-weight: 600;
     }
-    .book-discription{
+    .book-discription {
       font-size: 13px;
       font-weight: 300;
       text-align: right;
     }
-    .book-img{
+    .book-img {
       width: 90px;
       margin-right: 30px;
     }
-
   }
 }
