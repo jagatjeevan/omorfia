@@ -99,8 +99,8 @@ Highcharts.chart('chart-container', {
     name: 'Revenue',
     type: 'column',
     yAxis: 1,
-    color: '#000000',
-    data: [25.5, 28.0, 36.5, 40.3, 43.9, 49.5, 59.5, 74.0, 96.4, 124.7, 157.2, 223.1, 166.3],
+    color: '#003d50',
+    data: [25.5, 28.0, 36.5, 40.3, 43.9, 49.5, 59.5, 74.0, 96.4, 124.7, 157.2, 223.1, {y:166.3, color:'#6b9e78'}],
     tooltip: {
       valueSuffix: ' Mn'
     }
@@ -108,7 +108,7 @@ Highcharts.chart('chart-container', {
   }, {
     name: 'Average Headcount',
     yAxis: 2,
-    color: '#BD4257',
+    color: '#f2617a',
     marker: {
       symbol: 'circle'
     },
