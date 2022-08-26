@@ -198,10 +198,13 @@ $('#axis-learn-more').on('click', () => open2Popup('axis'));
 $('#falabella-learn-more').on('click', () => open2Popup('falabella'));
 $('#idfc-learn-more').on('click', () => open2Popup('idfc'));
 $('#unique-e4r').on('click', () => open2Popup('e4r'));
+$('#unique-gdo').on('click', () => open2Popup('gdo'));
 $('#journey-left-arrow').on('click', change2PopupPage);
 $('#journey-right-arrow').on('click', change2PopupPage);
 $('#e4r-left-arrow').on('click', change2PopupPage);
 $('#e4r-right-arrow').on('click', change2PopupPage);
+$('#gdo-left-arrow').on('click', change2PopupPage);
+$('#gdo-right-arrow').on('click', change2PopupPage);
 $('.close-popup').on('click', close2Popup);
 
 // 3 page popup

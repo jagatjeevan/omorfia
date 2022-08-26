@@ -1,5 +1,6 @@
 .journey-popup,
 .growth-popup,
+.unique-popup,
 .e4r-popup {
   background-color: white;
   position: absolute;
@@ -107,5 +108,18 @@
   .e4r-img-1,
   .e4r-img-2 {
     height: 70vh;
+  }
+}
+
+.unique-popup {
+  .popup-content {
+    height: 77vh;
+  }
+  .gdo-images {
+    width: 200%;
+    height: 77vh;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
   }
 }

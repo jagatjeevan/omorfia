@@ -1,0 +1,393 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2707" height="725" viewBox="0 0 2707 725">
+  <defs>
+    <filter id="Rectangle_4713" x="324.5" y="346.5" width="129" height="37" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4714" x="324.5" y="499.5" width="159" height="37" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4715" x="324.5" y="594.5" width="228" height="31" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4716" x="324.5" y="629.5" width="168" height="31" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4717" x="324.5" y="664.5" width="701" height="31" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4718" x="686.5" y="499.5" width="159" height="37" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4719" x="795.5" y="594.5" width="230" height="31" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4720" x="680.5" y="629.5" width="168" height="31" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4721" x="857.5" y="629.5" width="168" height="31" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4722" x="324.5" y="408.5" width="110" height="69" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4723" x="700.16" y="408.5" width="110" height="69" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4724" x="432.5" y="408.5" width="110" height="69" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-12"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4725" x="808.16" y="408.5" width="110" height="69" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-13"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4726" x="539.5" y="408.5" width="110" height="69" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-14"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4727" x="915.16" y="408.5" width="110" height="69" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-15"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4728" x="467.5" y="346.5" width="129" height="37" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-16"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4729" x="503.5" y="499.5" width="160" height="37" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-17"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4730" x="560.5" y="594.5" width="228" height="31" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-18"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4731" x="501.5" y="629.5" width="169" height="31" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-19"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4732" x="865.5" y="499.5" width="160" height="37" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-20"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-20"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4733" x="751.5" y="346.5" width="129" height="37" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-21"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-21"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4734" x="894.5" y="346.5" width="129" height="37" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-22"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-22"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4735" x="610.5" y="346.5" width="129" height="37" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-23"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-23"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4736" x="589.5" y="381.5" width="171" height="33" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-24"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-24"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_4769" data-name="Rectangle 4769" width="2707" height="725" fill="#fff"/>
+  <text id="Thoughtworks_GDO_capabilities_map_" data-name="Thoughtworks GDO capabilities map " transform="translate(159 1)" font-size="24" font-family="Bitter-Bold, Bitter" font-weight="700"><tspan x="0" y="23">Thoughtworks GDO capabilities map </tspan></text>
+  <text id="Bringing_Product_Evolution_DevOps_and_SRE_to_Digital_Product_Operations_in_a_cost_effective_manner" data-name="Bringing Product Evolution, DevOps and SRE to Digital Product Operations in a cost effective manner" transform="translate(159 45)" fill="#cc850a" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="15">Bringing Product Evolution, DevOps and SRE to Digital Product Operations in a cost effective manner</tspan></text>
+  <g id="Rectangle_4701" data-name="Rectangle 4701" transform="translate(159 87)" fill="none" stroke="#bababa" stroke-width="1">
+    <rect width="126" height="625" stroke="none"/>
+    <rect x="0.5" y="0.5" width="125" height="624" fill="none"/>
+  </g>
+  <rect id="Rectangle_4702" data-name="Rectangle 4702" width="126" height="465" transform="translate(289 87)" fill="#edf1f3"/>
+  <rect id="Rectangle_4703" data-name="Rectangle 4703" width="126" height="465" transform="translate(420 87)" fill="#edf1f3"/>
+  <rect id="Rectangle_4704" data-name="Rectangle 4704" width="125" height="465" transform="translate(550 87)" fill="#edf1f3"/>
+  <rect id="Rectangle_4705" data-name="Rectangle 4705" width="125" height="465" transform="translate(680 87)" fill="#edf1f3"/>
+  <rect id="Rectangle_4706" data-name="Rectangle 4706" width="125" height="465" transform="translate(809 87)" fill="#edf1f3"/>
+  <rect id="Rectangle_4707" data-name="Rectangle 4707" width="125" height="465" transform="translate(939 87)" fill="#edf1f3"/>
+  <g id="Rectangle_4708" data-name="Rectangle 4708" transform="translate(1068 87)" fill="none" stroke="#bababa" stroke-width="1">
+    <rect width="125" height="625" stroke="none"/>
+    <rect x="0.5" y="0.5" width="124" height="624" fill="none"/>
+  </g>
+  <text id="App_Remediation" data-name="App Remediation" transform="translate(301.34 95.771)" font-size="16" font-family="Helvetica"><tspan x="0" y="12">App </tspan><tspan x="0" y="32">Remediation</tspan></text>
+  <text id="Smooth_transition_to_Ops_from_Delivery" data-name="Smooth transition to Ops from Delivery" transform="translate(168.84 268.17)" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Smooth </tspan><tspan x="0" y="32">transition to </tspan><tspan x="0" y="52">Ops from </tspan><tspan x="0" y="72">Delivery</tspan></text>
+  <text id="Tech_spread_Partnerships" data-name="Tech 
+spread &amp; Partnerships" transform="translate(1076.84 338.353)" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Tech </tspan><tspan x="0" y="32">spread &amp; </tspan><tspan x="0" y="52">Partnerships</tspan></text>
+  <text id="Continuous_feedback_from_Ops_inculcated_in_Delivery" data-name="Continuous feedback from 
+Ops inculcated in Delivery" transform="translate(168.84 444.485)" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Continuous </tspan><tspan x="0" y="32">feedback from </tspan><tspan x="0" y="52">Ops inculcated </tspan><tspan x="0" y="72">in Delivery</tspan></text>
+  <text id="App_Evolution" data-name="App Evolution" transform="translate(429.34 95.771)" font-size="16" font-family="Helvetica"><tspan x="0" y="12">App Evolution</tspan></text>
+  <text id="Delivery_Infra" data-name="Delivery 
+Infra" transform="translate(556.34 95.771)" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Delivery </tspan><tspan x="0" y="32">Infra</tspan></text>
+  <text id="Security_Remediation" data-name="Security Remediation" transform="translate(688.84 95.771)" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Security </tspan><tspan x="0" y="32">Remediation</tspan></text>
+  <text id="Intelligence_driven_Resiliency_services" data-name="Intelligence driven Resiliency services" transform="translate(817.84 95.771)" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Intelligence </tspan><tspan x="0" y="32">driven </tspan><tspan x="0" y="52">Resiliency </tspan><tspan x="0" y="72">services</tspan></text>
+  <text id="Data_Exploration_and_intelligent_deduction" data-name="Data Exploration and intelligent deduction" transform="translate(947.84 95.771)" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Data </tspan><tspan x="0" y="32">Exploration </tspan><tspan x="0" y="52">and intelligent </tspan><tspan x="0" y="72">deduction</tspan></text>
+  <text id="Assessment_Refactoring_Metrics_and_Performance" data-name="Assessment
+Refactoring
+Metrics and Performance" transform="translate(301.34 143.37)" font-size="14" font-family="Helvetica"><tspan x="0" y="11">Assessment</tspan><tspan x="0" y="37">Refactoring</tspan><tspan x="0" y="63">Metrics and </tspan><tspan x="0" y="81">Performance</tspan></text>
+  <text id="Feature_Enhancements_Change_requirements" data-name="Feature Enhancements
+Change requirements" transform="translate(429.34 143.37)" font-size="14" font-family="Helvetica"><tspan x="0" y="11">Feature </tspan><tspan x="0" y="29">Enhancements</tspan><tspan x="0" y="55">Change </tspan><tspan x="0" y="73">requirements</tspan></text>
+  <text id="Automation_Pipelining_as_Code" data-name="Automation 
+Pipelining as Code" transform="translate(556.34 143.37)" font-size="14" font-family="Helvetica"><tspan x="0" y="11">Automation </tspan><tspan x="0" y="37">Pipelining as </tspan><tspan x="0" y="55">Code</tspan></text>
+  <text id="Assessment_Track_versioning_and_changes" data-name="Assessment
+Track versioning and changes" transform="translate(688.84 143.37)" font-size="14" font-family="Helvetica"><tspan x="0" y="11">Assessment</tspan><tspan x="0" y="37">Track versioning </tspan><tspan x="0" y="55">and changes</tspan></text>
+  <text id="Chaos_Engineering_Self_healing_auto_fault_healing_Metrics_dashboards" data-name="Chaos Engineering
+Self healing/auto fault healing
+Metrics dashboards" transform="translate(817.84 183.37)" font-size="14" font-family="Helvetica"><tspan x="0" y="11">Chaos </tspan><tspan x="0" y="29">Engineering</tspan><tspan x="0" y="55">Self healing/auto </tspan><tspan x="0" y="73">fault healing</tspan><tspan x="0" y="99">Metrics </tspan><tspan x="0" y="117">dashboards</tspan></text>
+  <text id="Capture_aggregate_analyze_and_apply_for_performance_and_efficiency_improvements" data-name="Capture, aggregate, analyze and apply for performance and efficiency improvements" transform="translate(947.84 203.37)" font-size="14" font-family="Helvetica"><tspan x="0" y="11">Capture, </tspan><tspan x="0" y="29">aggregate, </tspan><tspan x="0" y="47">analyze and </tspan><tspan x="0" y="65">apply for </tspan><tspan x="0" y="83">performance and </tspan><tspan x="0" y="101">efficiency </tspan><tspan x="0" y="119">improvements</tspan></text>
+  <text id="Helpdesk_L1_COTs_partnerships_Incidental_services_like_DR_BCP" data-name="Helpdesk/L1
+COTs partnerships
+Incidental services like DR/BCP" transform="translate(1076.84 406.553)" font-size="14" font-family="Helvetica"><tspan x="0" y="11">Helpdesk/L1</tspan><tspan x="0" y="37">COTs </tspan><tspan x="0" y="55">partnerships</tspan><tspan x="0" y="81">Incidental </tspan><tspan x="0" y="99">services like DR/</tspan><tspan x="0" y="117">BCP</tspan></text>
+  <g id="Rectangle_4709" data-name="Rectangle 4709" transform="translate(299 339)" fill="#edf1f3" stroke="#666" stroke-width="1">
+    <rect width="757" height="56" stroke="none"/>
+    <rect x="0.5" y="0.5" width="756" height="55" fill="none"/>
+  </g>
+  <g id="Rectangle_4710" data-name="Rectangle 4710" transform="translate(299 490)" fill="#edf1f3" stroke="#c4861d" stroke-width="1.5">
+    <rect width="757" height="56" stroke="none"/>
+    <rect x="0.75" y="0.75" width="755.5" height="54.5" fill="none"/>
+  </g>
+  <rect id="Rectangle_4711" data-name="Rectangle 4711" width="757" height="83" transform="translate(299 401)" fill="#666"/>
+  <rect id="Rectangle_4712" data-name="Rectangle 4712" width="757" height="151" transform="translate(299 561)" fill="#666"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4713)">
+    <rect id="Rectangle_4713-2" data-name="Rectangle 4713" width="120" height="28" transform="translate(329 351)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4714)">
+    <rect id="Rectangle_4714-2" data-name="Rectangle 4714" width="150" height="28" transform="translate(329 504)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4715)">
+    <rect id="Rectangle_4715-2" data-name="Rectangle 4715" width="219" height="22" transform="translate(329 599)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4716)">
+    <rect id="Rectangle_4716-2" data-name="Rectangle 4716" width="159" height="22" transform="translate(329 634)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4717)">
+    <rect id="Rectangle_4717-2" data-name="Rectangle 4717" width="692" height="22" transform="translate(329 669)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4718)">
+    <rect id="Rectangle_4718-2" data-name="Rectangle 4718" width="150" height="28" transform="translate(691 504)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4719)">
+    <rect id="Rectangle_4719-2" data-name="Rectangle 4719" width="221" height="22" transform="translate(800 599)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4720)">
+    <rect id="Rectangle_4720-2" data-name="Rectangle 4720" width="159" height="22" transform="translate(685 634)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4721)">
+    <rect id="Rectangle_4721-2" data-name="Rectangle 4721" width="159" height="22" transform="translate(862 634)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4722)">
+    <rect id="Rectangle_4722-2" data-name="Rectangle 4722" width="101" height="60" transform="translate(329 413)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4723)">
+    <rect id="Rectangle_4723-2" data-name="Rectangle 4723" width="101" height="60" transform="translate(704.66 413)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4724)">
+    <rect id="Rectangle_4724-2" data-name="Rectangle 4724" width="101" height="60" transform="translate(437 413)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4725)">
+    <rect id="Rectangle_4725-2" data-name="Rectangle 4725" width="101" height="60" transform="translate(812.66 413)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4726)">
+    <rect id="Rectangle_4726-2" data-name="Rectangle 4726" width="101" height="60" transform="translate(544 413)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4727)">
+    <rect id="Rectangle_4727-2" data-name="Rectangle 4727" width="101" height="60" transform="translate(919.66 413)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4728)">
+    <rect id="Rectangle_4728-2" data-name="Rectangle 4728" width="120" height="28" transform="translate(472 351)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4729)">
+    <rect id="Rectangle_4729-2" data-name="Rectangle 4729" width="151" height="28" transform="translate(508 504)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4730)">
+    <rect id="Rectangle_4730-2" data-name="Rectangle 4730" width="219" height="22" transform="translate(565 599)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4731)">
+    <rect id="Rectangle_4731-2" data-name="Rectangle 4731" width="160" height="22" transform="translate(506 634)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4732)">
+    <rect id="Rectangle_4732-2" data-name="Rectangle 4732" width="151" height="28" transform="translate(870 504)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4733)">
+    <rect id="Rectangle_4733-2" data-name="Rectangle 4733" width="120" height="28" transform="translate(756 351)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4734)">
+    <rect id="Rectangle_4734-2" data-name="Rectangle 4734" width="120" height="28" transform="translate(899 351)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4735)">
+    <rect id="Rectangle_4735-2" data-name="Rectangle 4735" width="120" height="28" transform="translate(615 351)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4736)">
+    <rect id="Rectangle_4736-2" data-name="Rectangle 4736" width="162" height="24" transform="translate(594 386)" fill="#cc850a"/>
+  </g>
+  <text id="Sustained" transform="translate(344.34 356.2)" font-size="14" font-family="Helvetica"><tspan x="13.526" y="11">Sustained</tspan></text>
+  <text id="DevSecOps" transform="translate(348.221 509)" font-size="14" font-family="Helvetica"><tspan x="18.611" y="11">DevSecOps</tspan></text>
+  <text id="Assessment" transform="translate(357.276 601.176)" font-size="14" font-family="Helvetica"><tspan x="43.254" y="11">Assessment</tspan></text>
+  <text id="XAct" transform="translate(345.69 636.176)" font-size="14" font-family="Helvetica"><tspan x="44.32" y="11">XAct</tspan></text>
+  <text id="Embedded_Agility_XP_Practices" data-name="Embedded Agility &amp; XP Practices" transform="translate(561.223 671.176)" font-size="14" font-family="Helvetica"><tspan x="13.165" y="11">Embedded Agility &amp; XP Practices</tspan></text>
+  <text id="FinOps_" data-name="FinOps " transform="translate(710.34 509)" font-size="14" font-family="Helvetica"><tspan x="33.397" y="11">FinOps </tspan></text>
+  <text id="Metrics_and_Reporting" data-name="Metrics and Reporting" transform="translate(829.006 600)" font-size="14" font-family="Helvetica"><tspan x="-68.476" y="11">Metrics and Reporting</tspan></text>
+  <text id="Infra_Catalyst" data-name="Infra Catalyst" transform="translate(689 635)" font-size="14" font-family="Helvetica"><tspan x="-41.238" y="11">Infra Catalyst</tspan></text>
+  <text id="Polaris" transform="translate(866.023 635)" font-size="14" font-family="Helvetica"><tspan x="-21.396" y="11">Polaris</tspan></text>
+  <text id="Focus_on_scalability_and_reliability" data-name="Focus on scalability and reliability" transform="translate(334.84 416)" font-size="14" font-family="Helvetica"><tspan x="15.867" y="11">Focus on </tspan><tspan x="0.691" y="29">scalability and </tspan><tspan x="17.429" y="47">reliability</tspan></text>
+  <text id="Focus_on_scalability_and_reliability-2" data-name="Focus on scalability and reliability" transform="translate(710.5 416)" font-size="14" font-family="Helvetica"><tspan x="15.867" y="11">Focus on </tspan><tspan x="0.691" y="29">scalability and </tspan><tspan x="17.429" y="47">reliability</tspan></text>
+  <text id="Optimized" transform="translate(487.34 356.2)" font-size="14" font-family="Helvetica"><tspan x="13.15" y="11">Optimized</tspan></text>
+  <text id="DataOps" transform="translate(527.401 509)" font-size="14" font-family="Helvetica"><tspan x="28.335" y="11">DataOps</tspan></text>
+  <text id="Accelerator" transform="translate(593.101 601.176)" font-size="14" font-family="Helvetica"><tspan x="45.975" y="11">Accelerator</tspan></text>
+  <text id="Ops_Catalyst" data-name="Ops Catalyst" transform="translate(524.609 636.176)" font-size="14" font-family="Helvetica"><tspan x="19.034" y="11">Ops Catalyst</tspan></text>
+  <text id="PlatformOps" transform="translate(889.521 509)" font-size="14" font-family="Helvetica"><tspan x="17.06" y="11">PlatformOps</tspan></text>
+  <text id="Continuous_improvement" data-name="Continuous improvement" transform="translate(442.84 425)" font-size="14" font-family="Helvetica"><tspan x="9.247" y="11">Continuous </tspan><tspan x="4.202" y="29">improvement</tspan></text>
+  <text id="Tier_3_Support" data-name="Tier 3 Support" transform="translate(818.5 425)" font-size="14" font-family="Helvetica"><tspan x="0.562" y="11">Tier 3 Support</tspan></text>
+  <text id="High_Availability" data-name="High Availability" transform="translate(544 425.1)" font-size="14" font-family="Helvetica"><tspan x="1.596" y="11">High Availability</tspan></text>
+  <text id="Performance_optimisation" data-name="Performance optimisation" transform="translate(919.66 424.1)" font-size="14" font-family="Helvetica"><tspan x="10.428" y="11">Performance </tspan><tspan x="13.148" y="29">optimisation</tspan></text>
+  <text id="Resilient" transform="translate(771.34 356.2)" font-size="14" font-family="Helvetica"><tspan x="17.815" y="11">Resilient</tspan></text>
+  <text id="Intelligent" transform="translate(914.34 356.2)" font-size="14" font-family="Helvetica"><tspan x="14.695" y="11">Intelligent</tspan></text>
+  <text id="Prod_issues" data-name="Prod issues" transform="translate(630.34 356.2)" font-size="14" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="4.978" y="11">Prod issues</tspan></text>
+  <text id="SRE" transform="translate(649.34 436.5)" fill="#fff" font-size="14" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="11.267" y="11">SRE</tspan></text>
+  <text id="Thoughtworks_Frameworks_Tools_and_Accelerators" data-name="Thoughtworks Frameworks, Tools and Accelerators" transform="translate(487.755 571.5)" fill="#fff" font-size="14" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="15.482" y="11">Thoughtworks Frameworks, Tools and Accelerators</tspan></text>
+  <text id="GDO_Service_Spread" data-name="GDO Service Spread" transform="translate(600.34 389.2)" fill="#fff" font-size="14" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="6.185" y="11">GDO Service Spread</tspan></text>
+  <g id="Group_12387" data-name="Group 12387" transform="translate(224.328 -35.896)">
+    <path id="Path_16155" data-name="Path 16155" d="M877.281,321.04a.985.985,0,0,1,.045,1.969h-.045a.985.985,0,0,1-.02-1.969Zm-7.771,0a.987.987,0,0,1-.007,1.973h-.015a.987.987,0,0,1,.006-1.973Zm22.475,14.712H892a1.009,1.009,0,0,1,.969.971.985.985,0,1,1-1.97.006A1,1,0,0,1,891.985,335.749Zm-37.187,0h.015a1,1,0,0,1,.967.971.985.985,0,0,1-.984.99h0a.984.984,0,0,1-.982-.984A1,1,0,0,1,854.8,335.749Zm37.2,7.789a.982.982,0,0,1,.978.987,1.009,1.009,0,0,1-.967.973h-.019a1,1,0,0,1-.984-.973.981.981,0,0,1,.987-.987Zm-37.207,0h.019a.983.983,0,0,1,.973,1,1,1,0,0,1-.986.961h-.033a1.009,1.009,0,0,1-.95-.987A.985.985,0,0,1,854.788,343.538Zm18.649-13.94q4.436,0,8.872,0a1.965,1.965,0,0,1,2.1,2.1q.005,8.919,0,17.836a1.966,1.966,0,0,1-2.1,2.1q-4.459,0-8.918,0t-8.916,0a1.968,1.968,0,0,1-2.1-2.106q0-8.894,0-17.793a1.982,1.982,0,0,1,2.15-2.148Zm3.844,28.64h.05a.989.989,0,0,1,.934,1,1.008,1.008,0,0,1-.984.971h-.029a.985.985,0,0,1,.029-1.969Zm-7.787,0h.014a.986.986,0,0,1,0,1.971h-.035a1.006,1.006,0,0,1-.953-.984A1,1,0,0,1,869.495,358.237Zm.012-38.494H869.5a2.288,2.288,0,0,0-2.228,1.765,2.244,2.244,0,0,0,1.276,2.572.462.462,0,0,1,.307.508c-.013,1.105,0,2.215-.006,3.323,0,.119-.017.238-.024.357H866.26V327.8q0-1.157,0-2.313a.617.617,0,0,0-.492-.648.689.689,0,0,0-.185-.026.577.577,0,0,0-.522.342,1.09,1.09,0,0,0-.09.484c-.008.868-.006,1.735-.006,2.667-.139-.01-.278-.016-.414-.016a3.394,3.394,0,0,0-2.512.955,3.564,3.564,0,0,0-.967,2.952h-.438l-1.307,0c-.363,0-.726,0-1.091.008a.643.643,0,1,0-.019,1.287c.069.006.139.008.209.008l.254,0h2.362v2.589H860.6c-.56,0-1.121,0-1.682,0-.491,0-.982,0-1.472.011h-.031a.571.571,0,0,1-.6-.377,2.205,2.205,0,0,0-2-1.268,2.319,2.319,0,0,0-.605.081,2.285,2.285,0,0,0,.106,4.44,2.222,2.222,0,0,0,2.513-1.228.525.525,0,0,1,.555-.355h.012c.5.008,1,.01,1.5.01l1.384,0h.4c.122,0,.242.018.366.023v2.522c-.116.011-.212.028-.3.028h-1.547c-.284,0-.567,0-.85,0a.662.662,0,1,0-.019,1.313c.106.006.213.007.319.007.159,0,.318,0,.479,0h1.923v2.576h-1.419c-.825,0-1.643,0-2.462-.014-.1,0-.233-.166-.291-.285a2.255,2.255,0,0,0-2.58-1.272,2.286,2.286,0,1,0,2.578,3.159.4.4,0,0,1,.414-.283h.023q.554.008,1.109.008l1.331,0h1.289v2.589l-1.765,0c-.289,0-.579,0-.868,0-.513,0-.812.24-.82.64s.3.651.8.654c.266,0,.532,0,.8,0h1.893a3.545,3.545,0,0,0,.95,2.941,3.457,3.457,0,0,0,2.582.969c.117,0,.236,0,.355-.01v.454c0,.785-.005,1.569.006,2.356a.651.651,0,0,0,.64.673h.016a.656.656,0,0,0,.633-.657c.009-.153,0-.308,0-.463v-2.326h2.589c0,1.229-.011,2.421.008,3.61a.542.542,0,0,1-.368.593,2.233,2.233,0,0,0-1.228,2.483,2.3,2.3,0,0,0,1.971,1.813,2.463,2.463,0,0,0,.255.012,2.265,2.265,0,0,0,2.134-1.424,2.07,2.07,0,0,0-.726-2.613c-.746-.4-.762-.924-.744-1.588.028-.84.006-1.683.009-2.525,0-.121.013-.244.019-.363h2.557v.785c0,.659-.011,1.32,0,1.976a.66.66,0,0,0,.654.685.668.668,0,0,0,.653-.685c.011-.166,0-.335,0-.5v-2.259h2.578c0,1.294.006,2.557-.013,3.818,0,.116-.159.274-.281.337a2.287,2.287,0,0,0,.944,4.37,2.3,2.3,0,0,0,2.169-1.55,2.245,2.245,0,0,0-1.19-2.786.478.478,0,0,1-.326-.534c.018-.577.006-1.151.006-1.727v-1.927h2.588c0,.913,0,1.794,0,2.676,0,.476.249.767.64.772h.011c.382,0,.632-.293.64-.761.006-.322,0-.643,0-.967v-1.761c.14.01.278.016.413.016a3.391,3.391,0,0,0,2.531-.968,3.523,3.523,0,0,0,.951-2.911c.16-.013.268-.028.38-.028h1.36c.345,0,.692,0,1.037-.006a.647.647,0,1,0,.017-1.289c-.185,0-.37-.006-.555-.006-.277,0-.555,0-.833,0h-1.365v-2.589l1.8,0c.591,0,1.179,0,1.766-.011h.019a.6.6,0,0,1,.647.4,2.2,2.2,0,0,0,2,1.245,2.289,2.289,0,0,0,.63-4.49,2.374,2.374,0,0,0-.638-.088,2.146,2.146,0,0,0-1.946,1.16.735.735,0,0,1-.754.482l-.081,0c-.319-.012-.639-.017-.958-.017-.465,0-.932.009-1.4.009h-1.086v-2.576h.444c.454,0,.909,0,1.364,0,.3,0,.607,0,.909-.007a.67.67,0,0,0,.731-.648.677.677,0,0,0-.72-.666c-.069,0-.139,0-.209,0-.139,0-.279,0-.42,0h-2.1V337.39l1.79,0c.592,0,1.18,0,1.769-.01h.02a.6.6,0,0,1,.651.394,2.19,2.19,0,0,0,1.988,1.247,2.235,2.235,0,0,0,.469-.049,2.287,2.287,0,0,0,.3-4.4,2.456,2.456,0,0,0-.8-.135,1.945,1.945,0,0,0-1.777,1,1.084,1.084,0,0,1-1.134.652c-.065,0-.131,0-.2,0-.3-.009-.605-.012-.907-.012-.455,0-.908.007-1.362.007h-.8v-2.589h2.562c.577,0,.889-.239.884-.66s-.318-.634-.868-.634h-2.63a3.539,3.539,0,0,0-.959-2.957,3.4,3.4,0,0,0-2.519-.952c-.135,0-.272.006-.411.014,0-.921,0-1.771,0-2.625,0-.549-.229-.859-.632-.868h-.016c-.414,0-.643.315-.647.884v2.57h-2.541a.453.453,0,0,1-.04-.1c0-1.192,0-2.383-.012-3.575a.462.462,0,0,1,.309-.505,2.245,2.245,0,0,0,1.27-2.574,2.282,2.282,0,0,0-2.232-1.763h-.007a2.268,2.268,0,0,0-2.214,1.765,2.223,2.223,0,0,0,1.267,2.57.472.472,0,0,1,.308.515c-.011,1.092-.006,2.187-.006,3.282v.4h-2.578v-.535c0-.746.008-1.488,0-2.23a.663.663,0,0,0-.635-.7h-.021a.676.676,0,0,0-.654.708c-.009.156,0,.307,0,.463v2.284h-2.579c0-1.3-.006-2.573.014-3.848,0-.111.171-.26.3-.327a2.282,2.282,0,0,0-.964-4.349Z" transform="translate(0)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16156" data-name="Path 16156" d="M873.027,332.826a.609.609,0,0,0-.558.381,1.954,1.954,0,0,0-.119.357q-1.225,4.453-2.451,8.906c-.179.662-.362,1.322-.542,1.985-.142.521.011.882.41.989a.683.683,0,0,0,.173.023c.309,0,.554-.24.681-.681,0-.013.009-.028.011-.038q1.467-5.326,2.93-10.649c.056-.2.1-.405.141-.56a.643.643,0,0,0-.5-.693A.779.779,0,0,0,873.027,332.826Z" transform="translate(1.898 1.479)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16157" data-name="Path 16157" d="M868.43,334.811a.71.71,0,0,0-.5.228c-.976.965-1.951,1.93-2.907,2.913a1.32,1.32,0,0,0-.061,1.835c.989,1.047,2.021,2.059,3.049,3.071a.6.6,0,0,0,.422.177.663.663,0,0,0,.454-.19.652.652,0,0,0,.03-.907,3.227,3.227,0,0,0-.235-.244c-.9-.9-1.8-1.8-2.771-2.76.116-.13.21-.244.313-.346.87-.874,1.746-1.741,2.611-2.62a.658.658,0,0,0-.406-1.156Z" transform="translate(1.369 1.703)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16158" data-name="Path 16158" d="M874.552,334.813a.605.605,0,0,0-.427.187c-.294.286-.263.669.095,1.028q1.259,1.267,2.528,2.522a2.316,2.316,0,0,0,.463.266c-1.12,1.114-2.087,2.068-3.046,3.03a.667.667,0,0,0-.056,1,.62.62,0,0,0,.427.183.787.787,0,0,0,.543-.257c.945-.937,1.89-1.874,2.821-2.822a1.4,1.4,0,0,0-.014-2.092c-.914-.929-1.838-1.847-2.76-2.764A.834.834,0,0,0,874.552,334.813Z" transform="translate(2.418 1.703)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16159" data-name="Path 16159" d="M866.863,346.054q-.494,0-.987,0c-.478.006-.751.264-.74.668.011.385.276.623.737.627q1.134,0,2.264,0t2.265,0c.476,0,.766-.258.766-.647s-.292-.644-.762-.648q-.556,0-1.112,0h-1.112Z" transform="translate(1.427 2.974)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16160" data-name="Path 16160" d="M876.5,346.053c-.494,0-.987,0-1.48,0v0l-1.51,0c-.252,0-.5,0-.755,0-.471,0-.765.258-.765.646s.291.649.765.649q1.12,0,2.243,0t2.245,0c.493,0,.768-.23.779-.627.011-.415-.275-.664-.779-.67C876.994,346.054,876.746,346.053,876.5,346.053Z" transform="translate(2.201 2.974)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16161" data-name="Path 16161" d="M868.523,329.783q-1.307,0-2.615,0c-.491,0-.767.236-.772.632-.006.413.279.66.793.666.247,0,.5,0,.742,0l1.486,0v0h2.187c.515,0,.815-.235.824-.634s-.289-.66-.8-.662Z" transform="translate(1.427 1.135)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16162" data-name="Path 16162" d="M873.7,329.783c-.324,0-.647,0-.969,0-.469.006-.757.275-.746.666a.662.662,0,0,0,.742.629q1.326,0,2.652.006l1.878,0c.473,0,.759-.258.761-.651s-.279-.643-.759-.647c-.325,0-.648,0-.972,0H873.7Z" transform="translate(2.201 1.135)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16163" data-name="Path 16163" d="M879.48,329.786a.649.649,0,1,0-.005,1.294.668.668,0,0,0,.7-.634.655.655,0,0,0-.668-.66Z" transform="translate(2.97 1.135)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16164" data-name="Path 16164" d="M863.206,346.057h-.028a.648.648,0,1,0,.021,1.294h.012a.649.649,0,1,0-.006-1.3Z" transform="translate(1.13 2.974)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16165" data-name="Path 16165" d="M879.48,346.057a.649.649,0,1,0,0,1.3h.007a.648.648,0,1,0,.019-1.294Z" transform="translate(2.97 2.974)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16166" data-name="Path 16166" d="M863.235,329.785h-.047a.638.638,0,0,0-.632.647.65.65,0,0,0,.686.649h.029a.649.649,0,1,0-.036-1.3Z" transform="translate(1.135 1.135)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16167" data-name="Path 16167" d="M910.907,321.04a.985.985,0,0,1,.046,1.969h-.046a.985.985,0,0,1-.019-1.969Zm-7.771,0a.987.987,0,0,1-.005,1.973h-.014a.987.987,0,0,1,.005-1.973Zm22.477,14.712h.019a1.009,1.009,0,0,1,.969.971.985.985,0,1,1-1.97.006A1,1,0,0,1,925.612,335.749Zm-37.187,0h.014a1,1,0,0,1,.967.971.985.985,0,0,1-.984.99h0a.985.985,0,0,1-.982-.984A1,1,0,0,1,888.425,335.749Zm37.2,7.789a.982.982,0,0,1,.978.987,1.009,1.009,0,0,1-.967.973h-.019a1,1,0,0,1-.984-.973.98.98,0,0,1,.987-.987Zm-37.208,0h.02a.983.983,0,0,1,.973,1,1,1,0,0,1-.986.961h-.033a1.009,1.009,0,0,1-.951-.987A.985.985,0,0,1,888.414,343.538Zm18.65-13.94q4.436,0,8.872,0a1.965,1.965,0,0,1,2.1,2.1q.005,8.919,0,17.836a1.966,1.966,0,0,1-2.1,2.1q-4.459,0-8.917,0t-8.916,0a1.968,1.968,0,0,1-2.1-2.106q0-8.894,0-17.793a1.982,1.982,0,0,1,2.15-2.148Zm3.843,28.64h.051a.989.989,0,0,1,.934,1,1.008,1.008,0,0,1-.984.971h-.029a.985.985,0,0,1,.028-1.969Zm-7.786,0h.014a.986.986,0,0,1,0,1.971H903.1a1.006,1.006,0,0,1-.953-.984A1,1,0,0,1,903.122,358.237Zm.012-38.494h-.007a2.287,2.287,0,0,0-2.228,1.765,2.243,2.243,0,0,0,1.276,2.572.462.462,0,0,1,.307.508c-.013,1.105,0,2.215-.006,3.323,0,.119-.017.238-.025.357h-2.564V327.8q0-1.157,0-2.313a.617.617,0,0,0-.492-.648.691.691,0,0,0-.185-.026.577.577,0,0,0-.522.342,1.074,1.074,0,0,0-.09.484c-.008.868-.006,1.735-.006,2.667-.139-.01-.278-.016-.414-.016a3.394,3.394,0,0,0-2.512.955,3.564,3.564,0,0,0-.967,2.952h-.439l-1.307,0c-.363,0-.726,0-1.091.008a.643.643,0,0,0-.02,1.287c.07.006.14.008.21.008l.254,0h2.362v2.589h-.436c-.56,0-1.121,0-1.682,0-.491,0-.982,0-1.473.011h-.03a.571.571,0,0,1-.6-.377,2.2,2.2,0,0,0-2-1.268,2.319,2.319,0,0,0-.605.081,2.285,2.285,0,0,0,.106,4.44,2.231,2.231,0,0,0,.5.057,2.209,2.209,0,0,0,2.009-1.284.525.525,0,0,1,.554-.355h.013c.5.008,1,.01,1.5.01l1.383,0h.4c.122,0,.242.018.366.023v2.522c-.116.011-.211.028-.3.028h-1.547c-.284,0-.568,0-.85,0a.662.662,0,1,0-.019,1.313c.106.006.213.007.318.007.16,0,.319,0,.48,0h1.923v2.576h-1.42c-.824,0-1.642,0-2.461-.014-.1,0-.233-.166-.29-.285a2.255,2.255,0,0,0-2.58-1.272,2.286,2.286,0,1,0,2.578,3.159.4.4,0,0,1,.414-.283h.023q.554.008,1.109.008l1.331,0h1.289v2.589l-1.765,0c-.291,0-.579,0-.868,0-.513,0-.813.24-.82.64s.3.651.8.654c.266,0,.532,0,.8,0H894.7a3.546,3.546,0,0,0,.951,2.941,3.456,3.456,0,0,0,2.582.969c.117,0,.236,0,.355-.01v.454c0,.785-.006,1.569.006,2.356a.651.651,0,0,0,.64.673h.014a.656.656,0,0,0,.634-.657c.009-.153,0-.308,0-.463v-2.326h2.589c0,1.229-.011,2.421.008,3.61a.542.542,0,0,1-.368.593,2.232,2.232,0,0,0-1.228,2.483,2.3,2.3,0,0,0,1.971,1.813,2.464,2.464,0,0,0,.255.012,2.266,2.266,0,0,0,2.134-1.424,2.071,2.071,0,0,0-.726-2.613c-.746-.4-.763-.924-.744-1.588.028-.84.006-1.683.009-2.525,0-.121.013-.244.019-.363h2.557v.785c0,.659-.011,1.32,0,1.976a.66.66,0,0,0,.654.685.668.668,0,0,0,.653-.685c.011-.166,0-.335,0-.5v-2.259h2.578c0,1.294.006,2.557-.014,3.818,0,.116-.158.274-.279.337a2.287,2.287,0,0,0,.944,4.37,2.3,2.3,0,0,0,2.169-1.55,2.245,2.245,0,0,0-1.19-2.786.479.479,0,0,1-.327-.534c.019-.577.006-1.151.006-1.727v-1.927h2.589c0,.913,0,1.794,0,2.676,0,.476.248.767.64.772h.011c.382,0,.632-.293.64-.761.006-.322,0-.643,0-.967v-1.761c.14.01.278.016.413.016a3.391,3.391,0,0,0,2.531-.968,3.527,3.527,0,0,0,.951-2.911c.16-.013.268-.028.38-.028h1.36c.345,0,.692,0,1.037-.006a.647.647,0,1,0,.017-1.289c-.185,0-.37-.006-.555-.006-.277,0-.555,0-.833,0h-1.365v-2.589l1.8,0c.591,0,1.179,0,1.766-.011h.018a.6.6,0,0,1,.648.4,2.2,2.2,0,0,0,2,1.245,2.289,2.289,0,0,0,.631-4.49,2.374,2.374,0,0,0-.638-.088,2.146,2.146,0,0,0-1.946,1.16.735.735,0,0,1-.753.482l-.081,0c-.32-.012-.639-.017-.958-.017-.465,0-.932.009-1.4.009h-1.086v-2.576h.444c.454,0,.909,0,1.363,0,.3,0,.607,0,.909-.007a.66.66,0,1,0,.011-1.313c-.069,0-.139,0-.209,0-.139,0-.279,0-.42,0h-2.1V337.39l1.79,0c.592,0,1.18,0,1.769-.01h.02a.6.6,0,0,1,.651.394,2.189,2.189,0,0,0,1.988,1.247,2.235,2.235,0,0,0,.469-.049,2.287,2.287,0,0,0,.3-4.4,2.456,2.456,0,0,0-.8-.135,1.945,1.945,0,0,0-1.777,1,1.084,1.084,0,0,1-1.134.652c-.065,0-.131,0-.2,0-.3-.009-.606-.012-.908-.012-.454,0-.908.007-1.361.007h-.8v-2.589h2.562c.575,0,.889-.239.884-.66s-.319-.634-.868-.634h-2.63a3.539,3.539,0,0,0-.959-2.957,3.4,3.4,0,0,0-2.519-.952c-.135,0-.272.006-.411.014,0-.921,0-1.771,0-2.625,0-.549-.229-.859-.632-.868H914.8c-.414,0-.643.315-.647.884v2.57h-2.542a.492.492,0,0,1-.039-.1c0-1.192,0-2.383-.013-3.575a.463.463,0,0,1,.311-.505,2.245,2.245,0,0,0,1.27-2.574,2.282,2.282,0,0,0-2.232-1.763H910.9a2.268,2.268,0,0,0-2.214,1.765,2.223,2.223,0,0,0,1.267,2.57.472.472,0,0,1,.308.515c-.011,1.092-.006,2.187-.006,3.282v.4h-2.578v-.535c0-.746.008-1.488,0-2.23a.663.663,0,0,0-.634-.7h-.021a.675.675,0,0,0-.654.708c-.009.156,0,.307,0,.463v2.284h-2.579c0-1.3-.006-2.573.014-3.848,0-.111.171-.26.3-.327a2.282,2.282,0,0,0-.964-4.349Z" transform="translate(3.801)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16168" data-name="Path 16168" d="M906.654,332.826a.609.609,0,0,0-.558.381,1.94,1.94,0,0,0-.119.357q-1.226,4.453-2.451,8.906c-.179.662-.362,1.322-.542,1.985-.142.521.011.882.41.989a.681.681,0,0,0,.171.023c.311,0,.555-.24.682-.681a.252.252,0,0,1,.011-.038q1.467-5.326,2.929-10.649c.056-.2.1-.405.141-.56a.643.643,0,0,0-.5-.693A.78.78,0,0,0,906.654,332.826Z" transform="translate(5.699 1.479)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16169" data-name="Path 16169" d="M902.057,334.811a.71.71,0,0,0-.5.228c-.976.965-1.951,1.93-2.908,2.913a1.321,1.321,0,0,0-.06,1.835c.99,1.047,2.02,2.059,3.049,3.071a.6.6,0,0,0,.421.177.664.664,0,0,0,.455-.19.653.653,0,0,0,.03-.907,3.264,3.264,0,0,0-.235-.244c-.9-.9-1.8-1.8-2.771-2.76.116-.13.21-.244.313-.346.87-.874,1.746-1.741,2.611-2.62a.658.658,0,0,0-.406-1.156Z" transform="translate(5.169 1.703)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16170" data-name="Path 16170" d="M908.179,334.813a.605.605,0,0,0-.427.187c-.294.286-.263.669.095,1.028q1.259,1.267,2.528,2.522a2.31,2.31,0,0,0,.463.266c-1.12,1.114-2.087,2.068-3.046,3.03a.667.667,0,0,0-.056,1,.62.62,0,0,0,.427.183.787.787,0,0,0,.543-.257c.945-.937,1.89-1.874,2.822-2.822a1.4,1.4,0,0,0-.015-2.092c-.915-.929-1.838-1.847-2.76-2.764A.834.834,0,0,0,908.179,334.813Z" transform="translate(6.219 1.703)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16171" data-name="Path 16171" d="M900.49,346.054q-.494,0-.987,0c-.477.006-.751.264-.74.668.011.385.276.623.737.627q1.132,0,2.264,0t2.265,0c.476,0,.766-.258.766-.647s-.292-.644-.764-.648q-.554,0-1.111,0h-1.112Z" transform="translate(5.227 2.974)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16172" data-name="Path 16172" d="M910.126,346.053c-.494,0-.987,0-1.48,0v0l-1.51,0c-.252,0-.5,0-.755,0-.471,0-.765.258-.765.646s.291.649.765.649q1.12,0,2.243,0t2.245,0c.493,0,.768-.23.779-.627.011-.415-.275-.664-.779-.67C910.621,346.054,910.373,346.053,910.126,346.053Z" transform="translate(6.002 2.974)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16173" data-name="Path 16173" d="M902.15,329.783q-1.307,0-2.615,0c-.491,0-.767.236-.772.632-.006.413.279.66.792.666.247,0,.5,0,.742,0l1.486,0v0h2.187c.515,0,.815-.235.824-.634s-.289-.66-.8-.662Z" transform="translate(5.228 1.135)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16174" data-name="Path 16174" d="M907.331,329.783c-.324,0-.647,0-.969,0-.469.006-.757.275-.746.666a.662.662,0,0,0,.742.629q1.326,0,2.652.006l1.878,0c.473,0,.759-.258.761-.651s-.279-.643-.759-.647c-.325,0-.648,0-.972,0h-2.588Z" transform="translate(6.002 1.135)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16175" data-name="Path 16175" d="M913.107,329.786a.649.649,0,1,0-.006,1.294.668.668,0,0,0,.7-.634.655.655,0,0,0-.668-.66Z" transform="translate(6.77 1.135)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16176" data-name="Path 16176" d="M896.833,346.057h-.028a.662.662,0,0,0-.665.664.656.656,0,0,0,.686.63h.012a.649.649,0,1,0-.005-1.3Z" transform="translate(4.931 2.974)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16177" data-name="Path 16177" d="M913.107,346.057a.649.649,0,1,0,0,1.3h.007a.648.648,0,1,0,.019-1.294Z" transform="translate(6.771 2.974)" fill="#003d4f" fill-rule="evenodd"/>
+    <path id="Path_16178" data-name="Path 16178" d="M896.861,329.785h-.046a.64.64,0,0,0-.633.647.652.652,0,0,0,.687.649h.029a.649.649,0,1,0-.037-1.3Z" transform="translate(4.936 1.135)" fill="#003d4f" fill-rule="evenodd"/>
+  </g>
+  <path id="Path_16306" data-name="Path 16306" d="M-15702.642-547.5s-38.465,3.147-45.889,17.317-44.447,10.761-44.447,10.761" transform="translate(15963.641 942.281)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="6"/>
+  <path id="Path_16307" data-name="Path 16307" d="M-15792.977-547.5s37.316,3.147,44.519,17.317,43.12,10.761,43.12,10.761" transform="translate(15960.556 772.062)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="6"/>
+  <path id="Polygon_37" data-name="Polygon 37" d="M5,0l5,9H0Z" transform="translate(166.163 428.219) rotate(-90)" fill="#666"/>
+  <path id="Polygon_38" data-name="Polygon 38" d="M5,0l5,8.731H0Z" transform="translate(259.583 248) rotate(90)" fill="#666"/>
+  <text id="Operational_efficiency_case_study_" data-name="Operational efficiency case study " transform="translate(1513 1)" font-size="24" font-family="Bitter-Bold, Bitter" font-weight="700"><tspan x="0" y="23">Operational efficiency case study </tspan></text>
+  <text id="A_global_media_organisation" data-name="A global media organisation" transform="translate(1513 45)" fill="#cc850a" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="15">A global media organisation</tspan></text>
+  <text id="The_client_and_Thoughtworks:" data-name="The client and Thoughtworks:" transform="translate(1513 148)" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">The client and Thoughtworks:</tspan></text>
+  <text id="What_did_Thoughtworks_do:_" data-name="What did Thoughtworks do: " transform="translate(1513 348)" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">What did Thoughtworks do: </tspan></text>
+  <text id="Business_outcome:" data-name="Business outcome:" transform="translate(1513 550)" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">Business outcome:</tspan></text>
+  <text id="Thoughtworks_works_with_a_global_media_organisation_for_software_to_manage_exterior_advertising_inventory_primarily_for_the_IT_division_with_CTO_as_our_main_stakeholder._The_CTO_was_rebuilding_the_IT_organization_structure_after_the_Acquisitions_of_outd" data-name="Thoughtworks works with a global media organisation, for software to manage exterior advertising inventory, primarily for the IT division, with CTO as our main stakeholder. The CTO was rebuilding the IT organization structure after the Acquisitions of outd" transform="translate(1513 184)" font-size="14" font-family="Helvetica"><tspan x="0" y="11">Thoughtworks works with a global media organisation, for software to manage </tspan><tspan x="0" y="29">exterior advertising inventory, primarily for the IT division, with CTO as our main </tspan><tspan x="0" y="47">stakeholder. The CTO was rebuilding the IT organization structure after the </tspan><tspan x="0" y="65">Acquisitions of outdoor companies to Radio business. We aligned with Tech </tspan><tspan x="0" y="83">standard of client’s own organization, and they have rated Thoughtworks team as </tspan><tspan x="0" y="101">4.2 out 5, mostly due to timely and quality delivery of releases during the </tspan><tspan x="0" y="119">development cycle.</tspan></text>
+  <text id="Thoughtworks_GDO_Team_executed_a_trend_analysis_on_issues_and_identified_thematic_issues_problematic_functional_areas_and_provided_fixes_towards_the_same._GDO_worked_on_product_evolution_for_on_4_key_features._Our_target_has_been_reducing_toil_in_the_sys" data-name="Thoughtworks GDO Team executed a trend analysis on issues and identified thematic issues (problematic functional) areas and provided fixes towards the same. GDO worked on product evolution for on 4 key features. Our target has been reducing toil in the sys" transform="translate(1513 383)" font-size="14" font-family="Helvetica"><tspan x="0" y="11">Thoughtworks GDO Team executed a trend analysis on issues and identified </tspan><tspan x="0" y="29">thematic issues (problematic functional) areas and provided fixes towards the </tspan><tspan x="0" y="47">same. GDO worked on product evolution for on 4 key features. Our target has </tspan><tspan x="0" y="65">been </tspan><tspan y="65" font-family="Helvetica-Bold, Helvetica" font-weight="700">reducing toil</tspan><tspan y="65" xml:space="preserve"> in the system. In a specific case, for example, GDO executed </tspan><tspan x="0" y="83">a 90 minute manual work which was reduced to less than 3 minutes via </tspan><tspan x="0" y="101">automation. This significantly reduced the manual effort of business users to the </tspan><tspan x="0" y="119">tune of 1 person day effort every day.</tspan></text>
+  <text id="Thoughtworks_was_able_to_improve_the_deployment_time_the_mean_time_to_restore_systems_after_issues_occur_and_through_automation_the_operational_efficiency_of_the_running_of_the_regular_system." data-name="Thoughtworks was able to improve the deployment time, the mean time to restore systems after issues occur and, through automation, the operational efficiency of the running of the regular system." transform="translate(1513 584)" font-size="14" font-family="Helvetica"><tspan x="0" y="11">Thoughtworks was able to improve the deployment time, the mean time to restore </tspan><tspan x="0" y="29">systems after issues occur and, through automation, the operational efficiency of </tspan><tspan x="0" y="47">the running of the regular system.</tspan></text>
+  <rect id="Rectangle_4742" data-name="Rectangle 4742" width="480" height="251" transform="translate(2067 148)" fill="#cc850a"/>
+  <rect id="Rectangle_4743" data-name="Rectangle 4743" width="167" height="59" transform="translate(2349 220)" fill="#fff"/>
+  <rect id="Rectangle_4744" data-name="Rectangle 4744" width="167" height="59" transform="translate(2349 307)" fill="#fff"/>
+  <rect id="Rectangle_4745" data-name="Rectangle 4745" width="480" height="249" transform="translate(2067 399)" fill="#003d4f"/>
+  <text id="Highlights" transform="translate(2143 171)" fill="#fff" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-39.105" y="12">Highlights</tspan></text>
+  <text id="Opening_an_incharge" data-name="Opening an incharge" transform="translate(2098 221)" fill="#fff" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">Opening an </tspan><tspan y="12" font-family="Helvetica" font-weight="400">incharge</tspan></text>
+  <text id="Improvement_in_Lead_times_from_4_weeks" data-name="Improvement in Lead times from 4 weeks" transform="translate(2098 470)" fill="#fff" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Improvement in Lead </tspan><tspan x="0" y="32">times from </tspan><tspan y="32" font-family="Helvetica-Bold, Helvetica" font-weight="700">4 weeks</tspan></text>
+  <text id="Deploy_per_week_from_no_regular_schedule" data-name="Deploy per week from no regular schedule" transform="translate(2322 470)" fill="#fff" font-size="16" font-family="Helvetica"><tspan x="0" y="12">Deploy per week from </tspan><tspan x="0" y="32">no regular schedule</tspan></text>
+  <text id="MTT_Resolve_from_24_hours_earlier" data-name="MTT Resolve from 
+24 hours earlier" transform="translate(2098 580)" fill="#fff" font-size="16" font-family="Helvetica"><tspan x="0" y="12">MTT Resolve from </tspan><tspan font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="32">24 hours earlier</tspan></tspan></text>
+  <text id="From_10_average_Whiteboard_issues_earlier" data-name="From 10 average Whiteboard issues earlier" transform="translate(2322 580)" fill="#fff" font-size="16" font-family="Helvetica"><tspan x="0" y="12">From </tspan><tspan y="12" font-family="Helvetica-Bold, Helvetica" font-weight="700">10</tspan><tspan y="12" xml:space="preserve"> average </tspan><tspan x="0" y="32">Whiteboard issues earlier</tspan></text>
+  <text id="Closing_an_incharge" data-name="Closing an incharge" transform="translate(2098 306)" fill="#fff" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">Closing an</tspan><tspan y="12" xml:space="preserve" font-family="Helvetica" font-weight="400"> incharge</tspan></text>
+  <text id="_4_hrs" data-name="4 hrs" transform="translate(2098 249)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">4 hrs</tspan></text>
+  <text id="_15_hrs" data-name="15 hrs" transform="translate(2098 335)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">15 hrs</tspan></text>
+  <text id="_2_weeks" data-name="2 weeks" transform="translate(2098 430)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">2 weeks</tspan></text>
+  <text id="_1" data-name="1" transform="translate(2322 430)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">1</tspan></text>
+  <text id="_4_hours" data-name="4 hours" transform="translate(2098 539)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">4 hours</tspan></text>
+  <text id="_2_issues" data-name="2 issues" transform="translate(2322 539)" fill="#fff" font-size="24" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="18">2 issues</tspan></text>
+  <text id="Click_of_a_button" data-name="Click of a button" transform="translate(2367 237)" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-62.664" y="12">Click of a button</tspan></text>
+  <text id="Nightly_sched_job" data-name="Nightly sched job" transform="translate(2359 325)" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-66.672" y="12">Nightly sched job</tspan></text>
+  <line id="Line_330" data-name="Line 330" x2="172" transform="translate(2172.5 264.828)" fill="none" stroke="#fff" stroke-width="1"/>
+  <line id="Line_331" data-name="Line 331" x2="172" transform="translate(2172.5 351.743)" fill="none" stroke="#fff" stroke-width="1"/>
+  <g id="Polygon_39" data-name="Polygon 39" transform="translate(2346 258) rotate(90)" fill="#fff">
+    <path d="M 11.11690044403076 9.5 L 0.8830999732017517 9.5 L 6 0.971833348274231 L 11.11690044403076 9.5 Z" stroke="none"/>
+    <path d="M 6 1.943650245666504 L 1.766189575195312 9 L 10.23381042480469 9 L 6 1.943650245666504 M 6 0 L 12 10 L 0 10 L 6 0 Z" stroke="none" fill="#fff"/>
+  </g>
+  <g id="Polygon_40" data-name="Polygon 40" transform="translate(2346 345) rotate(90)" fill="#fff">
+    <path d="M 11.11690044403076 9.5 L 0.8830999732017517 9.5 L 6 0.971833348274231 L 11.11690044403076 9.5 Z" stroke="none"/>
+    <path d="M 6 1.943650245666504 L 1.766189575195312 9 L 10.23381042480469 9 L 6 1.943650245666504 M 6 0 L 12 10 L 0 10 L 6 0 Z" stroke="none" fill="#fff"/>
+  </g>
+</svg>
