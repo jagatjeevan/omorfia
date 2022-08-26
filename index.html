@@ -1,161 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Omorfia</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" 
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      defer
-    />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-      defer
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" defer></script>
-    <script src = "https://code.highcharts.com/highcharts.js"></script>
-    <script type="module" src="./src/js/AnimationJs/HomePageAnimation.js"></script>
-    <script type="module" src="./src/js/charts/chart-container.js"></script>
-    <script type="module" src="./src/js/charts/idfc-chart-container.js"></script>
-    <script type="module" src="./src/js/charts/falabella-chart-container.js"></script>
-    <script type="module" src="./src/js/charts/axis-chart-container.js"></script>
-    <script type="module" src="./src/js/AnimationJs/CommercialSuccessAnimation.js"></script>
-    <script type = "module" src="src/js/script.js" defer></script>
-    <link rel="stylesheet" href="build/style.css" />
-  </head>
-  <body>
-    <section class="header">
-      <div class="tw-logo-wrapper"><img class="tw-logo" src="/src/images/logo.svg" alt=""></div>
-      <div class="navigation">
-        <div class="nav-0" id="nav-0">Home</div>
-        <div class="nav-1" id="nav-1">Amplify positive social change</div>
-        <div class="nav-2" id="nav-2">Achieve commercial success</div>
-        <div class="nav-3" id="nav-3">Foster a vibrant community</div>
-        <div class="nav-4" id="nav-4">Be an awesome partner</div>
-        <div class="nav-5" id="nav-5">Revolutionize the tech industry</div>
-      </div>
-    </section>
 
-    <section id="screen1" class="screen">
-      <div class="why-clickable">
-        <div class="why-core">
-        </div>
-        <ul class="why-clickable-upper">
-          <li class="awesome-partner-clickable"></li>
-          <li class="revolutionize-tech-clickable"></li>
-          <li class="positive-social-change-clickable"></li>
-          <li class="commercial-success-clickable"></li>
-        </ul>
-        <ul class="why-clickable-bottom">
-          <li class="commercial-success-clickable"></li>
-          <li class="vibrant-community-clickable"></li>
-          <li class="awesome-partner-clickable"></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omorfia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    defer />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" defer></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script type="module" src="./src/js/AnimationJs/HomePageAnimation.js"></script>
+  <script type="module" src="./src/js/charts/chart-container.js"></script>
+  <script type="module" src="./src/js/charts/idfc-chart-container.js"></script>
+  <script type="module" src="./src/js/charts/falabella-chart-container.js"></script>
+  <script type="module" src="./src/js/charts/axis-chart-container.js"></script>
+  <script type="module" src="./src/js/AnimationJs/CommercialSuccessAnimation.js"></script>
+  <script type="module" src="src/js/script.js" defer></script>
+  <link rel="stylesheet" href="build/style.css" />
+</head>
+
+<body>
+  <section class="header">
+    <div class="tw-logo-wrapper"><img class="tw-logo" src="/src/images/logo.svg" alt=""></div>
+    <div class="navigation">
+      <div class="nav-0" id="nav-0">Home</div>
+      <div class="nav-1" id="nav-1">Amplify positive social change</div>
+      <div class="nav-2" id="nav-2">Achieve commercial success</div>
+      <div class="nav-3" id="nav-3">Foster a vibrant community</div>
+      <div class="nav-4" id="nav-4">Be an awesome partner</div>
+      <div class="nav-5" id="nav-5">Revolutionize the tech industry</div>
+    </div>
+  </section>
+
+  <section id="screen1" class="screen">
+    <div class="why-clickable">
+      <div class="why-core">
       </div>
-      <article class="know-more">
-        <div class="start-text">
-          Know more about
-          <span>Thoughtworks India</span>
-          <div class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-          </div>
-          <!-- <button class="play-video"><i class="fa fa-play"></i> Play Video</button> -->
+      <ul class="why-clickable-upper">
+        <li class="awesome-partner-clickable"></li>
+        <li class="revolutionize-tech-clickable"></li>
+        <li class="positive-social-change-clickable"></li>
+        <li class="commercial-success-clickable"></li>
+      </ul>
+      <ul class="why-clickable-bottom">
+        <li class="commercial-success-clickable"></li>
+        <li class="vibrant-community-clickable"></li>
+        <li class="awesome-partner-clickable"></li>
+      </ul>
+    </div>
+    <article class="know-more">
+      <div class="start-text">
+        Know more about
+        <span>Thoughtworks India</span>
+        <div class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.
         </div>
-        <!-- <div class="video-area">
+        <!-- <button class="play-video"><i class="fa fa-play"></i> Play Video</button> -->
+      </div>
+      <!-- <div class="video-area">
           <i class="fa fa-close" id="close-video"></i>
           <div class="play-area">Imersive video will come here</div>
         </div> -->
-      </article>
-      <article class="wheel-container">
-        <img class='background-image' src='src/images/why-lenses/dot-background-trimmed.png'>
-        <div class='skeleton-container'>
-          <div class='skeleton-inner-container'>
-            <img class='skeleton' src='src/images/why-lenses/skeleton.svg'>
-            <img class='lense-positiveSocialChange' src='src/images/why-lenses/positive-social-change.svg'>
-            <img class='lense-revolutionizeTech' src='src/images/why-lenses/revolutionize-tech.svg'>
-            <img class='lense-awesomePartner' src='src/images/why-lenses/awesome-partner.svg'>
-            <img class='lense-vibrantCommunity' src='src/images/why-lenses/vibrant-community.svg'>
-            <img class='lense-commercialSuccess' src='src/images/why-lenses/commercial-success.svg'>
-            
-            <img class='lense-commercialSuccess-back' src='src/images/commercial-success/back-icon.svg'>
-            <img class='lense-revolutionizeTech-back' src='src/images/revolutionize-tech/back-icon.svg'>
-            <img class='lense-awesomePartner-back' src='src/images/awesome-partner/back-icon.svg'>
-            <img class='lense-vibrantCommunity-back' src='src/images/vibrant-community/back-icon.svg'>
-            <img class='lense-positiveSocialChange-back' src='src/images/positive-social-change/back-icon.svg'>
-          </div>
-          <img class='lenses-core' src='src/images/why-lenses/core.svg'>
-        </div>
-      </article>
-      </article>
-    </section>
+    </article>
+    <article class="wheel-container">
+      <img class='background-image' src='src/images/why-lenses/dot-background-trimmed.png'>
+      <div class='skeleton-container'>
+        <div class='skeleton-inner-container'>
+          <img class='skeleton' src='src/images/why-lenses/skeleton.svg'>
+          <img class='lense-positiveSocialChange' src='src/images/why-lenses/positive-social-change.svg'>
+          <img class='lense-revolutionizeTech' src='src/images/why-lenses/revolutionize-tech.svg'>
+          <img class='lense-awesomePartner' src='src/images/why-lenses/awesome-partner.svg'>
+          <img class='lense-vibrantCommunity' src='src/images/why-lenses/vibrant-community.svg'>
+          <img class='lense-commercialSuccess' src='src/images/why-lenses/commercial-success.svg'>
 
-    <section id="commercial-success" class="screen">
-      <div class="back-icon-button" id="back-icon-button">
-        <div class="back-button">
-          <img src="./src/images/commercial-success/back-icon.svg" alt="" class="back-icon" />
+          <img class='lense-commercialSuccess-back' src='src/images/commercial-success/back-icon.svg'>
+          <img class='lense-revolutionizeTech-back' src='src/images/revolutionize-tech/back-icon.svg'>
+          <img class='lense-awesomePartner-back' src='src/images/awesome-partner/back-icon.svg'>
+          <img class='lense-vibrantCommunity-back' src='src/images/vibrant-community/back-icon.svg'>
+          <img class='lense-positiveSocialChange-back' src='src/images/positive-social-change/back-icon.svg'>
         </div>
-        <span class="back-label">Back</span>
+        <img class='lenses-core' src='src/images/why-lenses/core.svg'>
       </div>
-      <div class="container">
-        <div class="description">
-          <img src="./src/images/commercial-success/index.svg" alt="" class="description-image">
-          <h1>
-            Achieve enduring <span class="tumeric-yellow">commercial success</span> and sustained growth
-          </h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="timeline">
-          <div class='steps' id='steps'>
+    </article>
+    </article>
+  </section>
 
-            <div class='step completed'>
-              <div class='number'>1</div>
-              <p class='title'><a href='#twi-journey'>TWI Journey</a></p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-1.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/commercial-success/timeline-arrow.svg'>
-            </div>
+  <section id="commercial-success" class="screen">
+    <div class="back-icon-button" id="back-icon-button">
+      <div class="back-button">
+        <img src="./src/images/commercial-success/back-icon.svg" alt="" class="back-icon" />
+      </div>
+      <span class="back-label">Back</span>
+    </div>
+    <div class="container">
+      <div class="description">
+        <img src="./src/images/commercial-success/index.svg" alt="" class="description-image">
+        <h1>
+          Achieve enduring <span class="tumeric-yellow">commercial success</span> and sustained growth
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam</p>
+      </div>
+      <div class="timeline">
+        <div class='steps' id='steps'>
 
-            <div class='step'>
-              <div class='number'>2</div>
-              <p class='title'><a href='#twi-unique'>What makes TWI unique</a></p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-2.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/commercial-success/timeline-arrow.svg'>
-            </div>
+          <div class='step completed'>
+            <div class='number'>1</div>
+            <p class='title'><a href='#twi-journey'>TWI Journey</a></p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-1.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/commercial-success/timeline-arrow.svg'>
+          </div>
 
-            <div class='step'>
-              <div class='number'>3</div>
-               <p class='title'><a href='#twi-growth'>TWI fueling TW growth</a></p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-3.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/commercial-success/timeline-arrow.svg'>
-            </div>
+          <div class='step'>
+            <div class='number'>2</div>
+            <p class='title'><a href='#twi-unique'>What makes TWI unique</a></p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-2.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/commercial-success/timeline-arrow.svg'>
+          </div>
 
-            <div class='step'>
-              <div class='number'>4</div>
-              <p class='title'><a href='#twi-domains'>Engineering/<br>tech thought <br>leadership</a></p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-4.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/commercial-success/timeline-arrow.svg'>
-            </div>
+          <div class='step'>
+            <div class='number'>3</div>
+            <p class='title'><a href='#twi-growth'>TWI fueling TW growth</a></p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-3.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/commercial-success/timeline-arrow.svg'>
+          </div>
 
-            <div class='step'>
-              <div class='number'>5</div>
-              <p class='title last-title'><a href='#twi-unique'>Domains</a></p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-5.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/commercial-success/timeline-arrow.svg'>
-            </div>
+          <div class='step'>
+            <div class='number'>4</div>
+            <p class='title'><a href='#twi-domains'>Engineering/<br>tech thought <br>leadership</a></p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-4.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/commercial-success/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>5</div>
+            <p class='title last-title'><a href='#twi-unique'>Domains</a></p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-5.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/commercial-success/timeline-arrow.svg'>
+          </div>
 
           </div>
         </div>
@@ -209,6 +211,11 @@
               <img src="./src/images/commercial-success/awards-and-recognitions.svg" alt="" class="awards-img">
             </div>
             <div>
+              <!-- <div class="history-title">
+                <p class="history-heading">A brief history of ThoughtWorks India</p>
+                <button class="history-button" id="explore-journey">Explore our journey&nbsp;&nbsp;<i class="fa fa-angle-right tumeric-yellow"></i></button>
+              </div>
+              <p class="history-text">Since our inception 29 years ago, we have been solving problems that got complex and bigger as the industry grew, and as our appetite to solve them grew. We have always been engaged in a distributed setup and that has made us extra alert on using our first principles of agile & engineering practices.</p> -->
               <p class="history-heading">A brief history of ThoughtWorks India</p>
               <p class="history-text">Since our inception 29 years ago, we have been solving problems that got complex and bigger as the industry grew, and as our appetite to solve them grew. We have always been engaged in a distributed setup and that has made us extra alert on using our first principles of agile & engineering practices.</p>
               <button class="history-button" id="explore-journey">Explore our journey&nbsp;&nbsp;<i class="fa fa-angle-right tumeric-yellow"></i></button>
@@ -227,22 +234,22 @@
               </div>
               <div class="unique-box">
                 <img src="./src/images/commercial-success/unique-2.svg" alt="" class="unique-icon">
-                <p class="unique-heading tumeric-yellow">Global Digital Operations</p>
-                <p class="unique-text">Efficiency & Transformative services focusing on availability, upgradability, resiliency & evolution</p>
+                <p class="unique-heading tumeric-yellow">Bahmni</p>
+                <p class="unique-text">Open Source EMR and hospital system, user in over 50 countries</p>
                 <button class="unique-btn">Learn more&nbsp;&nbsp;<i class="fa fa-angle-right tumeric-yellow"></i></button>
               </div>
               <div class="unique-box">
                 <img src="./src/images/commercial-success/unique-3.svg" alt="" class="unique-icon">
-                <p class="unique-heading tumeric-yellow">Global In-house Centers</p>
-                <p class="unique-text">Focussed on establishing & scaling GICs to best in-class value generating centres</p>
+                <p class="unique-heading tumeric-yellow">Ek Step</p>
+                <p class="unique-text">First of its kind speech to text platform in the world </p>
                 <button class="unique-btn tumeric-yellow">Learn more&nbsp;&nbsp;<i class="fa fa-angle-right tumeric-yellow"></i></button>
               </div>
             </div>
             <div class="unique-row">
               <div class="unique-box">
                 <img src="./src/images/commercial-success/unique-4.svg" alt="" class="unique-icon">
-                <p class="unique-heading tumeric-yellow">Lenovo</p>
-                <p class="unique-text">Strategic partnership driving Lenovo’s intelligent transformation through innovative & smart solutions</p>
+                <p class="unique-heading tumeric-yellow">Citi</p>
+                <p class="unique-text">World’s first graph database</p>
                 <button class="unique-btn">Learn more&nbsp;&nbsp;<i class="fa fa-angle-right tumeric-yellow"></i></button>
               </div>
               <div class="unique-box">
@@ -253,7 +260,7 @@
               </div>
               <div class="unique-box">
                 <img src="./src/images/commercial-success/unique-6.svg" alt="" class="unique-icon">
-                <p class="unique-heading tumeric-yellow">Citi</p>
+                <p class="unique-heading tumeric-yellow">Digital Banking</p>
                 <p class="unique-text">Expertise in introducing digitalization of services</p>
                 <button class="unique-btn tumeric-yellow">Learn more&nbsp;&nbsp;<i class="fa fa-angle-right tumeric-yellow"></i></button>
               </div>
@@ -261,8 +268,8 @@
             <div class="unique-row">
               <div class="unique-box">
                 <img src="./src/images/commercial-success/unique-7.svg" alt="" class="unique-icon">
-                <p class="unique-heading tumeric-yellow">XR</p>
-                <p class="unique-text">Arium - Thoughtworks homegrown tool for Test Automation for XR.</p>
+                <p class="unique-heading tumeric-yellow">SunCorp</p>
+                <p class="unique-text">Digital Transformation partnership</p>
                 <button class="unique-btn">Learn more&nbsp;&nbsp;<i class="fa fa-angle-right tumeric-yellow"></i></button>
               </div>
               <div class="unique-box">
@@ -281,33 +288,42 @@
           </section>
           <hr class="section-separator">
 
-          <section class="twi-growth" id="twi-growth">
-            <h2 class="growth-main-heading">
-              Significant growth in India Market
-            </h2>
+        <section class="twi-growth" id="twi-growth">
+          <h2 class="growth-main-heading">
+            Significant growth in India Market
+          </h2>
 
-            <div id="chart-container"></div>
-            <p class="chart-footer">2022-July YTD</p>
-            <p class="growth-discription"><b>Consistently increasing Average Headcount</b> with 3000+ total FTE’s.</p>
-            <p class="growth-discription"><b>60% of top 20 TW accounts</b> by size have India presence</p>
-            
-            <div class="growth-container">
+          <div id="chart-container"></div>
+          <p class="chart-footer">2022-July YTD</p>
+          <p class="growth-discription"><b>Consistently increasing Average Headcount</b> with 3000+ total FTE’s.</p>
+          <p class="growth-discription"><b>60% of top 20 TW accounts</b> by size have India presence</p>
+          <p class="growth-discription">Our <b>long term partnership</b> with accounts such as McKinsey, Kroger,
+            Adhar/UIDAI are a key to the impact in revenue growth</p>
+          <p class="growth-discription">It has taken as 10 years for us to move from 1mn to 6mn; and 2 years to move
+            from 6 to 12mn</p>
+          <p class="growth-discription"><b>33% growth in India market with India market</b> contribution moving up
+            significantly: 2018 - 5.5M, 2019 - 20M, 2020-35.7 M, 2021- 52,8M</p>
+
+          <div class="growth-container">
             <article>
-              <img src="./src/images/commercial-success/axis-bank.png" alt="" class="twi-growth-img">
-              <p class="growth-heading">Lorem ipsum dolor sit amet</p>
-              <button class="learn-more" id="axis-learn-more">Learn more&nbsp;&nbsp;<i class="fa fa-angle-right tumeric-yellow"></i></button>
+              <img src="./src/images/commercial-success/axis-bank.svg" alt="" class="twi-growth-img">
+              <p class="growth-heading">Digital platform to reimagine customer engagement</p>
+              <button class="learn-more" id="axis-learn-more">Learn more&nbsp;&nbsp;<i
+                  class="fa fa-angle-right tumeric-yellow"></i></button>
             </article>
             <img src="./src/images/commercial-success/growth-split.png" alt="" class="growth-split">
             <article>
-              <img src="./src/images/commercial-success/falabella.png" alt="" class="twi-growth-img">
-              <p class="growth-heading">350k USD in 2018 to ####</p>
-              <button class="learn-more" id="falabella-learn-more">Learn more&nbsp;&nbsp;<i class="fa fa-angle-right tumeric-yellow"></i></button>
+              <img src="./src/images/commercial-success/falabella.svg" alt="" class="twi-growth-img">
+              <p class="growth-heading">Delivering a blueprint and roadmap to create a customer retail platform</p>
+              <button class="learn-more" id="falabella-learn-more">Learn more&nbsp;&nbsp;<i
+                  class="fa fa-angle-right tumeric-yellow"></i></button>
             </article>
             <img src="./src/images/commercial-success/growth-split.png" alt="" class="growth-split">
             <article>
-              <img src="./src/images/commercial-success/idfc-first-bank.png" alt="" class="twi-growth-img">
-              <p class="growth-heading">Lorem ipsum dolor sit amet</p>
-              <button class="learn-more" id="idfc-learn-more">Learn more&nbsp;&nbsp;<i class="fa fa-angle-right tumeric-yellow"></i></button>
+              <img src="./src/images/commercial-success/idfc-first.svg" alt="" class="twi-growth-img">
+              <p class="growth-heading">Digital-first strategy and cloud-based hyper-personalization platform</p>
+              <button class="learn-more" id="idfc-learn-more">Learn more&nbsp;&nbsp;<i
+                  class="fa fa-angle-right tumeric-yellow"></i></button>
             </article>
           </div>
   
@@ -319,6 +335,8 @@
             <img src="./src/images/commercial-success/domain-1.svg" alt="" class="domain-img">
             <img src="./src/images/commercial-success/domain-2.svg" alt="" class="domain-img">
             <img src="./src/images/commercial-success/domain-3.svg" alt="" class="domain-img">
+            <img src="./src/images/commercial-success/domain-4.svg" alt="" class="domain-img">
+            <img src="./src/images/commercial-success/domain-5.svg" alt="" class="domain-img">
           </section>
           <hr class="section-separator">
           
@@ -441,278 +459,320 @@
       </div>
     </section>
 
-    <section id="vibrant-community" class="screen">
-      <div class="back-icon-button" id="back-icon-button">
-        <div class="back-button">
-          <img src="./src/images/vibrant-community/back-icon.svg" alt="" class="back-icon" />
-        </div>
-        <span class="back-label">Back</span>
+  <section id="vibrant-community" class="screen">
+    <div class="back-icon-button" id="back-icon-button">
+      <div class="back-button">
+        <img src="./src/images/vibrant-community/back-icon.svg" alt="" class="back-icon" />
       </div>
-      <div class="container">
-        <div class="description">
-          <img src="./src/images/vibrant-community/index.svg" alt="" class="description-image">
-          <h1>
-            Foster a <span class="jade-green">vibrant community</span> of diverse and passionate technologists
-          </h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="timeline">
-          <div class='steps' id='steps'>
+      <span class="back-label">Back</span>
+    </div>
+    <div class="container">
+      <div class="description">
+        <img src="./src/images/vibrant-community/index.svg" alt="" class="description-image">
+        <h1>
+          Foster a <span class="jade-green">vibrant community</span> of diverse and passionate technologists
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam</p>
+      </div>
+      <div class="timeline">
+        <div class='steps' id='steps'>
 
-            <div class='step completed'>
-              <div class='number'>1</div>
-                <p class='title'>STEP</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-1.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>2</div>
-                <p class='title'>Lumos</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-2.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>3</div>
-                <p class='title'>Onboarding</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-3.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>4</div>
-                <p class='title'>Talent</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-4.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>5</div>
-                <p class='title'>Culture</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-5.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>6</div>
-              <p class='title'>Cultivation</a></p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-6.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
-            </div>
-            
+          <div class='step completed'>
+            <div class='number'>1</div>
+            <p class='title'>STEP</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-1.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
           </div>
-        </div>
-        <div class="main-content">
-          
-        </div>
-      </div>
-    </section>
 
-    <section id="positive-social-change" class="screen">
-      <div class="back-icon-button" id="back-icon-button">
-        <div class="back-button">
-          <img src="./src/images/positive-social-change/back-icon.svg" alt="" class="back-icon" />
-        </div>
-        <span class="back-label">Back</span>
-      </div>
-      <div class="container">
-        <div class="description">
-          <img src="./src/images/positive-social-change/index.svg" alt="" class="description-image">
-          <h1>
-            Amplify <span class="flamingo-pink">positive social change</span> and advocate for an equitable tech future
-          </h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="timeline">
-          <div class='steps' id='steps'>
-
-            <div class='step completed'>
-              <div class='number'>1</div>
-                <p class='title'>Bahmni</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-1.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/positive-social-change/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>2</div>
-                <p class='title'>DPG</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-2.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/positive-social-change/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>3</div>
-                <p class='title'>Cool & complex projects from India</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-3.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/positive-social-change/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>4</div>
-                <p class='title'>Tech and domain led programs</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-4.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/positive-social-change/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>5</div>
-                <p class='title'>Innovative solutions using Emerging Tech</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-5.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/positive-social-change/timeline-arrow.svg'>
-            </div>
-            
+          <div class='step'>
+            <div class='number'>2</div>
+            <p class='title'>Lumos</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-2.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
           </div>
-        </div>
-        <div class="main-content">
-          
-        </div>
-      </div>
-    </section>
 
-    <section id="awesome-partner" class="screen">
-      <div class="back-icon-button" id="back-icon-button">
-        <div class="back-button">
-          <img src="./src/images/awesome-partner/back-icon.svg" alt="" class="back-icon" />
-        </div>
-        <span class="back-label">Back</span>
-      </div>
-      <div class="container">
-        <div class="description">
-          <img src="./src/images/awesome-partner/index.svg" alt="" class="description-image">
-          <h1>
-            Be an <span class="amethyst-purple">awesome partner</span> for our clients and their ambitious missions
-          </h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-        <div class="timeline">
-          <div class='steps' id='steps'>
-
-            <div class='step completed'>
-              <div class='number'>1</div>
-                <p class='title'>STEP</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-1.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>2</div>
-                <p class='title'>Lumos</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-2.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>3</div>
-                <p class='title'>Onboarding</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-3.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>4</div>
-                <p class='title'>Talent</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-4.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>5</div>
-                <p class='title'>Culture</p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-5.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
-            </div>
-
-            <div class='step'>
-              <div class='number'>6</div>
-              <p class='title'>Cultivation</a></p>
-                <object type="image/svg+xml" data="src/images/commercial-success/timeline-6.svg" class="timeline-img"></object>
-                <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
-            </div>
-            
+          <div class='step'>
+            <div class='number'>3</div>
+            <p class='title'>Onboarding</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-3.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
           </div>
-        </div>
-        <div class="main-content">
-          
+
+          <div class='step'>
+            <div class='number'>4</div>
+            <p class='title'>Talent</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-4.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>5</div>
+            <p class='title'>Culture</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-5.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>6</div>
+            <p class='title'>Cultivation</a></p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-6.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/vibrant-community/timeline-arrow.svg'>
+          </div>
+
         </div>
       </div>
-    </section>
+      <div class="main-content">
+
+      </div>
+    </div>
+  </section>
+
+  <section id="positive-social-change" class="screen">
+    <div class="back-icon-button" id="back-icon-button">
+      <div class="back-button">
+        <img src="./src/images/positive-social-change/back-icon.svg" alt="" class="back-icon" />
+      </div>
+      <span class="back-label">Back</span>
+    </div>
+    <div class="container">
+      <div class="description">
+        <img src="./src/images/positive-social-change/index.svg" alt="" class="description-image">
+        <h1>
+          Amplify <span class="flamingo-pink">positive social change</span> and advocate for an equitable tech future
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam</p>
+      </div>
+      <div class="timeline">
+        <div class='steps' id='steps'>
+
+          <div class='step completed'>
+            <div class='number'>1</div>
+            <p class='title'>Bahmni</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-1.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/positive-social-change/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>2</div>
+            <p class='title'>DPG</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-2.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/positive-social-change/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>3</div>
+            <p class='title'>Cool & complex projects from India</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-3.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/positive-social-change/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>4</div>
+            <p class='title'>Tech and domain led programs</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-4.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/positive-social-change/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>5</div>
+            <p class='title'>Innovative solutions using Emerging Tech</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-5.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/positive-social-change/timeline-arrow.svg'>
+          </div>
+
+        </div>
+      </div>
+      <div class="main-content">
+
+      </div>
+    </div>
+  </section>
+
+  <section id="awesome-partner" class="screen">
+    <div class="back-icon-button" id="back-icon-button">
+      <div class="back-button">
+        <img src="./src/images/awesome-partner/back-icon.svg" alt="" class="back-icon" />
+      </div>
+      <span class="back-label">Back</span>
+    </div>
+    <div class="container">
+      <div class="description">
+        <img src="./src/images/awesome-partner/index.svg" alt="" class="description-image">
+        <h1>
+          Be an <span class="amethyst-purple">awesome partner</span> for our clients and their ambitious missions
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam</p>
+      </div>
+      <div class="timeline">
+        <div class='steps' id='steps'>
+
+          <div class='step completed'>
+            <div class='number'>1</div>
+            <p class='title'>STEP</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-1.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>2</div>
+            <p class='title'>Lumos</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-2.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>3</div>
+            <p class='title'>Onboarding</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-3.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>4</div>
+            <p class='title'>Talent</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-4.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>5</div>
+            <p class='title'>Culture</p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-5.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
+          </div>
+
+          <div class='step'>
+            <div class='number'>6</div>
+            <p class='title'>Cultivation</a></p>
+            <object type="image/svg+xml" data="src/images/commercial-success/timeline-6.svg"
+              class="timeline-img"></object>
+            <img class='timeline-arrow' src='src/images/awesome-partner/timeline-arrow.svg'>
+          </div>
+
+        </div>
+      </div>
+      <div class="main-content">
+
+      </div>
+    </div>
+  </section>
 
 
-    <section id="popup">
-      <div class="journey-popup" id="journey-popup">
-        <button class="arrows left-arrow" id="journey-left-arrow">
-          <i class="fa fa-angle-left" aria-hidden="true"></i>
-        </button>
-        <button class="arrows right-arrow enable" id="journey-right-arrow">
-          <i class="fa fa-angle-right" aria-hidden="true"></i>
-        </button>
-        <img src="./src/images/popup/close.svg" alt="close" class="close-icon close-popup">
-        <div class="popup-content">
-          <h2 class="popup-heading">A brief history of Thoughtworks India</h2>
-          <div class="journey-images" id="journey-images">
-            <img src="./src/images/popup/journey-1.svg" alt="" class="journey-img-1">
-            <img src="./src/images/popup/journey-2.svg" alt="" class="journey-img-2">
-          </div>
+  <section id="popup">
+    <div class="journey-popup" id="journey-popup">
+      <button class="arrows left-arrow" id="journey-left-arrow">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+      </button>
+      <button class="arrows right-arrow enable" id="journey-right-arrow">
+        <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </button>
+      <img src="./src/images/popup/close.svg" alt="close" class="close-icon close-popup">
+      <div class="popup-content">
+        <h2 class="popup-heading">A brief history of Thoughtworks India</h2>
+        <div class="journey-images" id="journey-images">
+          <img src="./src/images/popup/journey-1.svg" alt="" class="journey-img-1">
+          <img src="./src/images/popup/journey-2.svg" alt="" class="journey-img-2">
         </div>
       </div>
-      <div class="e4r-popup" id="e4r-popup">
-        <button class="arrows left-arrow" id="e4r-left-arrow">
-          <i class="fa fa-angle-left" aria-hidden="true"></i>
-        </button>
-        <button class="arrows right-arrow enable" id="e4r-right-arrow">
-          <i class="fa fa-angle-right" aria-hidden="true"></i>
-        </button>
-        <img src="./src/images/popup/close.svg" alt="close" class="close-icon close-popup">
-        <div class="popup-content">
-          <h2 class="popup-heading">A brief history of Thoughtworks India</h2>
-          <div class="e4r-images" id="e4r-images">
-            <img src="./src/images/popup/e4r-1.svg" alt="" class="e4r-img-1">
-            <img src="./src/images/popup/e4r-2.svg" alt="" class="e4r-img-2">
-          </div>
+    </div>
+    <div class="e4r-popup" id="e4r-popup">
+      <button class="arrows left-arrow" id="e4r-left-arrow">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+      </button>
+      <button class="arrows right-arrow enable" id="e4r-right-arrow">
+        <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </button>
+      <img src="./src/images/popup/close.svg" alt="close" class="close-icon close-popup">
+      <div class="popup-content">
+        <h2 class="popup-heading">A brief history of Thoughtworks India</h2>
+        <div class="e4r-images" id="e4r-images">
+          <img src="./src/images/popup/e4r-1.svg" alt="" class="e4r-img-1">
+          <img src="./src/images/popup/e4r-2.svg" alt="" class="e4r-img-2">
         </div>
       </div>
+    </div>
 
-      <div class="growth-popup" id="axis-popup">
-        <img src="./src/images/popup/close.svg" alt="close" class="close-icon close-popup">
-        <div class="popup-content">
-          <div class="popup-growth-content">
-            <img src="./src/images/commercial-success/axis-bank.png" alt="" class="twi-growth-img">
-            <h2 class="growth-heading">Financial Services</h2>
-            <p class="sub-heading">Platform Approach led to Increase Digital Lending & Product Innovation</p>
-            <p class="popup-text">The bank wanted to create a unified and high-performing platform that would provide an integrated view of the entire retail portfolio while bringing all stakeholders on the same page to infuse the nimbleness of a digital-native fintech company into their legacy banking systems.</p>
-            <p class="popup-text">We partnered with Axis to develop a rich LOS platform with e2e integration with existing systems with New/Reimagined customer journeys. As a result of which they experienced 44% growth in loan disbursement and 75% faster time to market.</p>
-            <div id="axis-chart-container"></div>
-          </div>
+    <div class="growth-popup" id="axis-popup">
+      <img src="./src/images/popup/close.svg" alt="close" class="close-icon close-popup">
+      <div class="popup-content">
+        <div class="popup-growth-content">
+          <img src="./src/images/commercial-success/axis-bank.svg" alt="" class="twi-growth-img">
+          <h2 class="growth-heading">Financial Services</h2>
+          <p class="sub-heading">Platform Approach led to Increase Digital Lending & Product Innovation</p>
+          <p class="popup-text">The bank wanted to create a unified and high-performing platform that would provide an
+            integrated view of the entire retail portfolio while bringing all stakeholders on the same page to infuse
+            the nimbleness of a digital-native fintech company into their legacy banking systems.</p>
+          <p class="popup-text">We partnered with Axis to develop a rich LOS platform with e2e integration with existing
+            systems with New/Reimagined customer journeys. As a result of which they experienced 44% growth in loan
+            disbursement and 75% faster time to market.</p>
+          <div id="axis-chart-container"></div>
         </div>
       </div>
-      <div class="growth-popup" id="falabella-popup">
-        <img src="./src/images/popup/close.svg" alt="close" class="close-icon close-popup">
-        <div class="popup-content">
-          <div class="popup-growth-content">
-            <img src="./src/images/commercial-success/falabella.png" alt="" class="twi-growth-img">
-            <h2 class="growth-heading">Retail</h2>
-            <p class="popup-text">In 2018, we helped them kickoff their transformation journey with a consulting engagement delivering a blueprint and roadmap to create a customer retail platform. Since then, we have partnered with them to on multiple programmes including custom eCommerce platform, Marketplace, Custom POS, and Logistics. And recently we converted an opportunity with their Finance business, to work on Payments.</p>
-            <p class="popup-text">We have started Business Agility program in 2021 to help them evolve their operating model better suited for a digital business (MDB).</p>
-            <p class="popup-text">This has helped accelerate their adoption of emerging touch points and operating models(like marketplace) of future and potentially open up additional non-linear streams of revenue</p>
-            <div id="falabella-chart-container"></div>
-          </div>
+    </div>
+    <div class="growth-popup" id="falabella-popup">
+      <img src="./src/images/popup/close.svg" alt="close" class="close-icon close-popup">
+      <div class="popup-content">
+        <div class="popup-growth-content">
+          <img src="./src/images/commercial-success/falabella.svg" alt="" class="twi-growth-img">
+          <h2 class="growth-heading">Retail</h2>
+          <p class="popup-text">In 2018, we helped them kickoff their transformation journey with a consulting
+            engagement delivering a blueprint and roadmap to create a customer retail platform. Since then, we have
+            partnered with them to on multiple programmes including custom eCommerce platform, Marketplace, Custom POS,
+            and Logistics. And recently we converted an opportunity with their Finance business, to work on Payments.
+          </p>
+          <p class="popup-text">We have started Business Agility program in 2021 to help them evolve their operating
+            model better suited for a digital business (MDB).</p>
+          <p class="popup-text">This has helped accelerate their adoption of emerging touch points and operating
+            models(like marketplace) of future and potentially open up additional non-linear streams of revenue</p>
+          <div id="falabella-chart-container"></div>
         </div>
       </div>
-      <div class="growth-popup" id="idfc-popup">
-        <img src="./src/images/popup/close.svg" alt="close" class="close-icon close-popup">
-        <div class="popup-content">
-          <div class="popup-growth-content">
-            <img src="./src/images/commercial-success/idfc-first-bank.png" alt="" class="twi-growth-img">
-            <h2 class="growth-heading">Financial Services</h2>
-            <p class="popup-text">The bank aims to leverage technology to meet its stated vision, exponentially expand its capability & reach, and compete with industry incumbents. Thoughtworks Implemented digital-first strategy and developed a cloud-based hyper-personalization platform to define customer DNA for a differentiated experience. Released 650+ features covering essential banking services leading to one-click customer onboarding (reduced from 2 days to real-time) and made IDFC FIRST the first Indian bank to do weekly releases.</p>
-            <div id="idfc-chart-container"></div>
-          </div>
+    </div>
+    <div class="growth-popup" id="idfc-popup">
+      <img src="./src/images/popup/close.svg" alt="close" class="close-icon close-popup">
+      <div class="popup-content">
+        <div class="popup-growth-content">
+          <img src="./src/images/commercial-success/idfc-first.svg" alt="" class="twi-growth-img">
+          <h2 class="growth-heading">Financial Services</h2>
+          <p class="popup-text">The bank aims to leverage technology to meet its stated vision, exponentially expand its
+            capability & reach, and compete with industry incumbents. Thoughtworks Implemented digital-first strategy
+            and developed a cloud-based hyper-personalization platform to define customer DNA for a differentiated
+            experience. Released 650+ features covering essential banking services leading to one-click customer
+            onboarding (reduced from 2 days to real-time) and made IDFC FIRST the first Indian bank to do weekly
+            releases.</p>
+          <div id="idfc-chart-container"></div>
         </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>

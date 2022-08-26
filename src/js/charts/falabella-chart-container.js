@@ -9,7 +9,7 @@ Highcharts.chart('falabella-chart-container', {
     zoomType: 'xy',
     marginTop: 50,
     height: 360,
-    width: 920,
+    width: 950,
     backgroundColor: 'white',
   },
   title: {
