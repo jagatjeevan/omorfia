@@ -221,10 +221,11 @@
   display: flex;
   justify-content: center;
   color: #003d4f;
+  font-family: var(--font-family-inter);
   font-size: 14px;
   font-weight: 600;
   width: 20%;
-
+  padding: 10px;
   align-items: center;
 }
 
@@ -236,16 +237,16 @@
 }
 
 .nav-2 {
-  width: 200px;
+  width: 224px;
 }
 
 .nav-3 {
 }
 
 .nav-4 {
-  width: 183px;
+  width: 187px;
 }
 
 .nav-5 {
-  width: 244px;
+  width: 240px;
 }
