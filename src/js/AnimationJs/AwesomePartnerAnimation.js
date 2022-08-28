@@ -24,18 +24,6 @@ export const loadAwesomePartner = () => {
     .delay(2.3);
   gsap
     .fromTo(
-      '.nav-4',
-      {},
-      {
-        duration: 1,
-        backgroundColor: '#634F7D',
-        color: 'white',
-        height: '56px',
-      },
-    )
-    .delay(1.3);
-  gsap
-    .fromTo(
       '.description',
       {
         duration: 1,
@@ -78,19 +66,6 @@ export const exitAwesomePartner = () => {
       opacity: 0,
     },
   );
-  gsap
-  .fromTo(
-    '.nav-4',
-    {
-    },
-    {
-      duration: 1,
-      backgroundColor: '#ffffff',
-      color: '#003d4f',
-      height: '56px',
-    },
-  )
-  .delay(1.3);
 
   setTimeout(() => {
     $('#awesome-partner').css({

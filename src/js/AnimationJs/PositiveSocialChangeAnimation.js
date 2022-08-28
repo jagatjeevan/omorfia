@@ -24,18 +24,6 @@ export const loadPositiveSocialChange = () => {
     .delay(2.3);
   gsap
     .fromTo(
-      '.nav-1',
-      {},
-      {
-        duration: 1,
-        backgroundColor: '#F2617A',
-        color: 'white',
-        height: '56px',
-      },
-    )
-    .delay(1.3);
-  gsap
-    .fromTo(
       '.description',
       {
         duration: 1,
@@ -78,19 +66,6 @@ export const exitPositiveSocialChange = () => {
       opacity: 0,
     },
   );
-  gsap
-  .fromTo(
-    '.nav-1',
-    {
-    },
-    {
-      duration: 1,
-      backgroundColor: '#ffffff',
-      color: '#003d4f',
-      height: '56px',
-    },
-  )
-  .delay(1.3);
 
   setTimeout(() => {
     $('#positive-social-change').css({

@@ -27,6 +27,22 @@ $('#nav-5').on('click', () => pageTransition('revolutionizeTech'));
 $('.back-icon-button').on('click', backPageTransition);
 
 loadScreen1();
+gsap
+  .fromTo(
+    `.nav-screen1`,
+    {
+      height: '0px',
+      backgroundColor: 'white',
+      color: '#003d50',
+    },
+    {
+      duration: 1.3,
+      backgroundColor: '#003d50',
+      color: 'white',
+      height: '56px',
+    },
+  )
+  .delay(0.3);
 
 // Timeline
 const timelineTitle = document.querySelectorAll('.title');

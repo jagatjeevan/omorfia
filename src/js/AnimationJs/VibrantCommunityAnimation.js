@@ -24,18 +24,6 @@ export const loadVibrantCommunity = () => {
     .delay(2.3);
   gsap
     .fromTo(
-      '.nav-3',
-      {},
-      {
-        duration: 1,
-        backgroundColor: '#6B9E78',
-        color: 'white',
-        height: '56px',
-      },
-    )
-    .delay(1.3);
-  gsap
-    .fromTo(
       '.description',
       {
         duration: 1,
@@ -78,19 +66,6 @@ export const exitVibrantCommunity = () => {
       opacity: 0,
     },
   );
-  gsap
-    .fromTo(
-      '.nav-3',
-      {
-      },
-      {
-        duration: 1,
-        backgroundColor: '#ffffff',
-        color: '#003d4f',
-        height: '56px',
-      },
-    )
-    .delay(1.3);
 
   setTimeout(() => {
     $('#vibrant-community').css({

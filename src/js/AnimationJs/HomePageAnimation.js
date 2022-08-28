@@ -29,29 +29,6 @@ export const loadScreen1 = () => {
     .delay(1);
   gsap
     .fromTo(
-      '.nav-0',
-      {},
-      {
-        duration: 1.3,
-        color: 'white',
-        backgroundColor: '#003d4f',
-        height: '56px',
-      },
-    )
-    .delay(0.3);
-  gsap
-    .fromTo(
-      '.nav-1, .nav-2, .nav-3, .nav-4, .nav-5',
-      {},
-      {
-        duration: 0.1,
-        backgroundColor: 'white',
-        color: '#003d4f',
-      },
-    )
-    .delay(0.3);
-  gsap
-    .fromTo(
       '.background-image',
       {
         opacity: 0,
@@ -271,17 +248,6 @@ export const exitScreen1 = (nextPage) => {
         left: '-104.9%',
         width: '8%',
         top: '-0.3%',
-      },
-    )
-    .delay(1.3);
-  gsap
-    .fromTo(
-      '.nav-0',
-      {},
-      {
-        duration: 1,
-        backgroundColor: 'white',
-        color: '#003d4f',
       },
     )
     .delay(1.3);

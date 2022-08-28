@@ -24,18 +24,6 @@ export const loadCommercialSuccess = () => {
     .delay(2.3);
   gsap
     .fromTo(
-      '.nav-2',
-      {},
-      {
-        duration: 1,
-        backgroundColor: '#cc850a',
-        color: 'white',
-        height: '56px',
-      },
-    )
-    .delay(1.3);
-  gsap
-    .fromTo(
       '.description',
       {
         duration: 1,
@@ -78,19 +66,6 @@ export const exitCommercialSuccess = () => {
       opacity: 0,
     },
   );
-  gsap
-  .fromTo(
-    '.nav-2',
-    {
-    },
-    {
-      duration: 1,
-      backgroundColor: '#ffffff',
-      color: '#003d4f',
-      height: '56px',
-    },
-  )
-  .delay(1.3);
 
   setTimeout(() => {
     $('#commercial-success').css({
