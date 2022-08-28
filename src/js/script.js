@@ -9,46 +9,22 @@ import {
 import { backPageTransition, pageTransition } from './AnimationJs/PageTransitions.js';
 
 // Why-Wheel Page Transitions
-$('.commercial-success-clickable').on('click', () => {
-  pageTransition('commercialSuccess');
-});
-$('.revolutionize-tech-clickable').on('click', () => {
-  pageTransition('revolutionizeTech');
-});
-$('.vibrant-community-clickable').on('click', () => {
-  pageTransition('vibrantCommunity');
-});
-$('.positive-social-change-clickable').on('click', () => {
-  pageTransition('positiveSocialChange');
-});
-$('.awesome-partner-clickable').on('click', () => {
-  pageTransition('awesomePartner');
-});
+$('.commercial-success-clickable').on('click', () => pageTransition('commercialSuccess'));
+$('.revolutionize-tech-clickable').on('click', () => pageTransition('revolutionizeTech'));
+$('.vibrant-community-clickable').on('click', () => pageTransition('vibrantCommunity'));
+$('.positive-social-change-clickable').on('click', () => pageTransition('positiveSocialChange'));
+$('.awesome-partner-clickable').on('click', () => pageTransition('awesomePartner'));
 
 // Navigation Page Transitions
-$('#nav-0').on('click', () => {
-  pageTransition('screen1');
-});
-$('#nav-1').on('click', () => {
-  pageTransition('positiveSocialChange');
-});
-$('#nav-2').on('click', () => {
-  pageTransition('commercialSuccess');
-});
-$('#nav-3').on('click', () => {
-  pageTransition('vibrantCommunity');
-});
-$('#nav-4').on('click', () => {
-  pageTransition('awesomePartner');
-});
-$('#nav-5').on('click', () => {
-  pageTransition('revolutionizeTech');
-});
+$('#nav-0').on('click', () => pageTransition('screen1'));
+$('#nav-1').on('click', () => pageTransition('positiveSocialChange'));
+$('#nav-2').on('click', () => pageTransition('commercialSuccess'));
+$('#nav-3').on('click', () => pageTransition('vibrantCommunity'));
+$('#nav-4').on('click', () => pageTransition('awesomePartner'));
+$('#nav-5').on('click', () => pageTransition('revolutionizeTech'));
 
 // Back Button Page Transitions
-$('.back-icon-button').on('click', () => {
-  backPageTransition();
-});
+$('.back-icon-button').on('click', backPageTransition);
 
 loadScreen1();
 
@@ -113,15 +89,8 @@ $('#idfc-learn-more').on('click', () => open2Popup('idfc'));
 $('#unique-e4r').on('click', () => open2Popup('e4r'));
 $('#unique-gdo').on('click', () => open2Popup('gdo'));
 $('#unique-gic').on('click', () => open2Popup('gic'));
-$('#journey-left-arrow').on('click', change2PopupPage);
-$('#journey-right-arrow').on('click', change2PopupPage);
-$('#e4r-left-arrow').on('click', change2PopupPage);
-$('#e4r-right-arrow').on('click', change2PopupPage);
-$('#gdo-left-arrow').on('click', change2PopupPage);
-$('#gdo-right-arrow').on('click', change2PopupPage);
-$('#gic-left-arrow').on('click', change2PopupPage);
-$('#gic-right-arrow').on('click', change2PopupPage);
-$('.close-popup').on('click', close2Popup);
+$('.arrow-2-page').on('click', change2PopupPage);
+$('.close-2-popup').on('click', close2Popup);
 
 // 3 page popup
 $('#healthcare-domain').on('click', () => open3Popup('healthcare-domain'));
