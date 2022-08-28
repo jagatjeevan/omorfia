@@ -37,7 +37,7 @@ const loadNewPage = () => {
   if (newPage === 'revolutionizeTech') loadRevolutionizeTech();
 };
 
-export const pageTransition = (newPageName) => {
+export const pageTransition = (newPageName, isBackButton) => {
   if (currentPage === newPageName) return;
 
   newPage = newPageName;
@@ -45,7 +45,14 @@ export const pageTransition = (newPageName) => {
   if (currentPage === 'screen1') exitScreen1Page();
   else exitPages();
 
+  if (!isBackButton) previousPages.push(currentPage);
   currentPage = newPageName;
 
   loadNewPage();
+};
+
+export const backPageTransition = () => {
+  var lastPage = previousPages.pop();
+
+  pageTransition(lastPage, true);
 };

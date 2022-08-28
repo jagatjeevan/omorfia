@@ -6,7 +6,7 @@ import {
   open3Popup,
   scroll3Popup,
 } from './popup/three-page-actions.js';
-import { pageTransition } from './AnimationJs/PageTransitions.js';
+import { backPageTransition, pageTransition } from './AnimationJs/PageTransitions.js';
 
 // Why-Wheel Page Transitions
 $('.commercial-success-clickable').on('click', () => {
@@ -47,7 +47,7 @@ $('#nav-5').on('click', () => {
 
 // Back Button Page Transitions
 $('.back-icon-button').on('click', () => {
-  pageTransition('screen1');
+  backPageTransition();
 });
 
 loadScreen1();
