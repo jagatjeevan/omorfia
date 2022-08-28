@@ -47,10 +47,21 @@
     height: 77vh;
   }
   .healthcare-domain-images {
-    width: 300%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex: none;
+    width: 100%;
     height: 77vh;
-    padding: 0px 0% 0 0%;
-    transition: 0.5s;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
     margin-top: 30px;
+    scroll-behavior: smooth;
+  }
+  .healthcare-domain-images > img {
+    scroll-snap-align: center;
+    flex: none;
+    width: 100%;
+    height: 77vh;
   }
 }

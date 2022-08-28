@@ -17,7 +17,12 @@ import {
   loadPositiveSocialChange,
 } from './AnimationJs/PositiveSocialChangeAnimation.js';
 import { exitAwesomePartner, loadAwesomePartner } from './AnimationJs/AwesomePartnerAnimation.js';
-import { change3PopupPage, close3Popup, open3Popup } from './popup/three-page-actions.js';
+import {
+  change3PopupPage,
+  close3Popup,
+  open3Popup,
+  scroll3Popup,
+} from './popup/three-page-actions.js';
 
 var currentPage = 'screen1';
 var previousPages = [];
@@ -67,6 +72,7 @@ $('.back-icon-button').on('click', () => {
   exitAwesomePartner();
   loadScreen1();
   close2Popup();
+  close3Popup();
 });
 
 $('#nav-0').on('click', () => {
@@ -80,6 +86,7 @@ $('#nav-0').on('click', () => {
   exitAwesomePartner();
   loadScreen1();
   close2Popup();
+  close3Popup();
 });
 $('#nav-1').on('click', () => {
   if (currentPage === 'positive-social-change') return;
@@ -215,3 +222,6 @@ $('#healthcare-domain').on('click', () => open3Popup('healthcare-domain'));
 $('#healthcare-domain-left-arrow').on('click', () => change3PopupPage('left'));
 $('#healthcare-domain-right-arrow').on('click', () => change3PopupPage('right'));
 $('.close-3-popup').on('click', close3Popup);
+
+// Popup scroll
+$('#healthcare-domain-images').scroll(scroll3Popup);
