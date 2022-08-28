@@ -1,147 +1,53 @@
-import { loadScreen1, exitScreen1 } from './AnimationJs/HomePageAnimation.js';
-import {
-  loadCommercialSuccess,
-  exitCommercialSuccess,
-} from './AnimationJs/CommercialSuccessAnimation.js';
+import { loadScreen1 } from './AnimationJs/HomePageAnimation.js';
 import { change2PopupPage, close2Popup, open2Popup } from './popup/two-page-actions.js';
-import {
-  exitRevolutionizeTech,
-  loadRevolutionizeTech,
-} from './AnimationJs/RevolutionizeTechAnimation copy.js';
-import {
-  exitVibrantCommunity,
-  loadVibrantCommunity,
-} from './AnimationJs/VibrantCommunityAnimation.js';
-import {
-  exitPositiveSocialChange,
-  loadPositiveSocialChange,
-} from './AnimationJs/PositiveSocialChangeAnimation.js';
-import { exitAwesomePartner, loadAwesomePartner } from './AnimationJs/AwesomePartnerAnimation.js';
 import {
   change3PopupPage,
   close3Popup,
   open3Popup,
   scroll3Popup,
 } from './popup/three-page-actions.js';
+import { pageTransition } from './AnimationJs/PageTransitions.js';
 
-var currentPage = 'screen1';
-var previousPages = [];
-
+// Why-Wheel Page Transitions
 $('.commercial-success-clickable').on('click', () => {
-  previousPages.push(currentPage);
-  currentPage = 'commercial-success';
-
-  exitScreen1('commercialSuccess');
-  loadCommercialSuccess();
+  pageTransition('commercialSuccess');
 });
 $('.revolutionize-tech-clickable').on('click', () => {
-  previousPages.push(currentPage);
-  currentPage = 'revolutionize-tech';
-
-  exitScreen1('revolutionizeTech');
-  loadRevolutionizeTech();
+  pageTransition('revolutionizeTech');
 });
 $('.vibrant-community-clickable').on('click', () => {
-  previousPages.push(currentPage);
-  currentPage = 'vibrant-community';
-
-  exitScreen1('vibrantCommunity');
-  loadVibrantCommunity();
+  pageTransition('vibrantCommunity');
 });
 $('.positive-social-change-clickable').on('click', () => {
-  previousPages.push(currentPage);
-  currentPage = 'positive-social-change';
-
-  exitScreen1('positiveSocialChange');
-  loadPositiveSocialChange();
+  pageTransition('positiveSocialChange');
 });
 $('.awesome-partner-clickable').on('click', () => {
-  previousPages.push(currentPage);
-  currentPage = 'awesome-partner';
-
-  exitScreen1('awesomePartner');
-  loadAwesomePartner();
+  pageTransition('awesomePartner');
 });
 
-$('.back-icon-button').on('click', () => {
-  currentPage = 'screen1';
-  exitCommercialSuccess();
-  exitRevolutionizeTech();
-  exitVibrantCommunity();
-  exitPositiveSocialChange();
-  exitAwesomePartner();
-  loadScreen1();
-  close2Popup();
-  close3Popup();
-});
-
+// Navigation Page Transitions
 $('#nav-0').on('click', () => {
-  if (currentPage === 'screen1') return;
-
-  currentPage = 'screen1';
-  exitCommercialSuccess();
-  exitRevolutionizeTech();
-  exitVibrantCommunity();
-  exitPositiveSocialChange();
-  exitAwesomePartner();
-  loadScreen1();
-  close2Popup();
-  close3Popup();
+  pageTransition('screen1');
 });
 $('#nav-1').on('click', () => {
-  if (currentPage === 'positive-social-change') return;
-
-  currentPage = 'positive-social-change';
-  exitScreen1('positiveSocialChange');
-  exitCommercialSuccess();
-  exitRevolutionizeTech();
-  exitAwesomePartner();
-  exitVibrantCommunity();
-  loadPositiveSocialChange();
+  pageTransition('positiveSocialChange');
 });
 $('#nav-2').on('click', () => {
-  if (currentPage === 'commercial-success') return;
-
-  currentPage = 'commercial-success';
-  exitScreen1('commercialSuccess');
-  exitPositiveSocialChange();
-  exitAwesomePartner();
-  exitRevolutionizeTech();
-  exitVibrantCommunity();
-  loadCommercialSuccess();
+  pageTransition('commercialSuccess');
 });
 $('#nav-3').on('click', () => {
-  if (currentPage === 'vibrant-community') return;
-
-  currentPage = 'vibrant-community';
-  exitScreen1('vibrantCommunity');
-  exitCommercialSuccess();
-  exitRevolutionizeTech();
-  exitPositiveSocialChange();
-  exitAwesomePartner();
-  loadVibrantCommunity();
+  pageTransition('vibrantCommunity');
 });
 $('#nav-4').on('click', () => {
-  if (currentPage === 'awesome-partner') return;
-
-  currentPage = 'awesome-partner';
-  exitScreen1('awesomePartner');
-  exitCommercialSuccess();
-  exitVibrantCommunity();
-  exitPositiveSocialChange();
-  exitRevolutionizeTech();
-  loadAwesomePartner();
+  pageTransition('awesomePartner');
 });
 $('#nav-5').on('click', () => {
-  if (currentPage === 'revolutionize-tech') return;
+  pageTransition('revolutionizeTech');
+});
 
-  currentPage = 'revolutionize-tech';
-  exitScreen1('revolutionizeTech');
-  exitCommercialSuccess();
-  exitVibrantCommunity();
-  exitAwesomePartner();
-  exitPositiveSocialChange();
-  loadRevolutionizeTech();
+// Back Button Page Transitions
+$('.back-icon-button').on('click', () => {
+  pageTransition('screen1');
 });
 
 loadScreen1();
