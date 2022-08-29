@@ -11,7 +11,7 @@ export const loadPositiveSocialChange = () => {
 
   gsap
     .fromTo(
-      '.back-icon-button',
+      'back-icon-button',
       {
         duration: 0.8,
         opacity: 0,
@@ -24,7 +24,7 @@ export const loadPositiveSocialChange = () => {
     .delay(2.3);
   gsap
     .fromTo(
-      '.description',
+      '#social-description',
       {
         duration: 1,
         x: -100,
@@ -39,7 +39,7 @@ export const loadPositiveSocialChange = () => {
     .delay(2.3);
   gsap
     .fromTo(
-      '.main-content',
+      '#social-main-content',
       {
         duration: 2.3,
         opacity: 0,
@@ -50,6 +50,19 @@ export const loadPositiveSocialChange = () => {
       },
     )
     .delay(2.3);
+  gsap
+    .fromTo(
+      '#social-timeline',
+      {
+        duration: 2,
+        opacity: 0,
+      },
+      {
+        duration: 2,
+        opacity: 1,
+      },
+    )
+    .delay(2);
 };
 
 //******************************* */

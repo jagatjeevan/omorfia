@@ -24,7 +24,7 @@ export const loadAwesomePartner = () => {
     .delay(2.3);
   gsap
     .fromTo(
-      '.description',
+      '#awesome-description',
       {
         duration: 1,
         x: -100,
@@ -39,7 +39,7 @@ export const loadAwesomePartner = () => {
     .delay(2.3);
   gsap
     .fromTo(
-      '.main-content',
+      '#awesome-main-content',
       {
         duration: 2.3,
         opacity: 0,
@@ -50,6 +50,19 @@ export const loadAwesomePartner = () => {
       },
     )
     .delay(2.3);
+  gsap
+    .fromTo(
+      '#awesome-timeline',
+      {
+        duration: 2,
+        opacity: 0,
+      },
+      {
+        duration: 2,
+        opacity: 1,
+      },
+    )
+    .delay(2);
 };
 
 //******************************* */

@@ -24,11 +24,11 @@ const exitTimeMap = {
 };
 const loadTimeMap = {
   screen1: 3500,
-  positiveSocialChange: 300,
-  commercialSuccess: 300,
-  vibrantCommunity: 300,
-  awesomePartner: 300,
-  revolutionizeTech: 300,
+  positiveSocialChange: 2000,
+  commercialSuccess: 2000,
+  vibrantCommunity: 2000,
+  awesomePartner: 2000,
+  revolutionizeTech: 2000,
 };
 
 const exitPages = () => {
