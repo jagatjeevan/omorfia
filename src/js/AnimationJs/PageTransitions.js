@@ -108,12 +108,14 @@ export const pageTransition = (newPageName, isBackButton) => {
   else exitPages();
 
   navTransitions();
-  const transitionTime = exitTimeMap[currentPage] + loadTimeMap[newPage];
+  const loadTime = currentPage === "screen1" ? 300 : loadTimeMap[newPage];
+  const transitionTime = exitTimeMap[currentPage] + loadTime;
 
   if (!isBackButton) previousPages.push(currentPage);
   currentPage = newPageName;
 
   loadNewPage();
+  $('.main-content').scrollTop(0);
 
   return transitionTime;
 };

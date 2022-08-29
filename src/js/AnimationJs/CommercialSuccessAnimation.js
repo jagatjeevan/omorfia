@@ -24,7 +24,7 @@ export const loadCommercialSuccess = () => {
     .delay(2.3);
   gsap
     .fromTo(
-      '#commercial-description',
+      '#commerical-description',
       {
         duration: 1,
         x: -100,
