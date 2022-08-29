@@ -7,6 +7,10 @@ import {
   scroll3Popup,
 } from './popup/three-page-actions.js';
 import { backPageTransition, pageTransition } from './AnimationJs/PageTransitions.js';
+import { addChart } from './charts/chart-container.js';
+import { addAxisChart } from './charts/axis-chart-container.js';
+import { addFalabellaChart } from './charts/falabella-chart-container.js';
+import { addIdfcChart } from './charts/idfc-chart-container.js';
 
 var isPageLoaded = false;
 
@@ -84,6 +88,8 @@ function activeTarget(target) {
   target.parentElement.parentElement.classList.add('completed');
 }
 
+var isGraphLoaded = false;
+addChart();
 $('#commercial-main-content').scroll(function () {
   var current = '';
   sections.forEach((section) => {
@@ -92,6 +98,12 @@ $('#commercial-main-content').scroll(function () {
     let height = section.offsetHeight;
     if (top >= offset - 60 && top <= offset + height) {
       current = section.getAttribute('id');
+      if (current === 'twi-growth' && !isGraphLoaded) {
+        addChart();
+        isGraphLoaded = true;
+      } else if (current !== 'twi-growth' && isGraphLoaded) {
+        isGraphLoaded = false;
+      }
       const target = document.querySelector(`[href='#${current}']`);
       activeTarget(target);
     }
@@ -119,9 +131,25 @@ $('#close-video').on('click', function () {
 
 // 2 page popup
 $('#explore-journey').on('click', () => open2Popup('journey'));
-$('#axis-learn-more').on('click', () => open2Popup('axis'));
-$('#falabella-learn-more').on('click', () => open2Popup('falabella'));
-$('#idfc-learn-more').on('click', () => open2Popup('idfc'));
+$('#axis-learn-more').on('click', () => {
+  open2Popup('axis');
+  setTimeout(() => {
+    addAxisChart();
+  }, 500);
+});
+$('#falabella-learn-more').on('click', () => {
+  open2Popup('falabella');
+
+  setTimeout(() => {
+    addFalabellaChart();
+  }, 500);
+});
+$('#idfc-learn-more').on('click', () => {
+  open2Popup('idfc');
+  setTimeout(() => {
+    addIdfcChart();
+  }, 500);
+});
 $('#unique-e4r').on('click', () => open2Popup('e4r'));
 $('#unique-gdo').on('click', () => open2Popup('gdo'));
 $('#unique-gic').on('click', () => open2Popup('gic'));
