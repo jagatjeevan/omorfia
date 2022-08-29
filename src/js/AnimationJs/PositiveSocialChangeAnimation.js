@@ -11,7 +11,7 @@ export const loadPositiveSocialChange = () => {
 
   gsap
     .fromTo(
-      'back-icon-button',
+      '.back-icon-button',
       {
         duration: 0.8,
         opacity: 0,
