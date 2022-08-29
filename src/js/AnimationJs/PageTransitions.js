@@ -14,6 +14,23 @@ var currentPage = 'screen1';
 var newPage;
 var previousPages = [];
 
+const exitTimeMap = {
+  screen1: 3000,
+  positiveSocialChange: 1000,
+  commercialSuccess: 1000,
+  vibrantCommunity: 1000,
+  awesomePartner: 1000,
+  revolutionizeTech: 1000,
+};
+const loadTimeMap = {
+  screen1: 3500,
+  positiveSocialChange: 300,
+  commercialSuccess: 300,
+  vibrantCommunity: 300,
+  awesomePartner: 300,
+  revolutionizeTech: 300,
+};
+
 const exitPages = () => {
   if (newPage !== 'positiveSocialChange') exitPositiveSocialChange();
   if (newPage !== 'commercialSuccess') exitCommercialSuccess();
@@ -38,7 +55,6 @@ const loadNewPage = () => {
 };
 
 const navTransitions = () => {
-  console.log(currentPage, newPage);
   const navColorMap = {
     screen1: '#003d50',
     positiveSocialChange: '#f2617a',
@@ -92,15 +108,18 @@ export const pageTransition = (newPageName, isBackButton) => {
   else exitPages();
 
   navTransitions();
+  const transitionTime = exitTimeMap[currentPage] + loadTimeMap[newPage];
 
   if (!isBackButton) previousPages.push(currentPage);
   currentPage = newPageName;
 
   loadNewPage();
+
+  return transitionTime;
 };
 
 export const backPageTransition = () => {
   var lastPage = previousPages.pop();
 
-  pageTransition(lastPage, true);
+  return pageTransition(lastPage, true);
 };

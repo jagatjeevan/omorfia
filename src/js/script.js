@@ -8,25 +8,45 @@ import {
 } from './popup/three-page-actions.js';
 import { backPageTransition, pageTransition } from './AnimationJs/PageTransitions.js';
 
+var isPageLoaded = false;
+
+const transitionOnPageLoad = (nextPage, isBackButton) => {
+  if (isPageLoaded) {
+    isPageLoaded = false;
+
+    const transitionTime = isBackButton ? backPageTransition() : pageTransition(nextPage);
+
+    setTimeout(() => {
+      isPageLoaded = true;
+    }, transitionTime);
+  }
+};
+
 // Why-Wheel Page Transitions
-$('.commercial-success-clickable').on('click', () => pageTransition('commercialSuccess'));
-$('.revolutionize-tech-clickable').on('click', () => pageTransition('revolutionizeTech'));
-$('.vibrant-community-clickable').on('click', () => pageTransition('vibrantCommunity'));
-$('.positive-social-change-clickable').on('click', () => pageTransition('positiveSocialChange'));
-$('.awesome-partner-clickable').on('click', () => pageTransition('awesomePartner'));
+$('.commercial-success-clickable').on('click', () => transitionOnPageLoad('commercialSuccess'));
+$('.revolutionize-tech-clickable').on('click', () => transitionOnPageLoad('revolutionizeTech'));
+$('.vibrant-community-clickable').on('click', () => transitionOnPageLoad('vibrantCommunity'));
+$('.positive-social-change-clickable').on('click', () =>
+  transitionOnPageLoad('positiveSocialChange'),
+);
+$('.awesome-partner-clickable').on('click', () => transitionOnPageLoad('awesomePartner'));
 
 // Navigation Page Transitions
-$('#nav-0').on('click', () => pageTransition('screen1'));
-$('#nav-1').on('click', () => pageTransition('positiveSocialChange'));
-$('#nav-2').on('click', () => pageTransition('commercialSuccess'));
-$('#nav-3').on('click', () => pageTransition('vibrantCommunity'));
-$('#nav-4').on('click', () => pageTransition('awesomePartner'));
-$('#nav-5').on('click', () => pageTransition('revolutionizeTech'));
+$('#nav-0').on('click', () => transitionOnPageLoad('screen1'));
+$('#nav-1').on('click', () => transitionOnPageLoad('positiveSocialChange'));
+$('#nav-2').on('click', () => transitionOnPageLoad('commercialSuccess'));
+$('#nav-3').on('click', () => transitionOnPageLoad('vibrantCommunity'));
+$('#nav-4').on('click', () => transitionOnPageLoad('awesomePartner'));
+$('#nav-5').on('click', () => transitionOnPageLoad('revolutionizeTech'));
 
 // Back Button Page Transitions
-$('.back-icon-button').on('click', backPageTransition);
+$('.back-icon-button').on('click', () => transitionOnPageLoad('', true));
 
 loadScreen1();
+setTimeout(() => {
+  isPageLoaded = true;
+}, 4000);
+
 gsap
   .fromTo(
     `.nav-screen1`,
