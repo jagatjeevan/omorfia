@@ -39,13 +39,8 @@
     width: 19%;
     p {
       font-family: var(--font-family-inter);
-      font-size: 15px;
-    }
-    p:first-of-type {
-      font-weight: 500;
-    }
-    p:last-of-type {
-      font-weight: 300;
+      font-size: 13px;
+      font-weight: 400;
     }
     .description-image {
       width: 40%;
@@ -113,8 +108,8 @@
       }
 
       &.completed {
-        .title {
-          color: black;
+        a {
+          color: var(--jade-green);
         }
         .number {
           border: 1.5px solid var(--dark-blue);
