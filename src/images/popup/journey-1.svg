@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1155.731" height="585.272" viewBox="0 0 1155.731 585.272">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1244" height="586" viewBox="0 0 1244 586">
   <defs>
     <clipPath id="clip-path">
       <rect width="1155.731" height="585.272" fill="none"/>
@@ -10,7 +10,8 @@
       <rect id="Rectangle_4772" data-name="Rectangle 4772" width="78.118" height="261.16" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Scroll_Group_7" data-name="Scroll Group 7" clip-path="url(#clip-path)" style="isolation: isolate">
+  <rect id="Rectangle_4788" data-name="Rectangle 4788" width="1244" height="586" fill="#fff"/>
+  <g id="Scroll_Group_7" data-name="Scroll Group 7" transform="translate(88 0.5)" clip-path="url(#clip-path)" style="isolation: isolate">
     <g id="Group_12460" data-name="Group 12460" transform="translate(-7242.612 1454.58)">
       <path id="Path_16375" data-name="Path 16375" d="M0,0H907.2" transform="translate(8510.781 -1391.126)" fill="none" stroke="#000" stroke-width="1"/>
       <line id="Line_332" data-name="Line 332" x2="798.93" transform="translate(8622.74 -1133.489)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>

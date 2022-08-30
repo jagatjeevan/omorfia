@@ -49,8 +49,8 @@
   .popup-content {
     overflow: hidden;
     width: 100%;
-    height: 75vh;
   }
+
   .popup-growth-content {
     padding-top: 25px;
     padding-left: 7%;
@@ -77,19 +77,28 @@
     max-width: 150px;
     height: 35px;
   }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .journey-popup {
   .journey-images {
-    width: 200%;
-    height: 70vh;
     display: flex;
-    padding: 25px 9%;
-    transition: 0.5s;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex: none;
+    width: 100%;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    margin-top: 30px;
+    scroll-behavior: smooth;
   }
-  .journey-img-1,
-  .journey-img-2 {
-    height: 62vh;
+  .journey-images > img {
+    scroll-snap-align: center;
+    flex: none;
+    width: 100%;
   }
 }
 
@@ -98,29 +107,62 @@
     height: 77vh;
   }
   .e4r-images {
-    width: 200%;
-    height: 72vh;
     display: flex;
-    justify-content: space-between;
-    padding: 0 13% 0 8.3%;
-    transition: 0.5s;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex: none;
+    width: 100%;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    margin-top: 30px;
+    scroll-behavior: smooth;
   }
-  .e4r-img-1,
-  .e4r-img-2 {
-    height: 70vh;
+  .e4r-images > img {
+    scroll-snap-align: center;
+    flex: none;
+    width: 100%;
+    height: 72vh;
+  }
+  .e4r-img-1 {
+    margin-left: -25px;
+  }
+  .popup-heading {
+    padding-bottom: 0;
   }
 }
 
 .unique-popup {
-  .popup-content {
-    height: 77vh;
-  }
-  .gdo-images,
-  .gic-images {
-    width: 200%;
-    height: 77vh;
+  .gdo-images {
     display: flex;
-    justify-content: space-between;
-    transition: 0.5s;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex: none;
+    width: 100%;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    margin-top: 30px;
+    scroll-behavior: smooth;
+  }
+  .gdo-images > img {
+    scroll-snap-align: center;
+    flex: none;
+    width: 100%;
+    height: 71vh;
+  }
+  .gic-images {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex: none;
+    width: 100%;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    margin-top: 30px;
+    scroll-behavior: smooth;
+  }
+  .gic-images > img {
+    scroll-snap-align: center;
+    flex: none;
+    width: 100%;
   }
 }

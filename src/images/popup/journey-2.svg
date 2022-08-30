@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1234.731" height="585.272" viewBox="0 0 1234.731 585.272">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1244" height="586.5" viewBox="0 0 1244 586.5">
   <defs>
     <clipPath id="clip-path">
-      <rect x="1076" width="1234.731" height="585.272" fill="none"/>
+      <rect x="1127" width="1183.731" height="585.272" fill="none"/>
     </clipPath>
     <clipPath id="clip-path-2">
       <rect id="Rectangle_4773" data-name="Rectangle 4773" width="78.047" height="260.924" fill="none"/>
@@ -10,9 +10,10 @@
       <rect id="Rectangle_4774" data-name="Rectangle 4774" width="78.118" height="261.16" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Scroll_Group_8" data-name="Scroll Group 8" transform="translate(-1076)" clip-path="url(#clip-path)" style="isolation: isolate">
+  <rect id="Rectangle_4791" data-name="Rectangle 4791" width="1244" height="586" transform="translate(0 0.5)" fill="#fff"/>
+  <g id="Scroll_Group_8" data-name="Scroll Group 8" transform="translate(-1126)" clip-path="url(#clip-path)" style="isolation: isolate">
     <g id="Group_12513" data-name="Group 12513" transform="translate(-7242.612 1454.58)">
-      <path id="Path_16588" data-name="Path 16588" d="M0,0H985.294" transform="translate(8432.688 -1391.126)" fill="none" stroke="#000" stroke-width="1"/>
+      <path id="Path_16588" data-name="Path 16588" d="M0,0H933.607" transform="translate(8484.375 -1391.126)" fill="none" stroke="#000" stroke-width="1"/>
       <line id="Line_336" data-name="Line 336" x2="798.93" transform="translate(8622.74 -1133.489)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
       <line id="Line_337" data-name="Line 337" x2="897" transform="translate(8631.227 -875.851)" fill="none" stroke="#939393" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="12"/>
       <path id="Path_16589" data-name="Path 16589" d="M543.914.5a128.819,128.819,0,0,1,0,257.638" transform="translate(8874.068 -1391.627)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
@@ -79,7 +80,7 @@ hosted first ever Converge
       <text id="_2014-2" data-name="2014" transform="translate(8835.307 -1379.561)" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">2014</tspan></text>
       <text id="_2015" data-name="2015" transform="translate(9004.916 -1379.561)" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">2015</tspan></text>
       <text id="_2015-2" data-name="2015" transform="translate(9171.99 -1379.561)" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">2015</tspan></text>
-      <g id="Group_12473" data-name="Group 12473" transform="translate(8354.641 -1392.127)">
+      <g id="Group_12473" data-name="Group 12473" transform="translate(8406.328 -1392.127)">
         <g id="Group_12472" data-name="Group 12472" transform="translate(0 0)" clip-path="url(#clip-path-2)">
           <path id="Path_16613" data-name="Path 16613" d="M.5,260.29V77.415A77.14,77.14,0,0,1,77.413.5" transform="translate(0.634 0.634)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
         </g>
@@ -179,7 +180,7 @@ VodQA launched in Pune" transform="translate(7760.131 -1094.751)" font-size="14"
       <path id="Polygon_50" data-name="Polygon 50" d="M6.544,0l6.544,11.218H0Z" transform="translate(8308.832 -1262.308) rotate(180)" fill="#003d4f"/>
       <path id="Polygon_51" data-name="Polygon 51" d="M6.544,0l6.544,11.218H0Z" transform="translate(7255.7 -1000.111) rotate(180)" fill="#003d4f"/>
       <path id="Polygon_52" data-name="Polygon 52" d="M6.544,0l6.544,11.218H0Z" transform="translate(8313.506 -882.395) rotate(90)" fill="#003d4f"/>
-      <g id="Group_12486" data-name="Group 12486" transform="translate(8356.9 -874.851) rotate(180)">
+      <g id="Group_12486" data-name="Group 12486" transform="translate(8408.588 -874.851) rotate(180)">
         <g id="Group_12485" data-name="Group 12485" transform="translate(0 0)" clip-path="url(#clip-path-3)">
           <path id="Path_16639" data-name="Path 16639" d="M0,260.025V76.984A77.21,77.21,0,0,1,76.983,0" transform="translate(1.135 1.135)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
         </g>

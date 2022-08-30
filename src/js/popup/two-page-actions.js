@@ -2,26 +2,19 @@ var popupPage = 0;
 var isPopupOpen = false;
 var currentPopupId;
 var currentPopupName;
+var currentPopupImagesElement;
+var leftArrow;
+var rightArrow;
 
-export const change2PopupPage = () => {
-  const leftArrow = document.getElementById(`${currentPopupName}-left-arrow`);
-  const rightArrow = document.getElementById(`${currentPopupName}-right-arrow`);
-  const popupImages = document.getElementById(`${currentPopupName}-images`);
-
+export const change2PopupPage = (direction) => {
   if (popupPage === 0) {
-    popupPage = 1;
-    leftArrow.classList.add('enable');
-    leftArrow.disabled = false;
-    rightArrow.classList.remove('enable');
-    rightArrow.disabled = true;
-    popupImages.style.marginLeft = '-100%';
+    currentPopupImagesElement.scrollTo(1121, 0);
   } else if (popupPage === 1) {
-    popupPage = 0;
-    rightArrow.classList.add('enable');
-    rightArrow.disabled = false;
-    leftArrow.classList.remove('enable');
-    leftArrow.disabled = true;
-    popupImages.style.marginLeft = '0%';
+    currentPopupImagesElement.scrollTo(0, 0);
+  } else if (direction === 'reset') {
+    currentPopupImagesElement.style.scrollBehavior = 'auto';
+    currentPopupImagesElement.scrollTo(0, 0);
+    currentPopupImagesElement.style.scrollBehavior = 'smooth';
   }
 };
 
@@ -29,6 +22,9 @@ export const open2Popup = (popupName) => {
   isPopupOpen = true;
   currentPopupName = popupName;
   currentPopupId = `#${popupName}-popup`;
+  currentPopupImagesElement = document.getElementById(`${popupName}-images`);
+  leftArrow = document.getElementById(`${currentPopupName}-left-arrow`);
+  rightArrow = document.getElementById(`${currentPopupName}-right-arrow`);
 
   gsap.fromTo(
     currentPopupId,
@@ -60,7 +56,7 @@ export const close2Popup = () => {
   isPopupOpen = false;
 
   setTimeout(() => {
-    if (popupPage === 1) change2PopupPage();
+    if (popupPage === 1) change2PopupPage('reset');
   }, 1000);
 
   gsap.fromTo(
@@ -87,4 +83,23 @@ export const close2Popup = () => {
       },
     )
     .delay(1.3);
+};
+
+export const scroll2Popup = () => {
+  var scrollLeft = currentPopupImagesElement.scrollLeft;
+
+  if (scrollLeft < 1000) {
+    popupPage = 0;
+    leftArrow.classList.remove('enable');
+    leftArrow.disabled = true;
+    rightArrow.classList.add('enable');
+    rightArrow.disabled = false;
+  }
+  if (scrollLeft > 1000 && scrollLeft < 2200) {
+    popupPage = 1;
+    leftArrow.classList.add('enable');
+    leftArrow.disabled = false;
+    rightArrow.classList.remove('enable');
+    rightArrow.disabled = true;
+  }
 };

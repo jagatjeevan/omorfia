@@ -1,5 +1,10 @@
 import { loadScreen1 } from './AnimationJs/HomePageAnimation.js';
-import { change2PopupPage, close2Popup, open2Popup } from './popup/two-page-actions.js';
+import {
+  change2PopupPage,
+  close2Popup,
+  open2Popup,
+  scroll2Popup,
+} from './popup/two-page-actions.js';
 import {
   change3PopupPage,
   close3Popup,
@@ -164,3 +169,7 @@ $('.close-3-popup').on('click', close3Popup);
 
 // Popup scroll
 $('#healthcare-domain-images').scroll(scroll3Popup);
+$('#journey-images').scroll(scroll2Popup);
+$('#e4r-images').scroll(scroll2Popup);
+$('#gdo-images').scroll(scroll2Popup);
+$('#gic-images').scroll(scroll2Popup);
