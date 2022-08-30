@@ -123,7 +123,7 @@ export const addIdfcChart = () => {
         marker: {
           symbol: 'circle',
         },
-        data: [65, 163, 200, 230],
+        data: [65, 163, 200, 234],
       },
       {
         name: 'Client Gross Margin %',
