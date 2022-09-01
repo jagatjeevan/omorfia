@@ -22,6 +22,7 @@ import { addChart } from './charts/chart-container.js';
 import { addAxisChart } from './charts/axis-chart-container.js';
 import { addFalabellaChart } from './charts/falabella-chart-container.js';
 import { addIdfcChart } from './charts/idfc-chart-container.js';
+import { closeVideo, openVideo } from './VideoAnimations.js';
 
 var isPageLoaded = false;
 
@@ -122,22 +123,10 @@ $('#commercial-main-content').scroll(function () {
 });
 
 // Button click animation
-$('.play-video').on('click', function () {
-  gsap.to('.start-text', {
-    // opacity: 0,
-    y: -200,
-    duration: 1,
-  });
-  gsap.fromTo('.play-video', { opacity: 1 }, { opacity: 0, duration: 1.1 });
-  gsap.fromTo('.video-area', { opacity: 0 }, { display: 'flex', duration: 2, opacity: 1 });
-});
-$('#close-video').on('click', function () {
-  gsap.to('.start-text', {
-    y: 0,
-    duration: 1,
-  });
-  gsap.fromTo('.play-video', { opacity: 0, duration: 1.1 }, { opacity: 1 });
-  gsap.fromTo('.video-area', { display: 'flex', duration: 2, opacity: 1 }, { opacity: 0 });
+$('.play-video').on('click', openVideo);
+$('#close-video').on('click', closeVideo);
+$('#intro-video').click(function () {
+  this[this.paused ? 'play' : 'pause']();
 });
 
 // 2 page popup
