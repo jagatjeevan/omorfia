@@ -1,4 +1,5 @@
-.healthcare-domain-popup {
+.healthcare-domain-popup,
+.retail-domain-popup {
   background-color: white;
   position: absolute;
   width: 95%;
@@ -24,6 +25,7 @@
     font-size: larger;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
   }
   .left-arrow {
     left: 30px;
@@ -41,7 +43,8 @@
     height: 77vh;
   }
 
-  .healthcare-domain-images {
+  .healthcare-domain-images,
+  .retail-domain-images {
     display: flex;
     overflow-y: hidden;
     overflow-x: auto;
@@ -53,10 +56,17 @@
     margin-top: 30px;
     scroll-behavior: smooth;
   }
-  .healthcare-domain-images > img {
+  .retail-domain-images {
+    margin-top: 20px;
+  }
+  .healthcare-domain-images > img,
+  .retail-domain-images > img {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
     height: 77vh;
+  }
+  .retail-domain-images > img {
+    height: 74vh;
   }
 }

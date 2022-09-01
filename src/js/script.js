@@ -11,6 +11,12 @@ import {
   open3Popup,
   scroll3Popup,
 } from './popup/three-page-actions.js';
+import {
+  change4PopupPage,
+  close4Popup,
+  open4Popup,
+  scroll4Popup,
+} from './popup/four-page-actions.js';
 import { backPageTransition, pageTransition } from './AnimationJs/PageTransitions.js';
 import { addChart } from './charts/chart-container.js';
 import { addAxisChart } from './charts/axis-chart-container.js';
@@ -171,8 +177,15 @@ $('#healthcare-domain-left-arrow').on('click', () => change3PopupPage('left'));
 $('#healthcare-domain-right-arrow').on('click', () => change3PopupPage('right'));
 $('.close-3-popup').on('click', close3Popup);
 
+// 4 page popup
+$('#retail-domain').on('click', () => open4Popup('retail-domain'));
+$('#retail-domain-left-arrow').on('click', () => change4PopupPage('left'));
+$('#retail-domain-right-arrow').on('click', () => change4PopupPage('right'));
+$('.close-4-popup').on('click', close4Popup);
+
 // Popup scroll
 $('#healthcare-domain-images').scroll(scroll3Popup);
+$('#retail-domain-images').scroll(scroll4Popup);
 $('#journey-images').scroll(scroll2Popup);
 $('#e4r-images').scroll(scroll2Popup);
 $('#gdo-images').scroll(scroll2Popup);

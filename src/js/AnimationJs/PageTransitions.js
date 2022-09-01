@@ -1,3 +1,4 @@
+import { close4Popup } from '../popup/four-page-actions.js';
 import { close3Popup } from '../popup/three-page-actions.js';
 import { close2Popup } from '../popup/two-page-actions.js';
 import { exitAwesomePartner, loadAwesomePartner } from './AwesomePartnerAnimation.js';
@@ -39,6 +40,7 @@ const exitPages = () => {
   if (newPage !== 'revolutionizeTech') exitRevolutionizeTech();
   close2Popup();
   close3Popup();
+  close4Popup();
 };
 
 const exitScreen1Page = () => {
@@ -108,7 +110,7 @@ export const pageTransition = (newPageName, isBackButton) => {
   else exitPages();
 
   navTransitions();
-  const loadTime = currentPage === "screen1" ? 300 : loadTimeMap[newPage];
+  const loadTime = currentPage === 'screen1' ? 300 : loadTimeMap[newPage];
   const transitionTime = exitTimeMap[currentPage] + loadTime;
 
   if (!isBackButton) previousPages.push(currentPage);
