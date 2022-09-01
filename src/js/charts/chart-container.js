@@ -25,10 +25,12 @@ export const addChart = () => {
           style: {
             fontSize: '10px',
             fontWeight: 'normal',
+            textOutline: '0px contrast',
           },
           borderRadius: 2,
         },
         lineWidth: 1,
+        borderWidth: 0,
         animation: {
           duration: 1500,
         },
@@ -123,6 +125,7 @@ export const addChart = () => {
         type: 'column',
         yAxis: 1,
         color: '#003d50',
+        dataLabels: { color: '#133d4e'},
         data: [
           25.5,
           28.0,
@@ -136,7 +139,7 @@ export const addChart = () => {
           124.7,
           157.2,
           223.1,
-          { y: 166.3, color: '#6b9e78' },
+          { y: 166.3, color: '#6b9e78', dataLabels: { color: '#6b9e78'} },
         ],
         tooltip: {
           valueSuffix: ' Mn',

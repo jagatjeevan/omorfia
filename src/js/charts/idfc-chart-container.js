@@ -27,10 +27,12 @@ export const addIdfcChart = () => {
           style: {
             fontSize: '10px',
             fontWeight: 'bold',
+            textOutline: '0px contrast',
           },
           borderRadius: 2,
         },
         lineWidth: 1,
+        borderWidth: 0,
         animation: {
           duration: 2000,
         },
@@ -111,7 +113,8 @@ export const addIdfcChart = () => {
         type: 'column',
         yAxis: 1,
         color: '#003d50',
-        data: [3.9, 13, 16.9, { y: 11.2, color: '#6b9e78' }],
+        dataLabels: { color: '#133d4e'},
+        data: [3.9, 13, 16.9, { y: 11.2, color: '#6b9e78', dataLabels: { color: '#6b9e78'} }],
         tooltip: {
           valueSuffix: ' Mn',
         },

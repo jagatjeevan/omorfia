@@ -27,10 +27,12 @@ export const addFalabellaChart = () => {
           style: {
             fontSize: '10px',
             fontWeight: 'bold',
+            textOutline: '0px contrast',
           },
           borderRadius: 2,
         },
         lineWidth: 1,
+        borderWidth: 0,
         animation: {
           duration: 2000,
         },
@@ -111,7 +113,8 @@ export const addFalabellaChart = () => {
         type: 'column',
         yAxis: 1,
         color: '#003d50',
-        data: [5.58, 9.6, 12.1, { y: 10, color: '#6b9e78' }],
+        dataLabels: { color: '#133d4e'},
+        data: [5.58, 9.6, 12.1, { y: 10, color: '#6b9e78', dataLabels: { color: '#6b9e78'} }],
         tooltip: {
           valueSuffix: ' Mn',
         },
