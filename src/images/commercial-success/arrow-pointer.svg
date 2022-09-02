@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.334" height="12.334" viewBox="0 0 12.334 12.334">
+  <g id="Group_12251" data-name="Group 12251" transform="translate(12.334 12.334) rotate(180)">
+    <path id="Path_14413" data-name="Path 14413" d="M12.334,6.167A6.167,6.167,0,1,1,6.167,0a6.167,6.167,0,0,1,6.167,6.167" transform="translate(0 0)" fill="#cc850a"/>
+    <g id="Group_11879" data-name="Group 11879" transform="translate(7.419 9.005) rotate(180)">
+      <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+        <path id="Path_174" data-name="Path 174" d="M.159,5.571A.159.159,0,0,1,.047,5.3L2.56,2.785.047.272A.159.159,0,0,1,.272.047L2.9,2.673a.159.159,0,0,1,0,.225L.272,5.524a.159.159,0,0,1-.113.047" transform="translate(0.119 0.119)" fill="#fff"/>
+        <path id="Path_175" data-name="Path 175" d="M.279,5.81a.279.279,0,0,1-.2-.476L2.511,2.9.082.475a.278.278,0,0,1,0-.394.279.279,0,0,1,.394,0L3.1,2.708a.279.279,0,0,1,0,.394L.475,5.728a.277.277,0,0,1-.2.082m0-5.571A.04.04,0,0,0,.25.307l2.6,2.6L.25,5.5a.04.04,0,1,0,.056.056L2.933,2.933a.04.04,0,0,0,0-.056L.307.25A.04.04,0,0,0,.279.239" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
