@@ -52,22 +52,14 @@
     overflow-y: auto;
     scroll-behavior: smooth;
 
+    .twi-marketing,
+    .twi-unique,
+    .twi-growth,
+    .twi-domains,
     .twi-journey {
       padding-right: 1.5%;
     }
-
-    .twi-unique {
-      padding-right: 1.5%;
-    }
-
-    .twi-growth {
-      padding-right: 1.5%;
-    }
-
-    .twi-domains {
-      padding-right: 1.5%;
-    }
-
+    
     .content-heading,
     .growth-main-heading {
       margin-top: 0;
@@ -128,6 +120,7 @@
     }
 
     .capabilities-text,
+    .marketing-text,
     .history-text {
       width: 100%;
       margin-top: 4px;
@@ -276,6 +269,16 @@
 
     .div-after-intro {
       margin-top: 50px;
+    }
+
+    .marketing-content{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+
+    .marketing-img{
+      width: 180px;
     }
 
     .cs-intro {
