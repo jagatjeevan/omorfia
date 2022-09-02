@@ -6,9 +6,9 @@
   </defs>
   <rect id="World_Map-09" data-name="World Map-09" width="346" height="351" fill="url(#pattern)"/>
   <text id="_1.2_Mn_Sellers" data-name="1.2 Mn 
-Sellers" transform="translate(569 30.021)" fill="#47a1ad" font-size="16" font-family="Helvetica"><tspan x="39.641" y="12">1.2 Mn </tspan><tspan fill="#003d4f"><tspan x="39.649" y="32">Sellers</tspan></tspan></text>
+Sellers" transform="translate(569 30.02)" fill="#47a1ad" font-size="16" font-family="Helvetica"><tspan x="39.641" y="12">1.2 Mn </tspan><tspan fill="#003d4f"><tspan x="39.649" y="32">Sellers</tspan></tspan></text>
   <text id="_100_Mn_Buyers" data-name="100 Mn 
-Buyers" transform="translate(582.611 107.203)" fill="#47a1ad" font-size="16" font-family="Helvetica"><tspan x="21.576" y="12">100 Mn </tspan><tspan fill="#003d4f"><tspan x="25.147" y="32">Buyers</tspan></tspan></text>
+Buyers" transform="translate(582.612 107.203)" fill="#47a1ad" font-size="16" font-family="Helvetica"><tspan x="21.576" y="12">100 Mn </tspan><tspan fill="#003d4f"><tspan x="25.147" y="32">Buyers</tspan></tspan></text>
   <text id="_7._3_Bn_Annual_Purchases" data-name="7. 3 Bn
 Annual Purchases" transform="translate(507.668 183.198)" fill="#47a1ad" font-size="16" font-family="Helvetica"><tspan x="99.184" y="12">7. 3 Bn</tspan><tspan fill="#003d4f"><tspan x="20.028" y="32">Annual Purchases</tspan></tspan></text>
   <text id="_75_Bn_Additional_Merchandising_Value" data-name="$ 75 Bn
@@ -17,6 +17,6 @@ Additional Merchandising Value" transform="translate(402 259.192)" fill="#47a1ad
   <line id="Line_339" data-name="Line 339" x2="264" transform="translate(330.5 117.451)" fill="none" stroke="#5aa0ac" stroke-linecap="round" stroke-width="1" stroke-dasharray="2"/>
   <line id="Line_338" data-name="Line 338" x2="251" transform="translate(343.5 194.451)" fill="none" stroke="#5aa0ac" stroke-linecap="round" stroke-width="1" stroke-dasharray="2"/>
   <rect id="Rectangle_4729" data-name="Rectangle 4729" width="230" height="46" transform="translate(56 148)" fill="#003d4f"/>
-  <text id="ONDC_2025" data-name="ONDC 2025" transform="translate(114.5 160.5)" fill="#fff" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-49.021" y="14">ONDC 2025</tspan></text>
+  <text id="ONDC_2025" data-name="ONDC 2025" transform="translate(173 160.5)" fill="#fff" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-49.021" y="14">ONDC 2025</tspan></text>
   <line id="Line_337" data-name="Line 337" x2="267" transform="translate(319.5 268.451)" fill="none" stroke="#5aa0ac" stroke-linecap="round" stroke-width="1" stroke-dasharray="2"/>
 </svg>
