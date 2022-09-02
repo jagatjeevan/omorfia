@@ -69,6 +69,10 @@
       width: 100%;
     }
 
+    .aadhaar-image {
+      margin-left: -21px;
+    }
+
     .tech-assets-image {
       margin: 10px 0px;
       width: 100%;
@@ -78,6 +82,13 @@
       margin-top: 0;
       font-size: 22px;
       font-family: var(--font-family-bitter);
+
+      .sub-heading{
+        font-size: 14px;
+        font-weight: normal;
+        font-family: var(--font-family-inter);
+        color: var(--sapphire-blue);
+      }
     }
 
     .section-sub-heading {
