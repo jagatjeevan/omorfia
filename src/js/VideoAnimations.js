@@ -70,3 +70,65 @@ export const closeVideo = () => {
   );
   $('#intro-video').trigger('pause');
 };
+
+export const playPause = () => {
+  const video = $('#intro-video').get(0);
+
+  if (video.paused) {
+    gsap.fromTo(
+      '#play-icon',
+      {
+        width: '65px',
+        opacity: '0',
+      },
+      {
+        width: '80px',
+        opacity: '0.6',
+        duration: 0.4,
+      },
+    );
+    setTimeout(() => {
+      gsap.fromTo(
+        '#play-icon',
+        {
+          width: '80px',
+          opacity: '0.6',
+        },
+        {
+          width: '65px',
+          opacity: '0',
+          duration: 0.25,
+        },
+      );
+      video.play();
+    }, 400);
+  } else {
+    video.pause();
+    gsap.fromTo(
+      '#pause-icon',
+      {
+        width: '65px',
+        opacity: '0',
+      },
+      {
+        width: '80px',
+        opacity: '0.6',
+        duration: 0.4,
+      },
+    );
+    setTimeout(() => {
+      gsap.fromTo(
+        '#pause-icon',
+        {
+          width: '80px',
+          opacity: '0.6',
+        },
+        {
+          width: '65px',
+          opacity: '0',
+          duration: 0.25,
+        },
+      );
+    }, 400);
+  }
+};

@@ -159,6 +159,7 @@
   display: none;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .play-area {
@@ -170,16 +171,33 @@
   color: white;
   cursor: pointer;
   position: absolute;
-  top: 42%;
-  left: 8.25%;
+  bottom: 23vh;
+  left: -0.75%;
   z-index: 100;
   width: 25px;
 }
 #intro-video {
   position: absolute;
-  bottom: 0;
-  left: -5.5%;
+  bottom: -24vh;
+  left: -54.5%;
+  z-index: 1;
+}
+#play-pause-icons {
+  position: absolute;
+  bottom: -24vh;
+  left: -54.5%;
   z-index: 2;
+  width: 700px;
+  height: 400px;
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65px;
+    opacity: 0;
+  }
 }
 
 .lense-commercialSuccess-back,

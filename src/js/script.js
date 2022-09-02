@@ -22,7 +22,7 @@ import { addChart } from './charts/chart-container.js';
 import { addAxisChart } from './charts/axis-chart-container.js';
 import { addFalabellaChart } from './charts/falabella-chart-container.js';
 import { addIdfcChart } from './charts/idfc-chart-container.js';
-import { closeVideo, openVideo } from './VideoAnimations.js';
+import { closeVideo, openVideo, playPause } from './VideoAnimations.js';
 import { activeTarget, contentScroll } from './TimelineScroll.js';
 
 var isPageLoaded = false;
@@ -98,9 +98,7 @@ $('#revolution-main-content').scroll(() => contentScroll('revolution'));
 // Button click animation
 $('.play-video').on('click', openVideo);
 $('#close-video').on('click', closeVideo);
-$('#intro-video').click(function () {
-  this[this.paused ? 'play' : 'pause']();
-});
+$('#play-pause-icons').on('click', playPause);
 
 // 2 page popup
 $('#explore-journey').on('click', () => open2Popup('journey'));
