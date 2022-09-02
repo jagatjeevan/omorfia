@@ -1,0 +1,135 @@
+@import './common/css-variables';
+
+#awesome-partner,
+#positive-social-change,
+#vibrant-community,
+#revolutionize-tech,
+#commercial-success {
+
+  background-color: var(--mist-gray);
+  padding-top: 10px;
+
+  .back-icon-button {
+    width: fit-content;
+  }
+
+  .back-button {
+    background-color: #ffffff;
+    text-align: right;
+    padding: 5px;
+    border-radius: 0 50px 50px 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 62px;
+  }
+
+  .back-icon {
+    width: 36px;
+    margin-bottom: -4px;
+  }
+
+  .back-label {
+    color: var(--wave-blue);
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  .container {
+    display: flex;
+    padding: 0 3%;
+    padding-top: 20px;
+  }
+
+  .description {
+    width: 19%;
+
+    p {
+      font-family: var(--font-family-inter);
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    .description-image {
+      width: 40%;
+    }
+  }
+
+  .timeline {
+    width: 20%;
+    min-height: 75vh;
+    margin-left: 8%;
+
+    .steps {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .step {
+      display: flex;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: 13px;
+        top: 27px;
+        height: 0;
+        width: 1.5px;
+        background-color: var(--grey);
+      }
+
+      .title {
+        font-family: var(--font-family-inter);
+        font-size: 14px;
+        font-weight: 600;
+        margin: 1px 0 100px;
+        width: 100px;
+      }
+
+      .last-title {
+        margin-bottom: 0;
+      }
+
+      a {
+        color: var(--grey);
+        background-color: transparent;
+        text-decoration: none;
+        transition: 0.5s;
+      }
+
+      .number {
+        width: 27px;
+        height: 27px;
+        background-color: var(--grey);
+        border-radius: 50%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: var(--font-family-inter);
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 14px;
+        transition: 0.5s;
+      }
+
+      .timeline-img {
+        position: absolute;
+        top: 0;
+        left: -50px;
+        width: 35px;
+      }
+
+      .timeline-arrow {
+        display: none;
+      }
+
+      &:not(:last-child) {
+        &:after {
+          height: 80%;
+        }
+      }
+    }
+  }
+}
