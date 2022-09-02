@@ -5,15 +5,13 @@
 }
 
 #commercial-success {
-
   .step {
-
     .title.last-before-title {
-      margin-bottom: 84px 
+      margin-bottom: 84px;
     }
 
     .title.last-title {
-      margin-bottom: 0 
+      margin-bottom: 0;
     }
 
     &.completed {
@@ -31,7 +29,8 @@
       }
 
       .timeline-img {
-        filter: invert(45%) sepia(99%) saturate(410%) hue-rotate(360deg) brightness(99%) contrast(100%);
+        filter: invert(45%) sepia(99%) saturate(410%) hue-rotate(360deg) brightness(99%)
+          contrast(100%);
       }
 
       .timeline-arrow {
@@ -40,10 +39,10 @@
         height: 14px;
         margin-top: 4px;
         margin-right: 1px;
+        margin-left: 5px;
       }
     }
   }
-
 
   .main-content {
     flex: 1;
