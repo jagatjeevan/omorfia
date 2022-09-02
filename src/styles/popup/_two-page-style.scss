@@ -189,4 +189,34 @@
     transform: translate(-50%, -50%);
     z-index: -1;
   }
+
+  .books {
+    display: flex;
+    width: 82%;
+    margin: 0 auto;
+    column-gap: 5%;
+
+    .book-container {
+      display: inline-flex;
+      margin-top: 10px;
+    }
+    .book-name {
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .book-discription {
+      font-size: 13px;
+      font-weight: 300;
+      text-align: right;
+    }
+    .book-img-holder {
+      margin-right: 120px;
+      position: relative;
+    }
+    .book-img {
+      position: absolute;
+      top: 10px;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+  }
 }

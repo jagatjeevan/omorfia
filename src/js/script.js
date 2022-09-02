@@ -85,7 +85,9 @@ gsap
 const timelineTitle = document.querySelectorAll('.title');
 
 timelineTitle.forEach((item) => {
-  item.addEventListener('click', (event) => {activeTarget(event.target)});
+  item.addEventListener('click', (event) => {
+    activeTarget(event.target);
+  });
 });
 
 addChart();
@@ -128,6 +130,7 @@ $('#unique-lenovo').on('click', () => open2Popup('lenovo'));
 $('#unique-trainline').on('click', () => open2Popup('trainline'));
 $('#unique-citi').on('click', () => open2Popup('citi'));
 $('#unique-talent').on('click', () => open2Popup('talent'));
+$('#unique-books').on('click', () => open2Popup('books'));
 $('.arrow-2-page').on('click', change2PopupPage);
 $('.close-2-popup').on('click', close2Popup);
 
