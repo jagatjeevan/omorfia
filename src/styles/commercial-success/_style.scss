@@ -8,6 +8,14 @@
 
   .step {
 
+    .title.last-before-title {
+      margin-bottom: 84px 
+    }
+
+    .title.last-title {
+      margin-bottom: 0 
+    }
+
     &.completed {
       a {
         color: var(--tumeric-yellow);

@@ -23,6 +23,7 @@ import { addAxisChart } from './charts/axis-chart-container.js';
 import { addFalabellaChart } from './charts/falabella-chart-container.js';
 import { addIdfcChart } from './charts/idfc-chart-container.js';
 import { closeVideo, openVideo } from './VideoAnimations.js';
+import { activeTarget, commercialContentScroll } from './TimelineScroll.js';
 
 var isPageLoaded = false;
 
@@ -82,45 +83,14 @@ gsap
 
 // Timeline
 const timelineTitle = document.querySelectorAll('.title');
-let commercialContent = document.getElementById('commercial-main-content');
-let sections = commercialContent.querySelectorAll('section');
-
-const addClickOnTitle = (event) => {
-  activeTarget(event.target);
-};
 
 timelineTitle.forEach((item) => {
-  item.addEventListener('click', addClickOnTitle);
+  item.addEventListener('click', (event) => {activeTarget(event.target)});
 });
 
-function activeTarget(target) {
-  timelineTitle.forEach((item) => {
-    if (item !== target) item.parentElement.classList.remove('completed');
-  });
-  target.parentElement.parentElement.classList.add('completed');
-}
-
-var isGraphLoaded = false;
 addChart();
-$('#commercial-main-content').scroll(function () {
-  var current = '';
-  sections.forEach((section) => {
-    let top = commercialContent.scrollTop;
-    let offset = section.offsetTop;
-    let height = section.offsetHeight;
-    if (top >= offset - 60 && top <= offset + height) {
-      current = section.getAttribute('id');
-      if (current === 'twi-growth' && !isGraphLoaded) {
-        addChart();
-        isGraphLoaded = true;
-      } else if (current !== 'twi-growth' && isGraphLoaded) {
-        isGraphLoaded = false;
-      }
-      const target = document.querySelector(`[href='#${current}']`);
-      activeTarget(target);
-    }
-  });
-});
+// Timeline Scroll
+$('#commercial-main-content').scroll(commercialContentScroll);
 
 // Button click animation
 $('.play-video').on('click', openVideo);
