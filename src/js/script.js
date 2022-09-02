@@ -23,7 +23,7 @@ import { addAxisChart } from './charts/axis-chart-container.js';
 import { addFalabellaChart } from './charts/falabella-chart-container.js';
 import { addIdfcChart } from './charts/idfc-chart-container.js';
 import { closeVideo, openVideo } from './VideoAnimations.js';
-import { activeTarget, commercialContentScroll } from './TimelineScroll.js';
+import { activeTarget, contentScroll } from './TimelineScroll.js';
 
 var isPageLoaded = false;
 
@@ -90,7 +90,8 @@ timelineTitle.forEach((item) => {
 
 addChart();
 // Timeline Scroll
-$('#commercial-main-content').scroll(commercialContentScroll);
+$('#commercial-main-content').scroll(() => contentScroll('commercial'));
+$('#revolution-main-content').scroll(() => contentScroll('revolution'));
 
 // Button click animation
 $('.play-video').on('click', openVideo);

@@ -3,21 +3,23 @@ import { addChart } from "./charts/chart-container.js";
 var isGraphLoaded = false;
 const timelineTitle = document.querySelectorAll('.title');
 
-export const commercialContentScroll = () => {
+export const contentScroll = (pageName) => {
   var current = '';
-  let commercialContent = document.getElementById('commercial-main-content');
-  let sections = commercialContent.querySelectorAll('section');
+  let content = document.getElementById(`${pageName}-main-content`);
+  let sections = content.querySelectorAll('section');
   sections.forEach((section) => {
-    let top = commercialContent.scrollTop;
+    let top = content.scrollTop;
     let offset = section.offsetTop;
     let height = section.offsetHeight;
     if (top >= offset - 60 && top <= offset + height) {
       current = section.getAttribute('id');
-      if (current === 'twi-growth' && !isGraphLoaded) {
-        addChart();
-        isGraphLoaded = true;
-      } else if (current !== 'twi-growth' && isGraphLoaded) {
-        isGraphLoaded = false;
+      if (pageName === 'commercial') {
+        if (current === 'twi-growth' && !isGraphLoaded) {
+          addChart();
+          isGraphLoaded = true;
+        } else if (current !== 'twi-growth' && isGraphLoaded) {
+          isGraphLoaded = false;
+        }
       }
       const target = document.querySelector(`[href='#${current}']`);
       activeTarget(target);

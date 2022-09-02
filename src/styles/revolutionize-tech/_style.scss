@@ -8,6 +8,18 @@
 
   .step {
 
+    .title.large-title {
+      margin-bottom: 50px;
+    }
+
+    .title.mid-title {
+      margin-bottom: 84px;
+    }
+
+    .title.last-title {
+      margin-bottom: 0;
+    }
+
     &.completed {
       a {
         color: var(--sapphire-blue);
@@ -42,5 +54,59 @@
     position: relative;
     max-height: 75vh;
     overflow-y: auto;
+    scroll-behavior: smooth;
+
+    .intro,
+    .tech-assets,
+    .e4r,
+    .tech-domain,
+    .public-goods {
+      padding-right: 1.5%;
+    }
+
+    .globe-image,
+    .aadhaar-image {
+      width: 100%;
+    }
+
+    .tech-assets-image {
+      margin: 10px 0px;
+      width: 100%;
+    }
+
+    .section-heading {
+      margin-top: 0;
+      font-size: 22px;
+      font-family: var(--font-family-bitter);
+    }
+
+    .section-sub-heading {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 20px 0px;
+    }
+
+    .learn-more-btn {
+      font-weight: bold;
+      font-size: 13px;
+      margin-top: 20px;
+      color: var(--sapphire-blue);
+      background-color: transparent;
+      border: none;
+      padding-left: 0;
+
+      i {
+        font-weight: bold;
+        font-size: 16px;
+        vertical-align: middle;
+        margin-bottom: 2px;
+      }
+    }
+
+    .section-separator {
+      border: 1px solid white;
+      margin: 50px 0;
+    }
+
   }
 }
