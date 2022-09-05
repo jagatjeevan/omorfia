@@ -282,6 +282,22 @@
       width: 180px;
     }
 
+    .learn-more {
+      margin-top: 20px;
+      font-weight: bold;
+      color: var(--tumeric-yellow);
+      background-color: transparent;
+      border: none;
+      padding-left: 0;
+
+      i {
+        font-weight: bold;
+        font-size: 16px;
+        vertical-align: middle;
+        margin-bottom: 2px;
+      }
+    }
+
     .cs-intro {
       .desc {
         font-weight: 300;
