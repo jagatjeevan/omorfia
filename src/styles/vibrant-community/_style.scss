@@ -8,6 +8,33 @@
 
   .step {
 
+    .title {
+      margin: 1px 0 70px;
+    }
+
+    .title.large-title {
+      margin-bottom: 50px;
+    }
+
+    .title-list {
+      list-style-type: circle;
+      position: absolute;
+      top: 20px;
+      left: 6px;
+
+      li {
+        margin: 6px;
+        font-family: var(--font-family-inter);
+        font-size: 14px;
+        color: var(--grey);
+        font-weight: 400;
+      }
+    }
+
+    .title.last-title {
+      margin-bottom: 0;
+    }
+
     &.completed {
       a {
         color: var(--jade-green);
