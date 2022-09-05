@@ -144,10 +144,14 @@ $('.close-3-popup').on('click', close3Popup);
 $('#retail-domain').on('click', () => open4Popup('retail-domain'));
 $('#retail-domain-left-arrow').on('click', () => change4PopupPage('left'));
 $('#retail-domain-right-arrow').on('click', () => change4PopupPage('right'));
+$('#marketing-button').on('click', () => open4Popup('marketing'));
+$('#marketing-left-arrow').on('click', () => change4PopupPage('left'));
+$('#marketing-right-arrow').on('click', () => change4PopupPage('right'));
 $('.close-4-popup').on('click', close4Popup);
 
 // Popup scroll
 $('#healthcare-domain-images').scroll(scroll3Popup);
+$('#marketing-images').scroll(scroll4Popup);
 $('#retail-domain-images').scroll(scroll4Popup);
 $('#journey-images').scroll(scroll2Popup);
 $('#e4r-images').scroll(scroll2Popup);
