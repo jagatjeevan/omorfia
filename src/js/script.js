@@ -95,6 +95,7 @@ addChart();
 $('#commercial-main-content').scroll(() => contentScroll('commercial'));
 $('#revolution-main-content').scroll(() => contentScroll('revolution'));
 $('#social-main-content').scroll(() => contentScroll('social'));
+$('#awesome-main-content').scroll(() => contentScroll('awesome'));
 
 // Button click animation
 $('.play-video').on('click', openVideo);
