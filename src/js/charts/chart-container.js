@@ -71,7 +71,7 @@ export const addChart = () => {
         endOnTick: false,
         labels: {
           style: {
-            fontSize: '10px',
+            fontSize: '0px',
           },
         },
         title: {
@@ -139,7 +139,7 @@ export const addChart = () => {
           124.7,
           157.2,
           223.1,
-          { y: 166.3, color: '#6b9e78', dataLabels: { color: '#6b9e78'} },
+          { y: 290, color: '#6b9e78', dataLabels: { color: '#6b9e78'} },
         ],
         tooltip: {
           valueSuffix: ' Mn',
@@ -161,7 +161,7 @@ export const addChart = () => {
           symbol: 'circle',
         },
         data: [
-          59.9, 57.0, 64.7, 69.56, 70.22, 69.11, 67.33, 68.91, 66.5, 63.5, 66.26, 66.64, 65.38,
+          59.9, 57.00, 64.70, 69.56, 70.22, 69.11, 67.33, 67.41, 68.91, 66.50, 66.26, 66.64, 59.10,
         ],
         tooltip: {
           valueSuffix: ' %',
