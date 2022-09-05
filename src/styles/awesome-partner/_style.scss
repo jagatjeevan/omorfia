@@ -51,6 +51,9 @@
     max-height: 75vh;
     overflow-y: auto;
 
+    .cultivation,
+    .large-relationships,
+    .client-portfolio,
     .ap-intro {
       padding-right: 1.5%;
     }
@@ -76,11 +79,8 @@
         margin-bottom: 20px;
         justify-content: space-between;
 
+        .image,
         .person {
-          width: 140px;
-        }
-
-        .image {
           width: 140px;
         }
 
