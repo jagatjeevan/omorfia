@@ -6,9 +6,6 @@
 
 #commercial-success {
   .step {
-    .title.last-before-title {
-      margin-bottom: 84px;
-    }
 
     .title.last-title {
       margin-bottom: 0;
@@ -284,7 +281,7 @@
     .cs-intro {
       .desc {
         font-weight: 300;
-        font-size: 16px;
+        font-size: 15px;
         margin-bottom: 20px;
       }
       .commercial-team {
@@ -331,7 +328,7 @@
         position: relative;
 
         article {
-          width: 185px;
+          min-width: 175px;
           padding: 6px;
         }
 
