@@ -8,6 +8,10 @@
 
   .step {
 
+    .title {
+      margin: 1px 0 100px;
+    }
+
     &.completed {
       a {
         color: var(--flamingo-pink);
@@ -42,5 +46,155 @@
     position: relative;
     max-height: 75vh;
     overflow-y: auto;
+  }
+
+
+  .dei-story,
+  .bahmni,
+  .sc-intro {
+    padding-right: 1.5%;
+  }
+
+  .content-heading {
+    margin: 0;
+    font-size: 22px;
+    font-family: var(--font-family-bitter);
+  }
+
+  .desc {
+    font-weight: 400;
+    font-size: 13px;
+    margin: 5px 0 20px 0;
+  }
+
+  .sc-intro {
+
+    .socail-team {
+      display: flex;
+      margin-bottom: 20px;
+
+      .person {
+        display: flex;
+        align-items: center;
+      }
+
+      .image {
+        width: 100px;
+      }
+
+      .person-info {
+        padding: 12px;
+        width: 170px;
+      }
+
+      .name {
+        font-weight: 300;
+        font-size: 15px;
+        margin: 10px 0 5px 0;
+      }
+
+      .designation {
+        font-size: 13px;
+        font-weight: 300;
+      }
+    }
+
+    .pointer {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+      column-gap: 5px;
+      align-items: flex-start;
+    }
+
+    .pointer-img {
+      width: 10px;
+      margin-top: 3px;
+    }
+
+    .pointer-desc {
+      font-size: 13px;
+      font-weight: 300;
+    }
+  }
+
+  .dei-story {
+
+    .dei-content {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .dei-img {
+      width: 280px;
+    }
+
+    .learn-more-btn {
+      font-weight: bold;
+      font-size: 13px;
+      margin-top: 20px;
+      color: var(--flamingo-pink);
+      background-color: transparent;
+      border: none;
+      padding-left: 0;
+
+      i {
+        font-weight: bold;
+        font-size: 16px;
+        vertical-align: middle;
+        margin-bottom: 2px;
+      }
+    }
+  }
+
+  .bahmni {
+    .bahmni-desc {
+      font-weight: 300;
+      font-size: 13px;
+    }
+
+    .bahmni-text {
+      font-weight: 300;
+      font-size: 12px;
+    }
+
+    .number {
+      width: 15px;
+      height: 15px;
+      background-color: var(--grey);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 10px;
+    }
+
+    .pointer {
+      display: flex;
+      align-items: center;
+    }
+
+    .pointer-text {
+      font-weight: 300;
+      font-size: 12px;
+      margin: 5px;
+    }
+
+    .pointer-link {
+      color: var(--flamingo-pink);
+      text-decoration: none;
+    }
+
+    .bahmni-img {
+      width: 570px;
+    }
+
+    .bahmni-data-img {
+      width: 570px;
+      margin-top: 12px;
+    }
+
   }
 }

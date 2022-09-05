@@ -94,6 +94,7 @@ addChart();
 // Timeline Scroll
 $('#commercial-main-content').scroll(() => contentScroll('commercial'));
 $('#revolution-main-content').scroll(() => contentScroll('revolution'));
+$('#social-main-content').scroll(() => contentScroll('social'));
 
 // Button click animation
 $('.play-video').on('click', openVideo);
