@@ -1,4 +1,5 @@
 .marketing-popup,
+.operational-metrics-popup,
 .healthcare-domain-popup,
 .retail-domain-popup {
   background-color: white;
@@ -46,6 +47,7 @@
 
   .marketing-images,
   .healthcare-domain-images,
+  .operational-metrics-images,
   .retail-domain-images {
     display: flex;
     overflow-y: hidden;
@@ -62,6 +64,7 @@
     margin-top: 20px;
   }
   .marketing-images > img,
+  .operational-metrics-images > img,
   .healthcare-domain-images > img,
   .retail-domain-images > img {
     scroll-snap-align: center;
@@ -70,6 +73,7 @@
     height: 77vh;
   }
   .marketing-images > img,
+  .operational-metrics-images > img,
   .retail-domain-images > img {
     height: 74vh;
   }

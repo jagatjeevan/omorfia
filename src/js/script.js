@@ -138,6 +138,9 @@ $('.close-2-popup').on('click', close2Popup);
 $('#healthcare-domain').on('click', () => open3Popup('healthcare-domain'));
 $('#healthcare-domain-left-arrow').on('click', () => change3PopupPage('left'));
 $('#healthcare-domain-right-arrow').on('click', () => change3PopupPage('right'));
+$('#operational-metrics').on('click', () => open3Popup('operational-metrics'));
+$('#operational-metrics-left-arrow').on('click', () => change3PopupPage('left'));
+$('#operational-metrics-right-arrow').on('click', () => change3PopupPage('right'));
 $('.close-3-popup').on('click', close3Popup);
 
 // 4 page popup
@@ -151,6 +154,7 @@ $('.close-4-popup').on('click', close4Popup);
 
 // Popup scroll
 $('#healthcare-domain-images').scroll(scroll3Popup);
+$('#operational-metrics-images').scroll(scroll3Popup);
 $('#marketing-images').scroll(scroll4Popup);
 $('#retail-domain-images').scroll(scroll4Popup);
 $('#journey-images').scroll(scroll2Popup);
