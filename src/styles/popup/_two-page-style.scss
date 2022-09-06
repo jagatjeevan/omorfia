@@ -1,4 +1,5 @@
 .journey-popup,
+.bahmni-popup,
 .growth-popup,
 .unique-popup {
   background-color: white;
@@ -80,6 +81,30 @@
 
   ::-webkit-scrollbar {
     display: none;
+  }
+}
+
+
+.bahmni-popup{
+  .enable {
+    background-color: var(--flamingo-pink);
+    color: white;
+  }
+  .bahmni-images {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex: none;
+    width: 100%;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    margin-top: 30px;
+    scroll-behavior: smooth;
+  }
+  .bahmni-images > img {
+    scroll-snap-align: center;
+    flex: none;
+    width: 100%;
   }
 }
 

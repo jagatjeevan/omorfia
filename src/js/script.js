@@ -131,6 +131,7 @@ $('#unique-trainline').on('click', () => open2Popup('trainline'));
 $('#unique-citi').on('click', () => open2Popup('citi'));
 $('#unique-talent').on('click', () => open2Popup('talent'));
 $('#unique-books').on('click', () => open2Popup('books'));
+$('#bahmni-popup-button').on('click', () => open2Popup('bahmni'));
 $('.arrow-2-page').on('click', change2PopupPage);
 $('.close-2-popup').on('click', close2Popup);
 
@@ -163,5 +164,6 @@ $('#marketing-images').scroll(scroll4Popup);
 $('#retail-domain-images').scroll(scroll4Popup);
 $('#journey-images').scroll(scroll2Popup);
 $('#e4r-images').scroll(scroll2Popup);
+$('#bahmni-images').scroll(scroll2Popup);
 $('#gdo-images').scroll(scroll2Popup);
 $('#gic-images').scroll(scroll2Popup);
