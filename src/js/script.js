@@ -141,6 +141,9 @@ $('#healthcare-domain-right-arrow').on('click', () => change3PopupPage('right'))
 $('#operational-metrics').on('click', () => open3Popup('operational-metrics'));
 $('#operational-metrics-left-arrow').on('click', () => change3PopupPage('left'));
 $('#operational-metrics-right-arrow').on('click', () => change3PopupPage('right'));
+$('#dei-popup-button').on('click', () => open3Popup('dei'));
+$('#dei-left-arrow').on('click', () => change3PopupPage('left'));
+$('#dei-right-arrow').on('click', () => change3PopupPage('right'));
 $('.close-3-popup').on('click', close3Popup);
 
 // 4 page popup
@@ -154,6 +157,7 @@ $('.close-4-popup').on('click', close4Popup);
 
 // Popup scroll
 $('#healthcare-domain-images').scroll(scroll3Popup);
+$('#dei-images').scroll(scroll3Popup);
 $('#operational-metrics-images').scroll(scroll3Popup);
 $('#marketing-images').scroll(scroll4Popup);
 $('#retail-domain-images').scroll(scroll4Popup);

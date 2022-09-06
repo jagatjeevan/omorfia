@@ -1,3 +1,4 @@
+.dei-popup,
 .marketing-popup,
 .operational-metrics-popup,
 .healthcare-domain-popup,
@@ -45,6 +46,7 @@
     height: 77vh;
   }
 
+  .dei-images,
   .marketing-images,
   .healthcare-domain-images,
   .operational-metrics-images,
@@ -63,6 +65,7 @@
   .retail-domain-images {
     margin-top: 20px;
   }
+  .dei-images > img,
   .marketing-images > img,
   .operational-metrics-images > img,
   .healthcare-domain-images > img,
@@ -72,9 +75,17 @@
     width: 100%;
     height: 77vh;
   }
+  .dei-images > img,
   .marketing-images > img,
   .operational-metrics-images > img,
   .retail-domain-images > img {
     height: 74vh;
+  }
+}
+
+.dei-popup{
+  .enable {
+    background-color: var(--flamingo-pink);
+    color: white;
   }
 }
