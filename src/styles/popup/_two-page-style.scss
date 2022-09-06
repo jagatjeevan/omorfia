@@ -1,5 +1,6 @@
 .journey-popup,
 .bahmni-popup,
+.dpg-popup,
 .growth-popup,
 .unique-popup {
   background-color: white;
@@ -102,6 +103,29 @@
     scroll-behavior: smooth;
   }
   .bahmni-images > img {
+    scroll-snap-align: center;
+    flex: none;
+    width: 100%;
+  }
+}
+
+.dpg-popup{
+  .enable {
+    background-color: var(--sapphire-blue);
+    color: white;
+  }
+  .dpg-images {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex: none;
+    width: 100%;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    margin-top: 30px;
+    scroll-behavior: smooth;
+  }
+  .dpg-images > img {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
