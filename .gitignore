@@ -5,3 +5,5 @@ build
 *.css.map
 .idea
 del
+cordova_build_script.py
+cordova-build

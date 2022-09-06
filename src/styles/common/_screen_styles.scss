@@ -2,8 +2,11 @@
   overflow: hidden;
   position: absolute;
   width: 100%;
-  height: calc(100vh - 120px);
+  // Development value
+  // height: calc(100vh - 120px);
+  // Production value
+  height: calc(100vh - 163px);
   left: 0;
-  bottom: 0;
+  bottom: 0px;
   z-index: -1;
 }

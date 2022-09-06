@@ -247,7 +247,7 @@ export const exitScreen1 = (nextPage) => {
         duration: 0.8,
         left: '-104.9%',
         width: '36px',
-        top: '-0.3%',
+        top: 'calc(-0.3% + 22.5px)',
       },
     )
     .delay(1.3);

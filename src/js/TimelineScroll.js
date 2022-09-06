@@ -1,7 +1,7 @@
-import { addChart } from "./charts/chart-container.js";
+import { addChart } from './charts/chart-container.js';
 
 var isGraphLoaded = false;
-const timelineTitle = document.querySelectorAll('.title');
+const timelineTitles = document.querySelectorAll('.title');
 
 export const contentScroll = (pageName) => {
   var current = '';
@@ -25,11 +25,11 @@ export const contentScroll = (pageName) => {
       activeTarget(target);
     }
   });
-}
+};
 
 export const activeTarget = (target) => {
-  timelineTitle.forEach((item) => {
+  timelineTitles.forEach((item) => {
     if (item !== target) item.parentElement.classList.remove('completed');
   });
   target.parentElement.parentElement.classList.add('completed');
-}
+};
