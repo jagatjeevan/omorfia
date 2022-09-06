@@ -114,7 +114,7 @@ export const addIdfcChart = () => {
         yAxis: 1,
         color: '#003d50',
         dataLabels: { color: '#133d4e'},
-        data: [3.9, 13, 16.9, { y: 11.2, color: '#6b9e78', dataLabels: { color: '#6b9e78'} }],
+        data: [3.9, 13, 16.9, { y: 11.2, color: '#cc850a', dataLabels: { color: '#cc850a'} }],
         tooltip: {
           valueSuffix: ' Mn',
         },

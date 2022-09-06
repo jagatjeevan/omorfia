@@ -114,7 +114,7 @@ export const addAxisChart = () => {
         yAxis: 1,
         color: '#003d50',
         dataLabels: { color: '#133d4e'},
-        data: [5.96, 8.65, 13.28, { y: 10.68, color: '#6b9e78', dataLabels: { color: '#6b9e78'} }],
+        data: [5.96, 8.65, 13.28, { y: 10.68, color: '#cc850a', dataLabels: { color: '#cc850a'} }],
         tooltip: {
           valueSuffix: ' Mn',
         },

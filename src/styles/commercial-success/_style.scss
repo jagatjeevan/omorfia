@@ -54,6 +54,7 @@
     scroll-behavior: smooth;
 
     .twi-marketing,
+    .cs-intro,
     .twi-unique,
     .twi-growth,
     .twi-domains,
@@ -306,8 +307,6 @@
         margin-bottom: 20px;
       }
       .commercial-team {
-        display: flex;
-        justify-content: space-between;
         width: 97%;
         margin-bottom: 20px;
 
@@ -316,12 +315,8 @@
         }
         .name {
           font-weight: 300;
-          font-size: 16px;
+          font-size: 15px;
           margin: 10px 0 5px 0;
-        }
-        .designation {
-          font-size: 14px;
-          font-weight: 300;
         }
       }
 

@@ -114,7 +114,7 @@ export const addFalabellaChart = () => {
         yAxis: 1,
         color: '#003d50',
         dataLabels: { color: '#133d4e'},
-        data: [5.58, 9.6, 12.1, { y: 10, color: '#6b9e78', dataLabels: { color: '#6b9e78'} }],
+        data: [5.58, 9.6, 12.1, { y: 10, color: '#cc850a', dataLabels: { color: '#cc850a'} }],
         tooltip: {
           valueSuffix: ' Mn',
         },
