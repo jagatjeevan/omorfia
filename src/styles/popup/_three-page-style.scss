@@ -17,11 +17,15 @@
     position: absolute;
     top: -7px;
     right: -7px;
+    transform: translateZ(50px);
   }
   .arrows {
+    -webkit-transform: translate3d(0, 0, 0);
+    z-index: 999;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    transform: translateZ(50px);
     background-color: var(--mist-gray);
     padding: 7px 15px;
     border-radius: 50%;
@@ -83,7 +87,7 @@
   }
 }
 
-.dei-popup{
+.dei-popup {
   .enable {
     background-color: var(--flamingo-pink);
     color: white;
