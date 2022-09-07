@@ -29,7 +29,13 @@ export const contentScroll = (pageName) => {
 
 export const activeTarget = (target) => {
   timelineTitles.forEach((item) => {
-    if (item !== target) item.parentElement.classList.remove('current');
+    item.parentElement.classList.remove('current');
+    item.parentElement.classList.remove('completed');
+  });
+  var isCompleted = false;
+  timelineTitles.forEach((item) => {
+    if (!isCompleted) item.parentElement.classList.add('completed');
+    if (item === target.parentElement) isCompleted = true;
   });
   target.parentElement.parentElement.classList.add('current');
 };

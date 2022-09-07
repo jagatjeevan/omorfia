@@ -18,6 +18,26 @@
       margin-bottom: 0;
     }
 
+    &.completed {
+      a {
+        color: #666666;
+      }
+
+      .number {
+        border: 1.5px solid #666666;
+        background-color: #666666;
+      }
+
+      &:after {
+        background-color: #666666;
+      }
+
+      .timeline-img {
+        filter: invert(39%) sepia(0%) saturate(510%) hue-rotate(167deg) brightness(97%)
+          contrast(80%);
+      }
+    }
+
     &.current {
       a {
         color: var(--tumeric-yellow);
