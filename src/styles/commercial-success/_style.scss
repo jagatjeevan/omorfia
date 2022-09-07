@@ -4,6 +4,10 @@
   color: var(--tumeric-yellow);
 }
 
+.wave-blue {
+  color: var(--wave-blue);
+}
+
 #commercial-success {
   .step {
     .title {
@@ -301,7 +305,7 @@
 
     .cs-intro {
       .desc {
-        font-weight: 300;
+        font-weight: 400;
         font-size: 15px;
         margin-bottom: 20px;
       }
@@ -313,9 +317,13 @@
           vertical-align: text-top;
         }
         .name {
-          font-weight: 300;
+          font-weight: 400;
           font-size: 15px;
           margin: 10px 0 5px 0;
+
+          span {
+            font-weight: 500;
+          }
         }
       }
 
@@ -332,7 +340,7 @@
       }
       .pointer-desc {
         font-size: 13px;
-        font-weight: 300;
+        font-weight: 400;
       }
 
       .accounts {
@@ -348,8 +356,8 @@
         }
 
         .account-text {
-          font-size: 13px;
-          font-weight: 300;
+          font-size: 12.5px;
+          font-weight: 400;
           padding-bottom: 20px;
         }
 
