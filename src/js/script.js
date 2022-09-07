@@ -158,6 +158,8 @@ $('#marketing-right-arrow').on('click', () => change4PopupPage('right'));
 $('.close-4-popup').on('click', close4Popup);
 
 // Popup scroll
+var triggerAnimation = true;
+
 $('#healthcare-domain-images').scroll(scroll3Popup);
 $('#dei-images').scroll(scroll3Popup);
 $('#operational-metrics-images').scroll(scroll3Popup);
@@ -169,3 +171,6 @@ $('#bahmni-images').scroll(scroll2Popup);
 $('#dpg-images').scroll(scroll2Popup);
 $('#gdo-images').scroll(scroll2Popup);
 $('#gic-images').scroll(scroll2Popup);
+$('#axis-images').scroll(() => scroll2Popup(triggerAnimation));
+$('#falabella-images').scroll(() => scroll2Popup(triggerAnimation));
+$('#idfc-images').scroll(() => scroll2Popup(triggerAnimation));

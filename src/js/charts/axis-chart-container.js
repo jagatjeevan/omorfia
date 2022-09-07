@@ -10,8 +10,8 @@ export const addAxisChart = () => {
     chart: {
       zoomType: 'xy',
       marginTop: 50,
-      height: 380,
-      width: 950,
+      height: 420,
+      width: 870,
       backgroundColor: 'white',
     },
     title: {
@@ -113,8 +113,8 @@ export const addAxisChart = () => {
         type: 'column',
         yAxis: 1,
         color: '#003d50',
-        dataLabels: { color: '#133d4e'},
-        data: [5.96, 8.65, 13.28, { y: 10.68, color: '#cc850a', dataLabels: { color: '#cc850a'} }],
+        dataLabels: { color: '#133d4e' },
+        data: [5.96, 8.65, 13.28, { y: 10.68, color: '#cc850a', dataLabels: { color: '#cc850a' } }],
         tooltip: {
           valueSuffix: ' Mn',
         },

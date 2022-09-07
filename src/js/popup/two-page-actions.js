@@ -1,3 +1,7 @@
+import { addAxisChart } from '../charts/axis-chart-container.js';
+import { addFalabellaChart } from '../charts/falabella-chart-container.js';
+import { addIdfcChart } from '../charts/idfc-chart-container.js';
+
 var popupPage = 0;
 var isPopupOpen = false;
 var currentPopupId;
@@ -85,7 +89,16 @@ export const close2Popup = () => {
     .delay(1.3);
 };
 
-export const scroll2Popup = () => {
+const triggerGraphAnimation = () => {
+  addAxisChart();
+  addFalabellaChart();
+  addIdfcChart();
+};
+
+export const scroll2Popup = (triggerAnimation) => {
+  console.log(triggerAnimation);
+  if (triggerAnimation) triggerGraphAnimation();
+
   var scrollLeft = currentPopupImagesElement.scrollLeft;
 
   if (scrollLeft < 1000) {

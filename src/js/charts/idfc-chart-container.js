@@ -10,8 +10,8 @@ export const addIdfcChart = () => {
     chart: {
       zoomType: 'xy',
       marginTop: 50,
-      height: 400,
-      width: 950,
+      height: 420,
+      width: 870,
       backgroundColor: 'white',
     },
     title: {
@@ -113,8 +113,8 @@ export const addIdfcChart = () => {
         type: 'column',
         yAxis: 1,
         color: '#003d50',
-        dataLabels: { color: '#133d4e'},
-        data: [3.9, 13, 16.9, { y: 11.2, color: '#cc850a', dataLabels: { color: '#cc850a'} }],
+        dataLabels: { color: '#133d4e' },
+        data: [3.9, 13, 16.9, { y: 11.2, color: '#cc850a', dataLabels: { color: '#cc850a' } }],
         tooltip: {
           valueSuffix: ' Mn',
         },
