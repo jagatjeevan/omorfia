@@ -1,12 +1,15 @@
 import { addChart } from './charts/chart-container.js';
 
 var isGraphLoaded = false;
-const timelineTitles = document.querySelectorAll('#commercial-steps > .step > .title');
+var timelineTitles;
 
 export const contentScroll = (pageName) => {
+  timelineTitles = document.querySelectorAll(`#${pageName}-steps > .step > .title`);
+  console.log(document.querySelectorAll(`#${pageName}-steps > .step > .title`));
   var current = '';
   let content = document.getElementById(`${pageName}-main-content`);
   let sections = content.querySelectorAll('section');
+  console.log(sections);
   sections.forEach((section) => {
     let top = content.scrollTop;
     let offset = section.offsetTop;

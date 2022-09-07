@@ -10,9 +10,29 @@
       margin: 1px 0 100px;
     }
 
+    &.completed {
+      a {
+        color: #666666;
+      }
+
+      .number {
+        border: 1.5px solid #666666;
+        background-color: #666666;
+      }
+
+      &:after {
+        background-color: #666666;
+      }
+
+      .timeline-img {
+        filter: invert(39%) sepia(0%) saturate(510%) hue-rotate(167deg) brightness(97%)
+          contrast(80%);
+      }
+    }
+
     &.current {
       a {
-        color: var(--flamingo-pink);
+        color: #000000;
       }
 
       .number {
@@ -43,7 +63,7 @@
     flex: 1;
     font-family: var(--font-family-inter);
     position: relative;
-    max-height: 75vh;
+    max-height: 70vh;
     overflow-y: auto;
   }
 
