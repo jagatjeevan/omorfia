@@ -1,7 +1,7 @@
 .why-clickable {
   position: absolute;
-  right: 11.5%;
-  top: 50%;
+  right: 8.8%;
+  top: 49%;
   transform: translateY(-49%);
   z-index: 10;
 }
@@ -34,8 +34,8 @@
 .why-clickable-upper,
 .why-clickable-bottom {
   position: relative;
-  width: 480px;
-  height: 240px;
+  width: 500px;
+  height: 250px;
   overflow: hidden;
 }
 
@@ -51,8 +51,8 @@
   width: inherit;
   height: inherit;
   border-top: none;
-  border-bottom-left-radius: 240px;
-  border-bottom-right-radius: 240px;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 250px;
   transform-origin: 50% 0;
   transform-style: preserve-3d;
   backface-visibility: hidden;
@@ -70,8 +70,8 @@
   width: inherit;
   height: inherit;
   border-top: none;
-  border-bottom-left-radius: 240px;
-  border-bottom-right-radius: 240px;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 250px;
   transform-origin: 50% 0;
   transform-style: preserve-3d;
   backface-visibility: hidden;
@@ -112,3 +112,19 @@
   z-index: 2;
   transform: rotate(120deg);
 }
+
+// .awesome-partner-clickable {
+//   border: 10px solid #ccc;
+// }
+// .revolutionize-tech-clickable {
+//   border: 10px solid #000;
+// }
+// .positive-social-change-clickable {
+//   border: 10px solid #00f;
+// }
+// .commercial-success-clickable {
+//   border: 10px solid #f00;
+// }
+// .vibrant-community-clickable {
+//   border: 10px solid #0f0;
+// }

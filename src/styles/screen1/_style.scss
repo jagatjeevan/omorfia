@@ -3,10 +3,6 @@
   align-items: center;
   z-index: 2;
   background-color: var(--wave-blue);
-  background-image: url('../src/images/screen1-bg.svg');
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .know-more {
@@ -66,7 +62,8 @@
 
 .wheel-container {
   position: relative;
-  bottom: -10px;
+  width: 2200px;
+  margin-right: 90px;
 }
 
 .background-image {
@@ -94,16 +91,15 @@
 
 .skeleton {
   position: relative;
-  width: 107%;
-  height: 107%;
-  margin-left: -4%;
+  width: 120.5%;
+  margin-left: 5%;
 }
 
 .lenses-core {
   position: absolute;
   z-index: 2;
-  width: 49%;
-  left: 30%;
+  width: 54%;
+  left: 43.8%;
 }
 
 .skeleton-inner-container {
@@ -113,46 +109,41 @@
 .lense-positiveSocialChange {
   position: absolute;
   z-index: 3;
-  width: 42%;
-  height: 29%;
-  left: 52%;
-  top: 14%;
+  width: 52.3%;
+  left: 66.3%;
+  top: -248px;
 }
 
 .lense-revolutionizeTech {
   position: absolute;
   z-index: 3;
-  width: 42%;
-  height: 29%;
-  left: 6%;
-  top: 14%;
+  width: 52%;
+  left: 13%;
+  top: -247px;
 }
 
 .lense-commercialSuccess {
   position: absolute;
   z-index: 3;
-  width: 61.5%;
-  height: 39%;
-  left: 50%;
-  top: 40%;
+  width: 41.4%;
+  left: 80%;
+  top: -74px;
 }
 
 .lense-vibrantCommunity {
   position: absolute;
   z-index: 3;
-  width: 50%;
-  height: 38%;
-  left: 25%;
-  top: 57%;
+  width: 64%;
+  left: 33.9%;
+  top: 86px;
 }
 
 .lense-awesomePartner {
   position: absolute;
   z-index: 3;
-  width: 49%;
-  height: 38%;
-  left: -8%;
-  top: 40.2%;
+  width: 41%;
+  left: 10.2%;
+  top: -72.3px;
 }
 
 .video-area {
