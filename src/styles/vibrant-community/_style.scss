@@ -5,9 +5,7 @@
 }
 
 #vibrant-community {
-
   .step {
-
     .title {
       margin: 1px 0 70px;
     }
@@ -35,7 +33,7 @@
       margin-bottom: 0;
     }
 
-    &.completed {
+    &.current {
       a {
         color: var(--jade-green);
       }
@@ -50,7 +48,8 @@
       }
 
       .timeline-img {
-        filter: invert(57%) sepia(22%) saturate(500%) hue-rotate(83deg) brightness(95%) contrast(97%);
+        filter: invert(57%) sepia(22%) saturate(500%) hue-rotate(83deg) brightness(95%)
+          contrast(97%);
       }
 
       .timeline-arrow {

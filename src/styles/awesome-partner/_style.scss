@@ -5,9 +5,7 @@
 }
 
 #awesome-partner {
-
   .step {
-
     .title {
       margin: 1px 0 70px;
     }
@@ -16,7 +14,7 @@
       margin-bottom: 0;
     }
 
-    &.completed {
+    &.current {
       a {
         color: var(--amethyst-purple);
       }
@@ -31,7 +29,8 @@
       }
 
       .timeline-img {
-        filter: invert(36%) sepia(8%) saturate(2469%) hue-rotate(224deg) brightness(85%) contrast(87%);
+        filter: invert(36%) sepia(8%) saturate(2469%) hue-rotate(224deg) brightness(85%)
+          contrast(87%);
       }
 
       .timeline-arrow {
@@ -118,7 +117,6 @@
     .cultivation,
     .large-relationships,
     .client-portfolio {
-
       .client-img {
         width: 580px;
         margin-top: 10px;

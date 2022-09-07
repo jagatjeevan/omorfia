@@ -5,14 +5,12 @@
 }
 
 #positive-social-change {
-
   .step {
-
     .title {
       margin: 1px 0 100px;
     }
 
-    &.completed {
+    &.current {
       a {
         color: var(--flamingo-pink);
       }
@@ -27,7 +25,8 @@
       }
 
       .timeline-img {
-        filter: invert(57%) sepia(15%) saturate(6534%) hue-rotate(313deg) brightness(97%) contrast(95%);
+        filter: invert(57%) sepia(15%) saturate(6534%) hue-rotate(313deg) brightness(97%)
+          contrast(95%);
       }
 
       .timeline-arrow {
@@ -48,7 +47,6 @@
     overflow-y: auto;
   }
 
-
   .dei-story,
   .bahmni,
   .sc-intro {
@@ -68,7 +66,6 @@
   }
 
   .sc-intro {
-
     .socail-team {
       display: flex;
       margin-bottom: 20px;
@@ -120,7 +117,6 @@
   }
 
   .dei-story {
-
     .dei-content {
       display: flex;
       justify-content: space-between;
@@ -196,6 +192,5 @@
       width: 570px;
       margin-top: 12px;
     }
-
   }
 }

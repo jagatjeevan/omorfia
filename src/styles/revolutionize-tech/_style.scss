@@ -6,7 +6,6 @@
 
 #revolutionize-tech {
   .step {
-
     .title {
       margin: 1px 0 70px;
     }
@@ -19,7 +18,7 @@
       margin-bottom: 0;
     }
 
-    &.completed {
+    &.current {
       a {
         color: var(--sapphire-blue);
       }
@@ -34,7 +33,8 @@
       }
 
       .timeline-img {
-        filter: invert(58%) sepia(52%) saturate(439%) hue-rotate(139deg) brightness(88%) contrast(83%);
+        filter: invert(58%) sepia(52%) saturate(439%) hue-rotate(139deg) brightness(88%)
+          contrast(83%);
       }
 
       .timeline-arrow {
@@ -75,7 +75,6 @@
     }
 
     .rt-intro {
-
       .revolution-team {
         display: flex;
         margin-bottom: 20px;
