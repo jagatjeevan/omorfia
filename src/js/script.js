@@ -140,9 +140,6 @@ $('.close-2-popup').on('click', close2Popup);
 $('#healthcare-domain').on('click', () => open3Popup('healthcare-domain'));
 $('#healthcare-domain-left-arrow').on('click', () => change3PopupPage('left'));
 $('#healthcare-domain-right-arrow').on('click', () => change3PopupPage('right'));
-$('#operational-metrics').on('click', () => open3Popup('operational-metrics'));
-$('#operational-metrics-left-arrow').on('click', () => change3PopupPage('left'));
-$('#operational-metrics-right-arrow').on('click', () => change3PopupPage('right'));
 $('#dei-popup-button').on('click', () => open3Popup('dei'));
 $('#dei-left-arrow').on('click', () => change3PopupPage('left'));
 $('#dei-right-arrow').on('click', () => change3PopupPage('right'));
@@ -155,6 +152,9 @@ $('#retail-domain-right-arrow').on('click', () => change4PopupPage('right'));
 $('#marketing-button').on('click', () => open4Popup('marketing'));
 $('#marketing-left-arrow').on('click', () => change4PopupPage('left'));
 $('#marketing-right-arrow').on('click', () => change4PopupPage('right'));
+$('#operational-metrics').on('click', () => open4Popup('operational-metrics'));
+$('#operational-metrics-left-arrow').on('click', () => change4PopupPage('left'));
+$('#operational-metrics-right-arrow').on('click', () => change4PopupPage('right'));
 $('.close-4-popup').on('click', close4Popup);
 
 // Popup scroll
@@ -162,9 +162,9 @@ var triggerAnimation = true;
 
 $('#healthcare-domain-images').scroll(scroll3Popup);
 $('#dei-images').scroll(scroll3Popup);
-$('#operational-metrics-images').scroll(scroll3Popup);
 $('#marketing-images').scroll(scroll4Popup);
 $('#retail-domain-images').scroll(scroll4Popup);
+$('#operational-metrics-images').scroll(scroll4Popup);
 $('#journey-images').scroll(scroll2Popup);
 $('#e4r-images').scroll(scroll2Popup);
 $('#bahmni-images').scroll(scroll2Popup);
