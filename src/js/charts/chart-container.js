@@ -125,7 +125,7 @@ export const addChart = () => {
         type: 'column',
         yAxis: 1,
         color: '#003d50',
-        dataLabels: { color: '#133d4e'},
+        dataLabels: { color: '#133d4e' },
         data: [
           25.5,
           28.0,
@@ -139,7 +139,7 @@ export const addChart = () => {
           124.7,
           157.2,
           223.1,
-          { y: 290, color: '#6b9e78', dataLabels: { color: '#6b9e78'} },
+          { y: 290, color: '#6b9e78', dataLabels: { color: '#6b9e78' } },
         ],
         tooltip: {
           valueSuffix: ' Mn',
@@ -152,7 +152,7 @@ export const addChart = () => {
         marker: {
           symbol: 'circle',
         },
-        data: [479, 439.2, 528.6, 561, 591, 675, 809, 940, 1096, 1389.5, 1786, 2395, 3176],
+        data: [479, 439.2, 528.6, 561, 591, 675, 809, 940, 1096, 1389.5, 1786, 2395, 3557],
       },
       {
         name: 'Client Gross Margin %',
@@ -161,10 +161,16 @@ export const addChart = () => {
           symbol: 'circle',
         },
         data: [
-          59.9, 57.00, 64.70, 69.56, 70.22, 69.11, 67.33, 67.41, 68.91, 66.50, 66.26, 66.64, 59.10,
+          59.9, 57.0, 64.7, 69.56, 70.22, 69.11, 67.33, 67.41, 68.91, 66.5, 66.26, 66.64, 59.1,
         ],
         tooltip: {
           valueSuffix: ' %',
+        },
+        dataLabels: {
+          enabled: true,
+          formatter: function () {
+            return Highcharts.numberFormat(this.y, 2) + '%';
+          },
         },
       },
     ],
