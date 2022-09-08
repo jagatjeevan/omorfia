@@ -77,8 +77,8 @@
     margin-top: 15px;
   }
   .dei-images > div,
-  .marketing-images > img,
-  .operational-metrics-images > img,
+  .marketing-images > div,
+  .operational-metrics-images > div,
   .healthcare-domain-images > img,
   .retail-domain-images > img {
     scroll-snap-align: center;
@@ -89,10 +89,10 @@
       height: 77vh;
     }
   }
-  .dei-images > img,
-  .marketing-images > img,
-  .operational-metrics-images > img,
-  .retail-domain-images > img {
+  .operational-metrics-images > div > img {
+    height: 72vh;
+  }
+  .marketing-images > div > img {
     height: 74vh;
   }
 }
