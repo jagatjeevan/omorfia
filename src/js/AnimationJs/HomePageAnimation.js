@@ -239,15 +239,15 @@ export const exitScreen1 = (nextPage) => {
       nextPageBackIcon,
       {
         duration: 0.8,
-        width: '93%',
-        left: '50%',
+        width: '112%',
+        left: '65.4%',
         top: '50%',
       },
       {
         duration: 0.8,
-        left: '-104.9%',
+        left: '-111%',
         width: '36px',
-        top: 'calc(-0.3% + 22.5px)',
+        top: 'calc(-0.3% - 295px)',
       },
     )
     .delay(1.3);
