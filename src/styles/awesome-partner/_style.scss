@@ -62,36 +62,34 @@
       font-size: 22px;
       font-family: var(--font-family-bitter);
     }
+  
+    .desc {
+      font-weight: 400;
+      font-size: 15px;
+      margin: 5px 0 20px 0;
+    }
 
     .cultivation,
     .large-relationships,
     .client-portfolio,
     .ap-intro {
-      .desc {
-        font-weight: 300;
-        font-size: 15px;
-        margin-bottom: 20px;
-      }
 
       .awesome-team {
-        display: flex;
+        width: 97%;
         margin-bottom: 20px;
-        justify-content: space-between;
-
-        .image,
-        .person {
-          width: 140px;
+  
+        .image {
+          vertical-align: text-top;
         }
-
+  
         .name {
-          font-weight: 300;
-          font-size: 16px;
+          font-weight: 400;
+          font-size: 15px;
           margin: 10px 0 5px 0;
-        }
-
-        .designation {
-          font-size: 14px;
-          font-weight: 300;
+  
+          span {
+            font-weight: 500;
+          }
         }
       }
 
