@@ -90,7 +90,7 @@ export const close2Popup = () => {
 };
 
 const triggerGraphAnimation = () => {
-  addAxisChart();
+  addAxisChart('axis-chart-container','#cc850a');
   addFalabellaChart();
   addIdfcChart();
 };

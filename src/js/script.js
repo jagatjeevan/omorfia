@@ -107,20 +107,20 @@ $('#explore-journey').on('click', () => open2Popup('journey'));
 $('#axis-learn-more').on('click', () => {
   open2Popup('axis');
   setTimeout(() => {
-    addAxisChart();
+    addAxisChart('axis-chart-container','#cc850a');
   }, 500);
 });
 $('#falabella-learn-more').on('click', () => {
   open2Popup('falabella');
 
   setTimeout(() => {
-    addFalabellaChart();
+    addFalabellaChart('falabella-chart-container','#cc850a');
   }, 500);
 });
 $('#idfc-learn-more').on('click', () => {
   open2Popup('idfc');
   setTimeout(() => {
-    addIdfcChart();
+    addIdfcChart('idfc-chart-container','#cc850a');
   }, 500);
 });
 $('#unique-e4r').on('click', () => open2Popup('e4r'));

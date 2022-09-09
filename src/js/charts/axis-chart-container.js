@@ -5,8 +5,8 @@ Highcharts.setOptions({
   },
 });
 
-export const addAxisChart = () => {
-  Highcharts.chart('axis-chart-container', {
+export const addAxisChart = (containerName, color) => {
+  Highcharts.chart(containerName, {
     chart: {
       zoomType: 'xy',
       marginTop: 50,
@@ -114,7 +114,7 @@ export const addAxisChart = () => {
         yAxis: 1,
         color: '#003d50',
         dataLabels: { color: '#133d4e' },
-        data: [5.96, 8.65, 13.28, { y: 10.68, color: '#cc850a', dataLabels: { color: '#cc850a' } }],
+        data: [5.96, 8.65, 13.28, { y: 10.68, color: color, dataLabels: { color: color } }],
         tooltip: {
           valueSuffix: ' Mn',
         },
@@ -130,7 +130,7 @@ export const addAxisChart = () => {
       },
       {
         name: 'Client Gross Margin %',
-        color: '#cc850a',
+        color: '#61507C',
         marker: {
           symbol: 'circle',
         },

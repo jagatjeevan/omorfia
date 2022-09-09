@@ -5,8 +5,8 @@ Highcharts.setOptions({
   },
 });
 
-export const addFalabellaChart = () => {
-  Highcharts.chart('falabella-chart-container', {
+export const addFalabellaChart = (containerName, color) => {
+  Highcharts.chart(containerName, {
     chart: {
       zoomType: 'xy',
       marginTop: 50,
@@ -114,7 +114,7 @@ export const addFalabellaChart = () => {
         yAxis: 1,
         color: '#003d50',
         dataLabels: { color: '#133d4e' },
-        data: [5.58, 9.6, 12.1, { y: 10, color: '#cc850a', dataLabels: { color: '#cc850a' } }],
+        data: [5.58, 9.6, 12.1, { y: 10, color: color, dataLabels: { color: color } }],
         tooltip: {
           valueSuffix: ' Mn',
         },
@@ -130,7 +130,7 @@ export const addFalabellaChart = () => {
       },
       {
         name: 'Client Gross Margin %',
-        color: '#cc850a',
+        color: '#61507C',
         marker: {
           symbol: 'circle',
         },
