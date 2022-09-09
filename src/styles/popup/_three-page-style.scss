@@ -1,4 +1,5 @@
 .dei-popup,
+.client-portfolio-popup,
 .people-function-popup,
 .home-twu-popup,
 .marketing-popup,
@@ -20,6 +21,7 @@
     top: -7px;
     right: -7px;
     transform: translateZ(50px);
+    z-index: 999;
   }
 
   .arrows {
@@ -59,6 +61,7 @@
 
   .dei-images,
   .people-function-images,
+  .client-portfolio-images,
   .home-twu-images,
   .marketing-images,
   .healthcare-domain-images,
@@ -89,7 +92,12 @@
     margin-top: 15px;
   }
 
+  .client-portfolio-images {
+    margin-top: 5px;
+  }
+
   .dei-images>div,
+  .client-portfolio-images>div,
   .people-function-images>div,
   .home-twu-images>div,
   .marketing-images>div,
@@ -112,8 +120,57 @@
     height: 72vh;
   }
 
+  .client-portfolio-images>div>img,
   .marketing-images>div>img {
     height: 74vh;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.client-portfolio-popup {
+
+  .enable {
+    background-color: var(--amethyst-purple);
+    color: white;
+  }
+
+  .axis-graph,
+  .idfc-graph,
+  .falabella-graph {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .client-content {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex: none;
+    width: 100%;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  .client-content > div {
+    scroll-snap-align: center;
+    flex: none;
+    width: 100%;
+    height: 77vh;
+  }
+
+  .popup-client-content-2 {
+    text-align: center;
+    position: relative;
+  }
+
+  .popup-client-content-2>img {
+    height: 75vh;
+    margin-top: 1vh;
   }
 }
 

@@ -91,12 +91,12 @@ export const close2Popup = () => {
 
 const triggerGraphAnimation = () => {
   addAxisChart('axis-chart-container','#cc850a');
-  addFalabellaChart();
-  addIdfcChart();
+  addFalabellaChart('falabella-chart-container','#cc850a');
+  addIdfcChart('idfc-chart-container','#cc850a');
 };
 
 export const scroll2Popup = (triggerAnimation) => {
-  console.log(triggerAnimation);
+  
   if (triggerAnimation) triggerGraphAnimation();
 
   var scrollLeft = currentPopupImagesElement.scrollLeft;

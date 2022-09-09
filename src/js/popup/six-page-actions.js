@@ -1,3 +1,7 @@
+import { addAxisChart } from "../charts/axis-chart-container.js";
+import { addFalabellaChart } from "../charts/falabella-chart-container.js";
+import { addIdfcChart } from "../charts/idfc-chart-container.js";
+
 var popupPage = 0;
 var isPopupOpen = false;
 var currentPopupId;
@@ -27,7 +31,7 @@ export const change6PopupPage = (direction) => {
     currentPopupImagesElement.scrollTo(5605, 0);
   } else if (popupPage === 5 && direction === 'left') {
     currentPopupImagesElement.scrollTo(4484, 0);
-  }else if (direction === 'reset') {
+  } else if (direction === 'reset') {
     currentPopupImagesElement.style.scrollBehavior = 'auto';
     currentPopupImagesElement.scrollTo(0, 0);
     currentPopupImagesElement.style.scrollBehavior = 'smooth';
@@ -101,7 +105,16 @@ export const close6Popup = () => {
     .delay(1.3);
 };
 
-export const scroll6Popup = () => {
+const triggerGraphAnimation = () => {
+  addAxisChart('axis-chart-container-2', '#634f7d');
+  addFalabellaChart('falabella-chart-container-2', '#634f7d');
+  addIdfcChart('idfc-chart-container-2', '#634f7d');
+};
+
+export const scroll6Popup = (triggerAnimation) => {
+  console.log("hello")
+  if (triggerAnimation) triggerGraphAnimation();
+
   var scrollLeft = currentPopupImagesElement.scrollLeft;
 
   if (scrollLeft < 1000) {

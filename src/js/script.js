@@ -169,12 +169,21 @@ $('.close-4-popup').on('click', close4Popup);
 $('#people-function-popup-button').on('click', () => open6Popup('people-function'));
 $('#people-function-left-arrow').on('click', () => change6PopupPage('left'));
 $('#people-function-right-arrow').on('click', () => change6PopupPage('right'));
+$('#client-portfolio-popup-button').on('click', () => {
+  open6Popup('client-portfolio')
+  setTimeout(() => {
+    addIdfcChart('falabella-chart-container-2', '#634f7d');
+  }, 500);
+});
+$('#client-portfolio-left-arrow').on('click', () => change6PopupPage('left'));
+$('#client-portfolio-right-arrow').on('click', () => change6PopupPage('right'));
 $('.close-6-popup').on('click', close6Popup);
 
 // Popup scroll
 var triggerAnimation = true;
 
 $('#people-function-images').scroll(scroll6Popup);
+$('#client-portfolio-images').scroll(() => scroll6Popup(triggerAnimation));
 $('#healthcare-domain-images').scroll(scroll3Popup);
 $('#dei-images').scroll(scroll3Popup);
 $('#home-twu-images').scroll(scroll3Popup);
