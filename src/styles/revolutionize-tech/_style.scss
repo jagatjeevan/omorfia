@@ -33,8 +33,7 @@
       }
 
       .timeline-img {
-        filter: invert(39%) sepia(0%) saturate(510%) hue-rotate(167deg) brightness(97%)
-          contrast(80%);
+        filter: invert(39%) sepia(0%) saturate(510%) hue-rotate(167deg) brightness(97%) contrast(80%);
       }
     }
 
@@ -53,8 +52,7 @@
       }
 
       .timeline-img {
-        filter: invert(58%) sepia(52%) saturate(439%) hue-rotate(139deg) brightness(88%)
-          contrast(83%);
+        filter: invert(58%) sepia(52%) saturate(439%) hue-rotate(139deg) brightness(88%) contrast(83%);
       }
 
       .timeline-arrow {
@@ -76,10 +74,10 @@
     scroll-behavior: smooth;
 
     .rt-intro,
+    .domain-capabilities,
     .service-lines,
     .tech-assets,
     .e4r,
-    .tech-domain,
     .public-goods {
       padding-right: 1.5%;
     }

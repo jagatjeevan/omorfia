@@ -144,6 +144,9 @@ $('#healthcare-domain-right-arrow').on('click', () => change3PopupPage('right'))
 $('#dei-popup-button').on('click', () => open3Popup('dei'));
 $('#dei-left-arrow').on('click', () => change3PopupPage('left'));
 $('#dei-right-arrow').on('click', () => change3PopupPage('right'));
+$('#home-twu-popup-button').on('click', () => open3Popup('home-twu'));
+$('#home-twu-left-arrow').on('click', () => change3PopupPage('left'));
+$('#home-twu-right-arrow').on('click', () => change3PopupPage('right'));
 $('.close-3-popup').on('click', close3Popup);
 
 // 4 page popup
@@ -163,6 +166,7 @@ var triggerAnimation = true;
 
 $('#healthcare-domain-images').scroll(scroll3Popup);
 $('#dei-images').scroll(scroll3Popup);
+$('#home-twu-images').scroll(scroll3Popup);
 $('#marketing-images').scroll(scroll4Popup);
 $('#retail-domain-images').scroll(scroll4Popup);
 $('#operational-metrics-images').scroll(scroll4Popup);

@@ -1,4 +1,5 @@
 .dei-popup,
+.home-twu-popup,
 .marketing-popup,
 .operational-metrics-popup,
 .healthcare-domain-popup,
@@ -19,6 +20,7 @@
     right: -7px;
     transform: translateZ(50px);
   }
+
   .arrows {
     -webkit-transform: translate3d(0, 0, 0);
     z-index: 999;
@@ -34,16 +36,20 @@
     cursor: pointer;
     transition: 0.5s;
   }
+
   .left-arrow {
     left: 30px;
   }
+
   .right-arrow {
     right: 30px;
   }
+
   .enable {
     background-color: var(--tumeric-yellow);
     color: white;
   }
+
   .popup-content {
     overflow: hidden;
     width: 100%;
@@ -51,6 +57,7 @@
   }
 
   .dei-images,
+  .home-twu-images,
   .marketing-images,
   .healthcare-domain-images,
   .operational-metrics-images,
@@ -66,34 +73,50 @@
     margin-top: 30px;
     scroll-behavior: smooth;
   }
+
   .operational-metrics-images,
   .marketing-images {
     margin-top: 15px;
   }
+
   .retail-domain-images {
     margin-top: 20px;
   }
+
   .dei-images {
     margin-top: 15px;
   }
-  .dei-images > div,
-  .marketing-images > div,
-  .operational-metrics-images > div,
-  .healthcare-domain-images > img,
-  .retail-domain-images > img {
+
+  .dei-images>div,
+  .home-twu-images>div,
+  .marketing-images>div,
+  .operational-metrics-images>div,
+  .healthcare-domain-images>img,
+  .retail-domain-images>img {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
     text-align: center;
+
     img {
       height: 77vh;
     }
   }
-  .operational-metrics-images > div > img {
+
+  .home-twu-images>div>img,
+  .operational-metrics-images>div>img {
     height: 72vh;
   }
-  .marketing-images > div > img {
+
+  .marketing-images>div>img {
     height: 74vh;
+  }
+}
+
+.home-twu-popup {
+  .enable {
+    background-color: var(--jade-green);
+    color: white;
   }
 }
 
