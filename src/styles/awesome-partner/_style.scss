@@ -4,6 +4,10 @@
   color: var(--amethyst-purple);
 }
 
+.grey {
+  color: var(--grey);
+}
+
 #awesome-partner {
   .step {
     .title {
@@ -65,7 +69,7 @@
   
     .desc {
       font-weight: 400;
-      font-size: 15px;
+      font-size: 14px;
       margin: 5px 0 20px 0;
     }
 
@@ -112,6 +116,30 @@
       }
     }
 
+    .number {
+      width: 22px;
+      height: 22px;
+      background-color: var(--amethyst-purple);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .number-pointer {
+      display: flex;
+      column-gap: 8px;
+    }
+
+    .pointer-text {
+      font-weight: 300;
+      font-size: 14px;
+      margin: 0 0 15px 0;
+    }
+    
     .cultivation,
     .large-relationships,
     .client-portfolio {
