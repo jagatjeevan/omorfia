@@ -124,6 +124,32 @@
     }
   }
 
+  .map-img,
+  .community-img {
+    width: 98%;
+    margin: 10px 0;
+  }
+
+  .people-function-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+
+  .twu-img {
+    width: 180px;
+  }
+
+  .office-content-text {
+    margin: 10px 0;
+
+    p {
+      font-weight: 300;
+      font-size: 15px;
+      margin: 7px 0;
+    }
+  }
+
   .learn-more-btn {
     font-weight: bold;
     font-size: 13px;
