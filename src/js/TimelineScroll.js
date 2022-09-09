@@ -9,7 +9,7 @@ export const contentScroll = (pageName) => {
   var current = '';
   let content = document.getElementById(`${pageName}-main-content`);
   let sections = content.querySelectorAll('section');
-  console.log(sections);
+  // console.log(sections);
   sections.forEach((section) => {
     let top = content.scrollTop;
     let offset = section.offsetTop;
@@ -39,6 +39,7 @@ export const activeTarget = (target) => {
   timelineTitles.forEach((item) => {
     if (!isCompleted) item.parentElement.classList.add('completed');
     if (item === target.parentElement) isCompleted = true;
+    console.log(item);
   });
   target.parentElement.parentElement.classList.add('current');
 };
