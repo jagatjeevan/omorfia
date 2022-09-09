@@ -51,8 +51,9 @@
     flex: 1;
     font-family: var(--font-family-inter);
     position: relative;
-    max-height: 75vh;
+    max-height: 70vh;
     overflow-y: auto;
+    scroll-behavior: smooth;
 
     .cultivation,
     .large-relationships,
@@ -66,7 +67,7 @@
       font-size: 22px;
       font-family: var(--font-family-bitter);
     }
-  
+
     .desc {
       font-weight: 400;
       font-size: 14px;
@@ -77,20 +78,19 @@
     .large-relationships,
     .client-portfolio,
     .ap-intro {
-
       .awesome-team {
         width: 97%;
         margin-bottom: 20px;
-  
+
         .image {
           vertical-align: text-top;
         }
-  
+
         .name {
           font-weight: 300;
           font-size: 15px;
           margin: 10px 0 5px 0;
-  
+
           span {
             font-weight: 600;
           }
