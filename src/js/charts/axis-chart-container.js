@@ -138,6 +138,12 @@ export const addAxisChart = () => {
         tooltip: {
           valueSuffix: ' %',
         },
+        dataLabels: {
+          enabled: true,
+          formatter: function () {
+            return Highcharts.numberFormat(this.y, 2) + '%';
+          },
+        },
       },
     ],
   });

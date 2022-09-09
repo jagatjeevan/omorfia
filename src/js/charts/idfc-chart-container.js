@@ -134,9 +134,15 @@ export const addIdfcChart = () => {
         marker: {
           symbol: 'circle',
         },
-        data: [53.4, 52.4, 57.5, 57.0],
+        data: [53.4, 52.3, 57.5, 57.0],
         tooltip: {
           valueSuffix: ' %',
+        },
+        dataLabels: {
+          enabled: true,
+          formatter: function () {
+            return Highcharts.numberFormat(this.y, 2) + '%';
+          },
         },
       },
     ],
