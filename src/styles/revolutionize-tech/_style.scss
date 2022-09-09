@@ -7,7 +7,7 @@
 #revolutionize-tech {
   .step {
     .title {
-      margin: 1px 0 70px;
+      margin: 1px 0 60px;
     }
 
     .title.large-title {
@@ -33,8 +33,7 @@
       }
 
       .timeline-img {
-        filter: invert(58%) sepia(52%) saturate(439%) hue-rotate(139deg) brightness(88%)
-          contrast(83%);
+        filter: invert(58%) sepia(52%) saturate(439%) hue-rotate(139deg) brightness(88%) contrast(83%);
       }
 
       .timeline-arrow {
@@ -69,42 +68,28 @@
     }
 
     .desc {
-      font-weight: 300;
+      font-weight: 400;
       font-size: 15px;
-      margin-bottom: 20px;
+      margin: 5px 0 20px 0;
     }
 
     .rt-intro {
       .revolution-team {
-        display: flex;
+        width: 97%;
         margin-bottom: 20px;
-        justify-content: space-between;
 
-        .image,
-        .person {
-          width: 140px;
-        }
-
-        .last-image {
-          width: 280px;
-          height: 123.42px;
-        }
-
-        .last-person {
-          width: 280px;
-          height: 123.42px;
-          margin-bottom: 10px;
+        .image {
+          vertical-align: text-top;
         }
 
         .name {
           font-weight: 300;
-          font-size: 16px;
+          font-size: 15px;
           margin: 10px 0 5px 0;
-        }
 
-        .designation {
-          font-size: 14px;
-          font-weight: 300;
+          span {
+            font-weight: 600;
+          }
         }
       }
     }
