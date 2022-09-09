@@ -147,13 +147,17 @@
     width: 100%;
     flex-flow: row nowrap;
     scroll-snap-type: x mandatory;
-    margin-top: 30px;
+    margin-top: 20px;
     scroll-behavior: smooth;
   }
-  .dpg-images > img {
+  .dpg-images > div {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
+    text-align: center;
+  }
+  .dpg-images > div > img {
+    height: 77vh;
   }
 }
 

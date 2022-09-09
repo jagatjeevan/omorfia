@@ -174,9 +174,9 @@ $('.close-6-popup').on('click', close6Popup);
 // Popup scroll
 var triggerAnimation = true;
 
+$('#people-function-images').scroll(scroll6Popup);
 $('#healthcare-domain-images').scroll(scroll3Popup);
 $('#dei-images').scroll(scroll3Popup);
-$('#people-function-images').scroll(scroll6Popup);
 $('#home-twu-images').scroll(scroll3Popup);
 $('#marketing-images').scroll(scroll4Popup);
 $('#retail-domain-images').scroll(scroll4Popup);
