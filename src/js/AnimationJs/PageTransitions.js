@@ -1,4 +1,5 @@
 import { close4Popup } from '../popup/four-page-actions.js';
+import { close6Popup } from '../popup/six-page-actions.js';
 import { close3Popup } from '../popup/three-page-actions.js';
 import { close2Popup } from '../popup/two-page-actions.js';
 import { closeVideo } from '../VideoAnimations.js';
@@ -42,6 +43,7 @@ const exitPages = () => {
   close2Popup();
   close3Popup();
   close4Popup();
+  close6Popup();
 };
 
 const exitScreen1Page = () => {

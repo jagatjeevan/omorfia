@@ -5,7 +5,6 @@ var timelineTitles;
 
 export const contentScroll = (pageName) => {
   timelineTitles = document.querySelectorAll(`#${pageName}-steps > .step > .title`);
-  console.log(document.querySelectorAll(`#${pageName}-steps > .step > .title`));
   var current = '';
   let content = document.getElementById(`${pageName}-main-content`);
   let sections = content.querySelectorAll('section');
@@ -39,7 +38,6 @@ export const activeTarget = (target) => {
   timelineTitles.forEach((item) => {
     if (!isCompleted) item.parentElement.classList.add('completed');
     if (item === target.parentElement) isCompleted = true;
-    console.log(item);
   });
   target.parentElement.parentElement.classList.add('current');
 };

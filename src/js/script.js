@@ -24,6 +24,7 @@ import { addFalabellaChart } from './charts/falabella-chart-container.js';
 import { addIdfcChart } from './charts/idfc-chart-container.js';
 import { closeVideo, openVideo, playPause } from './VideoAnimations.js';
 import { activeTarget, contentScroll } from './TimelineScroll.js';
+import { change6PopupPage, close6Popup, open6Popup, scroll6Popup } from './popup/six-page-actions.js';
 
 var isPageLoaded = false;
 
@@ -161,11 +162,18 @@ $('#operational-metrics-left-arrow').on('click', () => change4PopupPage('left'))
 $('#operational-metrics-right-arrow').on('click', () => change4PopupPage('right'));
 $('.close-4-popup').on('click', close4Popup);
 
+// 6 page popup
+$('#people-function-popup-button').on('click', () => open6Popup('people-function'));
+$('#people-function-left-arrow').on('click', () => change6PopupPage('left'));
+$('#people-function-right-arrow').on('click', () => change6PopupPage('right'));
+$('.close-6-popup').on('click', close6Popup);
+
 // Popup scroll
 var triggerAnimation = true;
 
 $('#healthcare-domain-images').scroll(scroll3Popup);
 $('#dei-images').scroll(scroll3Popup);
+$('#people-function-images').scroll(scroll6Popup);
 $('#home-twu-images').scroll(scroll3Popup);
 $('#marketing-images').scroll(scroll4Popup);
 $('#retail-domain-images').scroll(scroll4Popup);
