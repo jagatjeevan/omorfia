@@ -68,9 +68,19 @@
     font-weight: 400;
     font-size: 15px;
     margin: 5px 0 20px 0;
+
+    .name {
+      font-weight: 300;
+      font-size: 15px;
+      margin: 10px 0 5px 0;
+
+      span {
+        font-weight: 600;
+      }
+    }
   }
 
-  .content-text{
+  .content-text {
     font-weight: 300;
     font-size: 15px;
   }
@@ -113,6 +123,7 @@
       font-weight: 400;
     }
   }
+
   .learn-more-btn {
     font-weight: bold;
     font-size: 13px;
