@@ -84,12 +84,23 @@
       padding-right: 1.5%;
     }
 
+    .domain-image,
+    .aadhaar-img,
+    .globe-img,
     .dpg-image {
       width: 100%;
     }
 
+    .aadhaar-img {
+      margin-left: -24px;
+    }
+
+    .globe-img {
+      margin: 5px 0;
+    }
+
     .desc {
-      font-weight: 400;
+      font-weight: 500;
       font-size: 15px;
       margin: 5px 0 20px 0;
     }
@@ -108,7 +119,8 @@
           font-size: 15px;
           margin: 10px 0 5px 0;
           display: flex;
-          column-gap: 8px;
+          column-gap: 6px;
+          align-items: flex-start;
 
           p {
             margin: 0;
@@ -160,6 +172,11 @@
       margin-top: 0;
       font-size: 22px;
       font-family: var(--font-family-bitter);
+    }
+
+    .sub-heading {
+      font-size: 15px;
+      font-weight: 600;
     }
 
     .learn-more-btn {
