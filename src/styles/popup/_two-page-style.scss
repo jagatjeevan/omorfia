@@ -1,6 +1,7 @@
 .journey-popup,
 .bahmni-popup,
 .dpg-popup,
+.cloud-partnerships-popup,
 .growth-popup,
 .unique-popup {
   background-color: white;
@@ -150,6 +151,29 @@
     scroll-behavior: smooth;
   }
   .dpg-images > img {
+    scroll-snap-align: center;
+    flex: none;
+    width: 100%;
+  }
+}
+
+.cloud-partnerships-popup {
+  .enable {
+    background-color: var(--amethyst-purple);
+    color: white;
+  }
+  .cloud-partnerships-images {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex: none;
+    width: 100%;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    margin-top: 15px;
+    scroll-behavior: smooth;
+  }
+  .cloud-partnerships-images > img {
     scroll-snap-align: center;
     flex: none;
     width: 100%;

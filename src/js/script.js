@@ -104,6 +104,9 @@ $('.play-video').on('click', openVideo);
 $('#close-video').on('click', closeVideo);
 $('#play-pause-icons').on('click', playPause);
 
+// 1 page popup
+$('#cloud-partnerships-popup-button').on('click', () => open2Popup('cloud-partnerships'));
+
 // 2 page popup
 $('#explore-journey').on('click', () => open2Popup('journey'));
 $('#axis-learn-more').on('click', () => {
