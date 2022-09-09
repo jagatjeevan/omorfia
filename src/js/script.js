@@ -96,6 +96,7 @@ $('#commercial-main-content').scroll(() => contentScroll('commercial'));
 $('#revolution-main-content').scroll(() => contentScroll('revolution'));
 $('#social-main-content').scroll(() => contentScroll('social'));
 $('#awesome-main-content').scroll(() => contentScroll('awesome'));
+$('#vibrant-main-content').scroll(() => contentScroll('vibrant'));
 
 // Button click animation
 $('.play-video').on('click', openVideo);
@@ -107,20 +108,20 @@ $('#explore-journey').on('click', () => open2Popup('journey'));
 $('#axis-learn-more').on('click', () => {
   open2Popup('axis');
   setTimeout(() => {
-    addAxisChart('axis-chart-container','#cc850a');
+    addAxisChart('axis-chart-container', '#cc850a');
   }, 500);
 });
 $('#falabella-learn-more').on('click', () => {
   open2Popup('falabella');
 
   setTimeout(() => {
-    addFalabellaChart('falabella-chart-container','#cc850a');
+    addFalabellaChart('falabella-chart-container', '#cc850a');
   }, 500);
 });
 $('#idfc-learn-more').on('click', () => {
   open2Popup('idfc');
   setTimeout(() => {
-    addIdfcChart('idfc-chart-container','#cc850a');
+    addIdfcChart('idfc-chart-container', '#cc850a');
   }, 500);
 });
 $('#unique-e4r').on('click', () => open2Popup('e4r'));

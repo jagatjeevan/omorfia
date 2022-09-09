@@ -18,6 +18,26 @@
       margin-bottom: 0;
     }
 
+    &.completed {
+      a {
+        color: #666666;
+      }
+
+      .number {
+        border: 1.5px solid #666666;
+        background-color: #666666;
+      }
+
+      &:after {
+        background-color: #666666;
+      }
+
+      .timeline-img {
+        filter: invert(39%) sepia(0%) saturate(510%) hue-rotate(167deg) brightness(97%)
+          contrast(80%);
+      }
+    }
+
     &.current {
       a {
         color: var(--jade-green);
@@ -33,7 +53,8 @@
       }
 
       .timeline-img {
-        filter: invert(57%) sepia(22%) saturate(500%) hue-rotate(83deg) brightness(95%) contrast(97%);
+        filter: invert(57%) sepia(22%) saturate(500%) hue-rotate(83deg) brightness(95%)
+          contrast(97%);
       }
 
       .timeline-arrow {
@@ -50,8 +71,9 @@
     flex: 1;
     font-family: var(--font-family-inter);
     position: relative;
-    max-height: 75vh;
+    max-height: 70vh;
     overflow-y: auto;
+    scroll-behavior: smooth;
   }
 
   .vc-intro {
