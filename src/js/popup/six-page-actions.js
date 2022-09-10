@@ -1,6 +1,6 @@
-import { addAxisChart } from "../charts/axis-chart-container.js";
-import { addFalabellaChart } from "../charts/falabella-chart-container.js";
-import { addIdfcChart } from "../charts/idfc-chart-container.js";
+import { addAxisChart } from '../charts/axis-chart-container.js';
+import { addFalabellaChart } from '../charts/falabella-chart-container.js';
+import { addIdfcChart } from '../charts/idfc-chart-container.js';
 
 var popupPage = 0;
 var isPopupOpen = false;
@@ -76,7 +76,8 @@ export const close6Popup = () => {
   isPopupOpen = false;
 
   setTimeout(() => {
-    if (popupPage === 5 || popupPage === 4 || popupPage === 3 || popupPage === 2 || popupPage === 1) change6PopupPage('reset');
+    if (popupPage === 5 || popupPage === 4 || popupPage === 3 || popupPage === 2 || popupPage === 1)
+      change6PopupPage('reset');
   }, 1000);
 
   gsap.fromTo(
@@ -105,15 +106,15 @@ export const close6Popup = () => {
     .delay(1.3);
 };
 
-const triggerGraphAnimation = () => {
+const triggerGraphAnimation2 = () => {
   addAxisChart('axis-chart-container-2', '#634f7d');
   addFalabellaChart('falabella-chart-container-2', '#634f7d');
   addIdfcChart('idfc-chart-container-2', '#634f7d');
 };
 
 export const scroll6Popup = (triggerAnimation) => {
-  console.log("hello")
-  if (triggerAnimation) triggerGraphAnimation();
+  console.log('hello');
+  if (triggerAnimation) triggerGraphAnimation2();
 
   var scrollLeft = currentPopupImagesElement.scrollLeft;
 

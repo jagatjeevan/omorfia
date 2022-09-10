@@ -24,7 +24,12 @@ import { addFalabellaChart } from './charts/falabella-chart-container.js';
 import { addIdfcChart } from './charts/idfc-chart-container.js';
 import { closeVideo, openVideo, playPause } from './VideoAnimations.js';
 import { activeTarget, contentScroll } from './TimelineScroll.js';
-import { change6PopupPage, close6Popup, open6Popup, scroll6Popup } from './popup/six-page-actions.js';
+import {
+  change6PopupPage,
+  close6Popup,
+  open6Popup,
+  scroll6Popup,
+} from './popup/six-page-actions.js';
 
 var isPageLoaded = false;
 
@@ -170,7 +175,7 @@ $('#people-function-popup-button').on('click', () => open6Popup('people-function
 $('#people-function-left-arrow').on('click', () => change6PopupPage('left'));
 $('#people-function-right-arrow').on('click', () => change6PopupPage('right'));
 $('#client-portfolio-popup-button').on('click', () => {
-  open6Popup('client-portfolio')
+  open6Popup('client-portfolio');
   setTimeout(() => {
     addIdfcChart('falabella-chart-container-2', '#634f7d');
   }, 500);

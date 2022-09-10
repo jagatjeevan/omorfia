@@ -89,15 +89,14 @@ export const close2Popup = () => {
     .delay(1.3);
 };
 
-const triggerGraphAnimation = () => {
-  addAxisChart('axis-chart-container','#cc850a');
-  addFalabellaChart('falabella-chart-container','#cc850a');
-  addIdfcChart('idfc-chart-container','#cc850a');
+const triggerGraphAnimation1 = () => {
+  addAxisChart('axis-chart-container', '#cc850a');
+  addFalabellaChart('falabella-chart-container', '#cc850a');
+  addIdfcChart('idfc-chart-container', '#cc850a');
 };
 
 export const scroll2Popup = (triggerAnimation) => {
-  
-  if (triggerAnimation) triggerGraphAnimation();
+  if (triggerAnimation) triggerGraphAnimation1();
 
   var scrollLeft = currentPopupImagesElement.scrollLeft;
 
