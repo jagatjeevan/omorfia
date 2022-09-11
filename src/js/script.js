@@ -170,6 +170,9 @@ $('#cxpd-right-arrow').on('click', () => change3PopupPage('right'));
 $('#dto-popup-image').on('click', () => open3Popup('dto'));
 $('#dto-left-arrow').on('click', () => change3PopupPage('left'));
 $('#dto-right-arrow').on('click', () => change3PopupPage('right'));
+$('#domain-popup-button').on('click', () => open3Popup('domain'));
+$('#domain-left-arrow').on('click', () => change3PopupPage('left'));
+$('#domain-right-arrow').on('click', () => change3PopupPage('right'));
 $('.close-3-popup').on('click', close3Popup);
 
 // 4 page popup
@@ -205,6 +208,7 @@ $('#people-function-images').scroll(scroll6Popup);
 $('#client-portfolio-images').scroll(() => scroll6Popup(triggerAnimation));
 $('#healthcare-domain-images').scroll(scroll3Popup);
 $('#dei-images').scroll(scroll3Popup);
+$('#domain-images').scroll(scroll3Popup);
 $('#empc-images').scroll(scroll3Popup);
 $('#ai-images').scroll(scroll3Popup);
 $('#cxpd-images').scroll(scroll3Popup);

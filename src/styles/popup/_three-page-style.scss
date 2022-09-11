@@ -1,5 +1,6 @@
 .dei-popup,
 .dto-popup,
+.domain-popup,
 .ai-popup,
 .empc-popup,
 .cxpd-popup,
@@ -65,6 +66,7 @@
 
   .dei-images,
   .empc-images,
+  .domain-images,
   .ai-images,
   .cxpd-images,
   .dto-images,
@@ -107,6 +109,7 @@
   .dei-images>div,
   .dto-images>div,
   .empc-images>div,
+  .domain-images>div,
   .ai-images>div,
   .cxpd-images>div,
   .client-portfolio-images>div,
@@ -128,6 +131,7 @@
 
   .home-twu-images>div>img,
   .empc-images>div>img,
+  .domain-images>div>img,
   .people-function-images>div>img,
   .operational-metrics-images>div>img {
     height: 72vh;
@@ -206,6 +210,7 @@
 }
 
 .dto-popup,
+.domain-popup,
 .empc-popup,
 .cxpd-popup,
 .ai-popup {
