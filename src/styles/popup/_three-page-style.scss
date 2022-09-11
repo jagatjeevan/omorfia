@@ -1,4 +1,8 @@
 .dei-popup,
+.dto-popup,
+.ai-popup,
+.empc-popup,
+.cxpd-popup,
 .client-portfolio-popup,
 .people-function-popup,
 .home-twu-popup,
@@ -60,6 +64,10 @@
   }
 
   .dei-images,
+  .empc-images,
+  .ai-images,
+  .cxpd-images,
+  .dto-images,
   .people-function-images,
   .client-portfolio-images,
   .home-twu-images,
@@ -97,6 +105,10 @@
   }
 
   .dei-images>div,
+  .dto-images>div,
+  .empc-images>div,
+  .ai-images>div,
+  .cxpd-images>div,
   .client-portfolio-images>div,
   .people-function-images>div,
   .home-twu-images>div,
@@ -115,12 +127,15 @@
   }
 
   .home-twu-images>div>img,
+  .empc-images>div>img,
   .people-function-images>div>img,
   .operational-metrics-images>div>img {
     height: 72vh;
   }
 
   .client-portfolio-images>div>img,
+  .dto-images>div>img,
+  .cxpd-images>div>img,
   .marketing-images>div>img {
     height: 74vh;
   }
@@ -156,7 +171,8 @@
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
   }
-  .client-content > div {
+
+  .client-content>div {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
@@ -185,6 +201,16 @@
 .dei-popup {
   .enable {
     background-color: var(--flamingo-pink);
+    color: white;
+  }
+}
+
+.dto-popup,
+.empc-popup,
+.cxpd-popup,
+.ai-popup {
+  .enable {
+    background-color: var(--sapphire-blue);
     color: white;
   }
 }
