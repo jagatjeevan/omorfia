@@ -1,6 +1,8 @@
 .journey-popup,
 .bahmni-popup,
 .dpg-popup,
+.gic-popup,
+.gdo-popup,
 .cloud-partnerships-popup,
 .growth-popup,
 .unique-popup {
@@ -21,6 +23,7 @@
     transform: translateZ(50px);
     z-index: 999;
   }
+
   .arrows {
     -webkit-transform: translate3d(0, 0, 0);
     z-index: 999;
@@ -36,16 +39,20 @@
     cursor: pointer;
     transition: 0.5s;
   }
+
   .left-arrow {
     left: 30px;
   }
+
   .right-arrow {
     right: 30px;
   }
+
   .enable {
     background-color: var(--tumeric-yellow);
     color: white;
   }
+
   .popup-heading {
     margin-top: 0;
     font-size: 22px;
@@ -54,6 +61,7 @@
     padding-bottom: 5px;
     padding-left: 9%;
   }
+
   .popup-content {
     overflow: hidden;
     width: 100%;
@@ -63,14 +71,17 @@
     padding-top: 25px;
     padding-left: 7%;
   }
+
   .popup-growth-content-2 {
     text-align: center;
     position: relative;
   }
-  .popup-growth-content-2 > img {
+
+  .popup-growth-content-2>img {
     height: 75vh;
     margin-top: 1vh;
   }
+
   .axis-graph,
   .idfc-graph,
   .falabella-graph {
@@ -79,17 +90,20 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
   .growth-heading {
     font-size: 22px;
     font-family: var(--font-family-bitter);
     margin: 10px 0px;
   }
+
   .sub-heading {
     font-family: var(--font-family-inter);
     font-size: 15px;
     font-weight: 600;
     width: 90%;
   }
+
   .popup-text {
     font-family: var(--font-family-inter);
     font-size: 15px;
@@ -97,6 +111,7 @@
     margin: 0 0 10px;
     width: 95%;
   }
+
   .twi-growth-img {
     max-width: 150px;
     height: 35px;
@@ -112,6 +127,7 @@
     background-color: var(--flamingo-pink);
     color: white;
   }
+
   .bahmni-images {
     display: flex;
     overflow-y: hidden;
@@ -123,22 +139,29 @@
     margin-top: 20px;
     scroll-behavior: smooth;
   }
-  .bahmni-images > div {
+
+  .bahmni-images>div {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
     text-align: center;
   }
-  .bahmni-images > div > img {
+
+  .bahmni-images>div>img {
     height: 77vh;
   }
 }
 
+.gic-popup,
+.gdo-popup,
 .dpg-popup {
   .enable {
     background-color: var(--sapphire-blue);
     color: white;
   }
+
+  .gic-images,
+  .gdo-images,
   .dpg-images {
     display: flex;
     overflow-y: hidden;
@@ -150,14 +173,23 @@
     margin-top: 20px;
     scroll-behavior: smooth;
   }
-  .dpg-images > div {
+
+  .dpg-images>div,
+  .gdo-images>div,
+  .gic-images>div {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
     text-align: center;
   }
-  .dpg-images > div > img {
+
+  .dpg-images>div>img,
+  .gdo-images>div>img {
     height: 77vh;
+  }
+
+  .gic-images>div>img {
+    height: 74vh;
   }
 }
 
@@ -166,6 +198,7 @@
     background-color: var(--amethyst-purple);
     color: white;
   }
+
   .cloud-partnerships-images {
     display: flex;
     overflow-y: hidden;
@@ -177,7 +210,8 @@
     margin-top: 15px;
     scroll-behavior: smooth;
   }
-  .cloud-partnerships-images > img {
+
+  .cloud-partnerships-images>img {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
@@ -196,7 +230,8 @@
     margin-top: 30px;
     scroll-behavior: smooth;
   }
-  .journey-images > img {
+
+  .journey-images>img {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
@@ -207,6 +242,7 @@
   .popup-content {
     height: 77vh;
   }
+
   .e4r-images {
     display: flex;
     overflow-y: hidden;
@@ -218,109 +254,23 @@
     margin-top: 30px;
     scroll-behavior: smooth;
   }
-  .e4r-images > img {
+
+  .e4r-images>img {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
     height: 72vh;
   }
+
   .e4r-img-1 {
     margin-left: -25px;
   }
+
   .popup-heading {
     padding-bottom: 0;
   }
 }
 
-.unique-popup {
-  .gdo-images {
-    display: flex;
-    overflow-y: hidden;
-    overflow-x: auto;
-    flex: none;
-    width: 100%;
-    flex-flow: row nowrap;
-    scroll-snap-type: x mandatory;
-    margin-top: 30px;
-    scroll-behavior: smooth;
-  }
-  .gdo-images > img {
-    scroll-snap-align: center;
-    flex: none;
-    width: 100%;
-    height: 71vh;
-  }
-  .gic-images {
-    display: flex;
-    overflow-y: hidden;
-    overflow-x: auto;
-    flex: none;
-    width: 100%;
-    flex-flow: row nowrap;
-    scroll-snap-type: x mandatory;
-    margin-top: 30px;
-    scroll-behavior: smooth;
-  }
-  .gic-images > img {
-    scroll-snap-align: center;
-    flex: none;
-    width: 100%;
-  }
-  .lenovo-img {
-    width: 88%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .trainline-img {
-    width: 96%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-  }
-  .citi-img,
-  .talent-img {
-    width: 93%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-  }
-
-  .books {
-    display: flex;
-    width: 82%;
-    margin: 0 auto;
-    column-gap: 5%;
-
-    .book-container {
-      display: inline-flex;
-      margin-top: 0px;
-    }
-    .book-name {
-      font-size: 13px;
-      font-weight: 600;
-    }
-    .book-discription {
-      font-size: 13px;
-      font-weight: 300;
-      text-align: right;
-    }
-    .book-img-holder {
-      margin-right: 120px;
-      position: relative;
-    }
-    .book-img {
-      position: absolute;
-      top: 10px;
-      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    }
-  }
-}
 
 .growth-popup {
   .growth-content {
@@ -333,7 +283,8 @@
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
   }
-  .growth-content > div {
+
+  .growth-content>div {
     scroll-snap-align: center;
     flex: none;
     width: 100%;

@@ -133,9 +133,7 @@ $('#idfc-learn-more').on('click', () => {
     addIdfcChart('idfc-chart-container', '#cc850a');
   }, 500);
 });
-$('#unique-e4r').on('click', () => open2Popup('e4r'));
-$('#unique-gdo').on('click', () => open2Popup('gdo'));
-$('#unique-gic').on('click', () => open2Popup('gic'));
+
 $('#unique-lenovo').on('click', () => open2Popup('lenovo'));
 $('#unique-trainline').on('click', () => open2Popup('trainline'));
 $('#unique-citi').on('click', () => open2Popup('citi'));
@@ -143,6 +141,8 @@ $('#unique-talent').on('click', () => open2Popup('talent'));
 $('#unique-books').on('click', () => open2Popup('books'));
 $('#bahmni-popup-button').on('click', () => open2Popup('bahmni'));
 $('#dpg-popup-button').on('click', () => open2Popup('dpg'));
+$('#gic-popup-image').on('click', () => open2Popup('gic'));
+$('#gdo-popup-image').on('click', () => open2Popup('gdo'));
 $('.arrow-2-page').on('click', change2PopupPage);
 $('.close-2-popup').on('click', close2Popup);
 
