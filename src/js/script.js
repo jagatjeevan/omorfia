@@ -111,6 +111,8 @@ $('#play-pause-icons').on('click', playPause);
 
 // 1 page popup
 $('#cloud-partnerships-popup-button').on('click', () => open2Popup('cloud-partnerships'));
+$('#e4r-popup-button').on('click', () => open2Popup('e4r'));
+$('#tech-trends-popup-button').on('click', () => open2Popup('tech-trends'));
 
 // 2 page popup
 $('#explore-journey').on('click', () => open2Popup('journey'));

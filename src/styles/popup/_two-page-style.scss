@@ -4,6 +4,8 @@
 .gic-popup,
 .gdo-popup,
 .cloud-partnerships-popup,
+.e4r-popup,
+.tech-trends-popup,
 .growth-popup,
 .unique-popup {
   background-color: white;
@@ -153,6 +155,8 @@
 }
 
 .gic-popup,
+.tech-trends-popup,
+.e4r-popup,
 .gdo-popup,
 .dpg-popup {
   .enable {
@@ -161,6 +165,8 @@
   }
 
   .gic-images,
+  .tech-trends-images,
+  .e4r-images,
   .gdo-images,
   .dpg-images {
     display: flex;
@@ -175,6 +181,8 @@
   }
 
   .dpg-images>div,
+  .tech-trends-images>div,
+  .e4r-images>div,
   .gdo-images>div,
   .gic-images>div {
     scroll-snap-align: center;
@@ -188,8 +196,13 @@
     height: 77vh;
   }
 
-  .gic-images>div>img {
+  .gic-images>div>img,
+  .e4r-images>div>img {
     height: 74vh;
+  }
+
+  .tech-trends-images>div>img {
+    height: 72vh;
   }
 }
 
@@ -237,40 +250,6 @@
     width: 100%;
   }
 }
-
-.e4r-popup {
-  .popup-content {
-    height: 77vh;
-  }
-
-  .e4r-images {
-    display: flex;
-    overflow-y: hidden;
-    overflow-x: auto;
-    flex: none;
-    width: 100%;
-    flex-flow: row nowrap;
-    scroll-snap-type: x mandatory;
-    margin-top: 30px;
-    scroll-behavior: smooth;
-  }
-
-  .e4r-images>img {
-    scroll-snap-align: center;
-    flex: none;
-    width: 100%;
-    height: 72vh;
-  }
-
-  .e4r-img-1 {
-    margin-left: -25px;
-  }
-
-  .popup-heading {
-    padding-bottom: 0;
-  }
-}
-
 
 .growth-popup {
   .growth-content {
