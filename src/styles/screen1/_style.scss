@@ -162,17 +162,20 @@
   color: white;
   cursor: pointer;
   position: absolute;
-  bottom: 23vh;
-  left: -0.75%;
+  bottom: 14vh;
+  right: -32%;
   z-index: 100;
   width: 25px;
 }
 #intro-video {
   position: absolute;
-  bottom: -24vh;
-  left: -54.5%;
+  bottom: -11vh;
+  left: 0;
   z-index: 1;
-  height: 45vh;
+  height: 27vh;
+  background-color: white;
+  padding: 5px;
+  width: 380px;
 }
 #play-pause-icons {
   position: absolute;
@@ -184,10 +187,10 @@
 
   img {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 65px;
+    width: 50px;
     opacity: 0;
   }
 }

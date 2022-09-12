@@ -10,7 +10,7 @@ export const openVideo = () => {
       duration: 1,
     },
     {
-      y: -150,
+      y: -100,
       duration: 1,
     },
   );
@@ -43,7 +43,7 @@ export const closeVideo = () => {
   gsap.fromTo(
     '.start-text',
     {
-      y: -150,
+      y: -100,
       duration: 1,
     },
     {
@@ -78,11 +78,11 @@ export const playPause = () => {
     gsap.fromTo(
       '#play-icon',
       {
-        width: '65px',
+        width: '50px',
         opacity: '0',
       },
       {
-        width: '80px',
+        width: '65px',
         opacity: '0.6',
         duration: 0.4,
       },
@@ -91,11 +91,11 @@ export const playPause = () => {
       gsap.fromTo(
         '#play-icon',
         {
-          width: '80px',
+          width: '65px',
           opacity: '0.6',
         },
         {
-          width: '65px',
+          width: '50px',
           opacity: '0',
           duration: 0.25,
         },
@@ -107,11 +107,11 @@ export const playPause = () => {
     gsap.fromTo(
       '#pause-icon',
       {
-        width: '65px',
+        width: '50px',
         opacity: '0',
       },
       {
-        width: '80px',
+        width: '65px',
         opacity: '0.6',
         duration: 0.4,
       },
@@ -120,11 +120,11 @@ export const playPause = () => {
       gsap.fromTo(
         '#pause-icon',
         {
-          width: '80px',
+          width: '65px',
           opacity: '0.6',
         },
         {
-          width: '65px',
+          width: '50px',
           opacity: '0',
           duration: 0.25,
         },
