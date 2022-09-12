@@ -79,7 +79,7 @@
     position: relative;
   }
 
-  .popup-growth-content-2>img {
+  .popup-growth-content-2 > img {
     height: 75vh;
     margin-top: 1vh;
   }
@@ -142,14 +142,14 @@
     scroll-behavior: smooth;
   }
 
-  .bahmni-images>div {
+  .bahmni-images > div {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
     text-align: center;
   }
 
-  .bahmni-images>div>img {
+  .bahmni-images > div > img {
     height: 77vh;
   }
 }
@@ -180,28 +180,34 @@
     scroll-behavior: smooth;
   }
 
-  .dpg-images>div,
-  .tech-trends-images>div,
-  .e4r-images>div,
-  .gdo-images>div,
-  .gic-images>div {
+  .dpg-images > div,
+  .tech-trends-images > div,
+  .e4r-images > div,
+  .gdo-images > div,
+  .gic-images > div {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
     text-align: center;
   }
 
-  .dpg-images>div>img,
-  .gdo-images>div>img {
+  .e4r-images > div {
+    text-align: left;
+  }
+
+  .dpg-images > div > img,
+  .gdo-images > div > img {
     height: 77vh;
   }
 
-  .gic-images>div>img,
-  .e4r-images>div>img {
+  .gic-images > div > img {
     height: 74vh;
   }
+  .e4r-images > div > img {
+    height: 81vh;
+  }
 
-  .tech-trends-images>div>img {
+  .tech-trends-images > div > img {
     height: 72vh;
   }
 }
@@ -224,7 +230,7 @@
     scroll-behavior: smooth;
   }
 
-  .cloud-partnerships-images>img {
+  .cloud-partnerships-images > img {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
@@ -244,7 +250,7 @@
     scroll-behavior: smooth;
   }
 
-  .journey-images>img {
+  .journey-images > img {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
@@ -263,7 +269,7 @@
     scroll-behavior: smooth;
   }
 
-  .growth-content>div {
+  .growth-content > div {
     scroll-snap-align: center;
     flex: none;
     width: 100%;
