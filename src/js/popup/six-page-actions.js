@@ -113,7 +113,6 @@ const triggerGraphAnimation2 = () => {
 };
 
 export const scroll6Popup = (triggerAnimation) => {
-  console.log('hello');
   if (triggerAnimation) triggerGraphAnimation2();
 
   var scrollLeft = currentPopupImagesElement.scrollLeft;

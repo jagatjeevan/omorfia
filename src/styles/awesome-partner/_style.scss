@@ -40,7 +40,7 @@
 
     &.current {
       a {
-        color: var(--amethyst-purple);
+        color: #000000;
       }
 
       .number {
@@ -147,6 +147,11 @@
       color: white;
       font-size: 14px;
       font-weight: 600;
+    }
+
+    .two-line {
+      width: 26px;
+      height: 22px;
     }
 
     .number-pointer {
